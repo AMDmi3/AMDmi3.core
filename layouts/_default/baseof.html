@@ -25,7 +25,7 @@
 						{{ if .IsTranslated }}
 						<span class="site-nav-spacer"></span>
 						{{ range .Translations }}
-						<a href="{{ .RelPermalink }}">{{ .Lang | upper }}</a>
+						<a href="{{ .RelPermalink }}" rel="alternate">{{ .Lang | upper }}</a>
 						{{ end }}
 						{{ end }}
 					</nav>
@@ -43,7 +43,7 @@
 				<nav class="footer">
 					<ul>
 						<li>© {{ i18n "author" }}</li>
-						<li>Content is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></li>
+						<li>Content is <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA</a></li>
 					</ul>
 					<ul>
 						<li>E-Mail: <a href="mailto:amdmi3@amdmi3.ru">amdmi3@amdmi3.ru</a></li>
