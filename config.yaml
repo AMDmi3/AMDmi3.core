@@ -1,6 +1,7 @@
 baseURL: "https://amdmi3.ru/"
 title: AMDmi3.core
 pygmentsUseClasses: true
+enableRobotsTXT: true
 
 taxonomy: []
 
