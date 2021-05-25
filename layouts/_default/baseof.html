@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+	<head>
+		<title>{{ .Title }} — AMDmi3.core</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="{{ i18n "author" }}">
+		<link rel="stylesheet" type="text/css" href="/style.css">
+		<link rel="stylesheet" type="text/css" href="/syntax.css">
+		{{ if .IsTranslated }}
+		{{ range .AllTranslations }}
+		<link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}">
+		{{ end }}
+		{{ end }}
+	</head>
+	<body>
+		<header>
+			<div class="wrapper">
+				<div class="site-nav-outer">
+					<a class="site-title" href="/">AMDmi3.core</a>
+					<nav>
+						{{ with .Site.GetPage "/" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+						{{/* {{ with .Site.GetPage "/posts" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }} */}}
+						{{/* {{ with .Site.GetPage "/projects/active" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }} */}}
+						{{ if .IsTranslated }}
+						<span class="site-nav-spacer"></span>
+						{{ range .Translations }}
+						<a href="{{ .RelPermalink }}">{{ .Lang | upper }}</a>
+						{{ end }}
+						{{ end }}
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="wrapper">
+				{{ block "main" . }}
+				{{ end }}
+			</div>
+		</main>
+		<footer>
+			<div class="wrapper">
+				<nav class="footer">
+					<ul>
+						<li>© {{ i18n "author" }}</li>
+						<li>Content is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></li>
+					</ul>
+					<ul>
+						<li>E-Mail: <a href="mailto:amdmi3@amdmi3.ru">amdmi3@amdmi3.ru</a></li>
+						<li>GitHub: <a href="https://github.com/AMDmi3">AMDmi3</a></li>
+						<li>Mastodon: <a href="https://fosstodon.org/@AMDmi3">@AMDmi3@fosstodon.org</a></li>
+						<li>Telegram: <a href="https://telegram.me/AMDmi3">@AMDmi3</a></li>
+						<li><a href="https://github.com/AMDmi3/AMDmi3.core/issues/new">File issue for this blogs repository</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</body>
+</html>

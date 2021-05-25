@@ -1,0 +1,15 @@
+baseURL: "https://amdmi3.ru/"
+title: AMDmi3.core
+pygmentsUseClasses: true
+
+taxonomy: []
+
+disableKinds:
+  - taxonomy
+  - term
+  - RSS
+  - sitemap
+
+languages:
+  en: {}
+  ru: {}

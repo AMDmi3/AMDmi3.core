@@ -1,0 +1,15 @@
+{{ $original := .Page.Resources.GetMatch (.Get "src") }}
+{{ $image := $original.Resize (.Get "size") }}
+
+<figure>
+	<a href="{{ $original.RelPermalink }}">
+		<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
+         {{- if (.Get "caption") }}
+         alt="{{ .Get "caption" | markdownify| plainify }}"
+         {{- end -}}
+    />
+	</a>
+  {{- if (.Get "caption") -}}
+	<figcaption><p>{{- .Get "caption" | markdownify -}}</p></figcaption>
+	{{- end }}
+</figure>
