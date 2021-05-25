@@ -8,7 +8,6 @@ disableKinds:
   - taxonomy
   - term
   - RSS
-  - sitemap
 
 languages:
   en: {}
