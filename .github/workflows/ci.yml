@@ -2,24 +2,32 @@ name: CI
 on: [ push, pull_request ]
 jobs:
   build:
+    env:
+      TIDY_VER: fa6d5b5
+      HUGO_VER: 0.83.1
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Install hugo
-        run: sudo apt-get install tidy hugo
       - name: Cache depends
         id: cache-depends
         uses: actions/cache@v2
         with:
-          path: tidy-html5
-          key: depends
-      - name: Build latest tidy
+          path: |
+            tidy
+            hugo
+          key: depends-${{ env.TIDY_VER }}-${{ env.HUGO_VER }}
+      - name: Get latest tidy
         if: steps.cache-depends.outputs.cache-hit != 'true'
         run: |
-          git clone --depth=1 https://github.com/htacg/tidy-html5.git
-          cd tidy-html5 && cmake . && make
-      - name: Install latest tidy
+          wget -qO- https://codeload.github.com/htacg/tidy-html5/tar.gz/$TIDY_VER | tar -xz --transform='s,[^/]*,tidy,' -f-
+          cd tidy && cmake . && make
+      - name: Get latest hugo
+        if: steps.cache-depends.outputs.cache-hit != 'true'
         run: |
-          cd tidy-html5 && sudo make install
+          wget -qO- https://github.com/gohugoio/hugo/releases/download/v$HUGO_VER/hugo_${HUGO_VER}_Linux-64bit.tar.gz | tar -xvzf-
+      - name: Install depends
+        run: |
+          (cd tidy && sudo make install)
+          sudo install -m555 hugo /usr/bin
       - name: Run check
         run: make check
