@@ -2,9 +2,13 @@ CONTENT_DIR=	public
 
 TIDY?=		tidy
 
-check:
+all:: gen
+
+gen::
 	@rm -rf ${CONTENT_DIR}
 	@hugo --destination=${CONTENT_DIR}
+
+check:: gen
 	@find ${CONTENT_DIR} -name "*.html" | while read f; do \
 		${TIDY} \
 			-quiet \
