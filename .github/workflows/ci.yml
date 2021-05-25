@@ -1,0 +1,25 @@
+name: CI
+on: [ push, pull_request ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install hugo
+        run: sudo apt-get install tidy hugo
+      - name: Cache depends
+        id: cache-depends
+        uses: actions/cache@v2
+        with:
+          path: tidy-html5
+          key: depends
+      - name: Build latest tidy
+        if: steps.cache-depends.outputs.cache-hit != 'true'
+        run: |
+          git clone --depth=1 https://github.com/htacg/tidy-html5.git
+          cd tidy-html5 && cmake . && make
+      - name: Install latest tidy
+        run: |
+          cd tidy-html5 && sudo make install
+      - name: Run check
+        run: make check
