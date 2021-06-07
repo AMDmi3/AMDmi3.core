@@ -17,7 +17,7 @@
 		<header>
 			<div class="wrapper">
 				<div class="site-nav-outer">
-					<a class="site-title" href="/">AMDmi3.core</a>
+					{{ with .Site.GetPage "/" }}<a class="site-title" href="{{ .Permalink }}">AMDmi3.core</a>{{ end }}
 					<nav>
 						{{ with .Site.GetPage "/" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
 						{{/* {{ with .Site.GetPage "/posts" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }} */}}
