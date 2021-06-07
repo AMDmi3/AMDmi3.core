@@ -1,0 +1,55 @@
+#!/bin/sh -eu
+#
+# Utility
+#
+
+now=$(date "+%Y-%m-%dT%H:%M:%S%z" | sed -e 's|\([0-9][0-9]\)\([0-9][0-9]\)$|\1:\2|')
+
+case "$1" in
+new|init)
+	for file in index.en.md index.ru.md; do
+		if [ -e "$file" ]; then
+			echo "$file already exists, refusing to overwrite!" 1>&2
+		else
+			echo "---" > $file
+			echo "title: \"$(basename $PWD | tr '-' ' ')\"" >> $file
+			echo "date: $now" >> $file
+			echo "draft: true" >> $file
+			echo "---" >> $file
+			echo >> $file
+		fi
+	done
+	;;
+now)
+	for file in index.en.md index.ru.md; do
+		if [ -e "$file" ]; then
+			sed -i '' -e "1,4 s|^date:.*|date: $now|" $file
+		fi
+	done
+	;;
+publish)
+	for file in index.en.md index.ru.md; do
+		if [ -e "$file" ]; then
+			sed -i '' -e "1,5 {/^draft:/d;}" $file
+		fi
+	done
+	;;
+spell|aspell)
+	if [ -e index.en.md ]; then
+		aspell -c index.en.md
+	fi
+	if [ -e index.ru.md ]; then
+		aspell -c index.ru.md
+	fi
+	;;
+*)
+	echo "Usage: $0 command"
+	echo
+	echo "Commands:"
+	echo "    new, init     -- create a new article in current directory"
+	echo "    now           -- update current article publish time to current"
+	echo "    publish       -- publish current article (remove draft status)"
+	echo "    spell, aspell -- run spelling checks for current article"
+	exit 1
+	;;
+esac
