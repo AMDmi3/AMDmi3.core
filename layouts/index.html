@@ -4,14 +4,12 @@
 
 <h2>{{ i18n "recent_posts" }}</h2>
 
-<ul class="posts-list posts-list-big">
-{{ range first 10 (.Site.GetPage "/posts").Pages }}
-<li>
+{{ range first 5 (.Site.GetPage "/posts").Pages }}
+<article class="post-summary">
 	<span class="post-metadata"><time>{{ .Date.Format "2006-01-02" }}</time></span>
 	<h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
 	{{ .Summary }}
-</li>
+</article>
 {{ end }}
-</ul>
 
 {{ end }}

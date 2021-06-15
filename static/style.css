@@ -73,8 +73,7 @@ figure {
 }
 
 /* special classes */
-.posts-list { list-style: none; margin-left: 0; padding-left: 0; }
-.posts-list-big > li { margin-bottom: 2em;}
+.post-summary { margin-bottom: 2em; }
 
 .post-metadata { font-size: 0.875em; color: #828282; line-height: 1; }
 
