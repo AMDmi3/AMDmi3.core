@@ -2,7 +2,7 @@
 
 {{ .Content }}
 
-<ul class="posts-list posts-list-small">
+<ul>
 {{ range .Pages }}
 <li>{{ .Date.Format "2006-01-02" }} — <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 {{ end }}
