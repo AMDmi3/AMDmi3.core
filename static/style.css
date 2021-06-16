@@ -72,6 +72,10 @@ figure {
 	justify-content: space-evenly;
 }
 
+/* sidy by side */
+.sidebyside { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 0.5rem; max-width: 100%; }
+.sidebyside > * { min-width: 0; }
+
 /* special classes */
 .post-summary { margin-bottom: 2em; }
 
