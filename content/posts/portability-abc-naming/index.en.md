@@ -1,6 +1,6 @@
 ---
 title: "Portability ABC: project naming"
-date: 2021-06-07T14:44:37+03:00
+date: 2021-06-16T19:21:46+03:00
 ---
 
 Surprisingly, portability/packaging issues may be introduced to a
