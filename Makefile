@@ -8,6 +8,9 @@ gen::
 	@rm -rf ${CONTENT_DIR}
 	@hugo --destination=${CONTENT_DIR}
 
+serve::
+	@hugo serve -D
+
 check:: gen
 	@find ${CONTENT_DIR} -name "*.html" | while read f; do \
 		${TIDY} \
