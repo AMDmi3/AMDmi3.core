@@ -27,7 +27,7 @@ now)
 		fi
 	done
 	;;
-publish)
+pub|publish)
 	for file in index.en.md index.ru.md; do
 		if [ -e "$file" ]; then
 			sed -i '' -e "1,5 {/^draft:/d;}" $file
