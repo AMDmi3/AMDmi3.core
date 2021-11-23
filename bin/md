@@ -36,10 +36,10 @@ pub|publish)
 	;;
 spell|aspell)
 	if [ -e index.en.md ]; then
-		aspell -c index.en.md
+		aspell --dont-backup -c index.en.md
 	fi
 	if [ -e index.ru.md ]; then
-		aspell -c index.ru.md
+		aspell --dont-backup -c index.ru.md
 	fi
 	;;
 *)
