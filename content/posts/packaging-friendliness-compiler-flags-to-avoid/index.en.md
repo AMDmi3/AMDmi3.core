@@ -19,21 +19,21 @@ your project.
 
 ## `-Werror`
 
-This flag makes compiler reject code with warnings, forcing you to
+This flag makes compiler reject code with warnings, forcing author to
 fix all of them and thus write cleaner code, so it does make sense
 to enable it for local builds and for continuous integration. However,
-even if a code is warning-free for you right now, you cannot expect
+even if a code is warning-free for you *right now*, you cannot expect
 it to remain so with future compiler versions or on different
 compilers/arches/OSes, so with `-Werror` your code is prone to break
 in different environments as well as over time, which is best to avoid.
 
-Additionally, such code increases burden on maintainers (who are
-forced to fix warnings in addition to critical problems when doing
-bulk updates), and leads to unexpected build failures for end users
-(such as after compiler update). In either case, it will likely be
-shut up by patching out the flag instead of fixing the warning, so
-using `-Werror` as a way to force consumers to submit warning fixes
-to you is also not a good idea.
+Such fragile code increases burden on maintainers (who are forced
+to fix warnings in addition to critical problems when doing bulk
+updates), and leads to unexpected build failures for end users (such
+as after compiler update). In either case, it will likely be shut
+up by patching out the `-Werror` flag instead of fixing the warning,
+so using `-Werror` as a way to force consumers to submit warning
+fixes upstream is not a good idea.
 
 Enabling individual warnings (e.g. `-Werror=uninitialized`) may be
 an option, but it requires you to maintain a list of (still incomplete)
@@ -71,12 +71,13 @@ Not only the code built for different CPU may have performance
 regressions on users hardware, but it may not even run (usually
 crashing with `SIGILL`), because of using unsupported CPU features.
 
-The danger of this flag is that it usually comes unnoticed by package
-maintainers and the problems caused by it are hard to reproduce.
-The code runs fine on maintainers hardware; it runs fine on package
-building cluster as well; even packages built on cluster run fine
-on maintainers hardware. However some user with slightly older
-hardware will experience a crash.
+The additional danger of this flag is that it usually comes unnoticed
+by package maintainers and the problems caused by it are hard to
+reproduce.  The code runs fine on maintainers hardware; it runs
+fine on package building cluster as well; even packages built on
+cluster run fine on maintainers hardware. However some user with
+slightly older hardware will experience (an unobvious to investigate)
+crash.
 
 Example from FreeBSD Ports Collection of patching `-march=native` out:
 
