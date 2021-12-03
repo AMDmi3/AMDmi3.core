@@ -1,7 +1,6 @@
 ---
 title: "Packaging Friendliness: Compiler Flags to Avoid"
 date: 2021-11-23T19:26:33+03:00
-draft: true
 ---
 
 It is tempting to enable some (generally useful) compiler flags
