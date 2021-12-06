@@ -1,0 +1,51 @@
+- project: PostgreSQL
+  desc: LLVM JIT related fix
+  commits:
+    - https://github.com/postgres/postgres/commit/0207d5fbebed7eb698a7e5f3adf30fafe95bc4b9
+  date: 2021
+  langs: [C]
+- project: Python
+  desc: build fixes
+  commits: 
+    - https://github.com/python/cpython/commit/a0da131a74acdb147ecd64d729c86d65fecd0cff
+  date: 2019
+  langs: [C]
+- project: CMake
+  desc: FreeBSD support fixes
+  commits:
+    - https://gitlab.kitware.com/cmake/cmake/-/commit/956054aeca0cff2ef5a8c92586e992cc9ad51d7d
+    - https://gitlab.kitware.com/cmake/cmake/-/commit/c07bba27302960fc2f35b6a9e00eab8b32ca9a49
+  date: 2016-2021
+  langs: [CMake]
+- project: ScummVM
+  desc: TiMidity++ support
+  commits:
+    - https://github.com/scummvm/scummvm/commit/8eb73f269492e5123e86236f5398a14e6aa991b5
+  date: 2007
+  langs: [C]
+- project: Tiled
+  desc: build fixes
+  commits:
+    - https://github.com/mapeditor/tiled/commit/df962dac31232802547aa6af38c426b2eb15194b
+    - https://github.com/mapeditor/tiled/commit/b06fc9ad6adf2a48a9f495bdb72dcac2864836d0
+  date: 2013-2021
+  langs: [C++]
+- project: Minetest
+  desc: build and portability fixes
+  commits:
+    - https://github.com/minetest/minetest/commit/318a730c459a8524d7030d261946c35815dd4b29
+    - https://github.com/minetest/minetest/commit/de868d24c170dc8f92ea1280bac80f0ab528d3e0
+    - https://github.com/minetest/minetest/commit/ff35014eff73aadc3ffa957bd860958c9aeefd33
+    - https://github.com/minetest/minetest/commit/8e69b9cb261c503c5fb461086439aed28e434d19
+    - https://github.com/minetest/minetest/commit/2414580754734b62119369255b0e9c462381dc8a
+    - https://github.com/minetest/minetest/commit/d2fc98e4a689288a04d07da49b673f39ffabf64b
+    - https://github.com/minetest/minetest/commit/2ecf57c640ed7646be91ebc30e6f8fb32dac77df
+    - https://github.com/minetest/minetest/commit/53dca4f95fb48d2a16e1f26f01515d4811aab78d
+  date: 2011-2021
+  langs: [CMake, C++]
+- project: GNU Wget2
+  desc: build fix
+  commits:
+    - https://gitlab.com/gnuwget/wget2/-/commit/26a2787dcdec6bd4a38517accb16dc8c9beba6cd
+  date: 2021
+  langs: [Autoconf]

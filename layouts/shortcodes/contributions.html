@@ -1,0 +1,28 @@
+{{- $few_commits := 3 -}}
+{{- $max_commits := 8 -}}
+
+<ul>
+{{ range $.Site.Data.contributions }}
+	<li>
+		{{- .project -}}
+		{{- if .project | and .desc -}}: {{ end -}}
+		{{- .desc -}}
+		{{- if .commits }} (
+			{{- $ncommits := len .commits -}}
+			{{- range $idx, $commit := first $max_commits .commits -}}
+				{{- if $idx }}, {{ end -}}
+				{{- if le $ncommits $few_commits -}}
+					<a href="{{ $commit }}">commit</a>
+				{{- else -}}
+					<a href="{{ $commit }}">{{- add $idx 1 -}}</a>
+				{{- end -}}
+			{{- end -}}
+			{{- if gt $ncommits $max_commits -}}…{{- end -}}
+		)
+		{{- end -}}
+		{{- if .date }}, {{ .date }}{{- end -}}
+		{{- range .langs }}, <code>{{ . }}</code>{{- end -}}
+		.{{- "" -}}
+	</li>
+{{ end }}
+</ul>
