@@ -1,20 +1,8 @@
 ---
-title: "Projects and contributions"
-draft: true
+title: "Contributions"
 ---
 
-## Own projects (alive)
-
-### Repology
-
-## Own projects (inactive)
-
-## Maintainance
-
-
-## Contributions
-
-### FreeBSD Ports
+## FreeBSD Ports
 
 - I [maintain](https://repology.org/maintainer/amdmi3%40freebsd.org)
   over 380 [ports](https://www.freshports.org/search.php?stype=maintainer&method=exact&query=amdmi3%40FreeBSD.org&num=500&orderby=category&orderbyupdown=asc&search=Search&format=html&branch=head) at time of writing and do my best to keep them
@@ -30,6 +18,6 @@ draft: true
   - `SHEBANGFIX` improvements ([commit](https://cgit.freebsd.org/ports/commit/?id=67971bd0fb8a440f973d12606b0f496ba216d7df)).
   - Python support improvements ([article]({{< ref "/posts/python-3.11-in-freebsd-ports/index" >}})).
 
-### Miscellaneous contributions
+## Miscellaneous
 
 {{< contributions >}}

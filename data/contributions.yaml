@@ -1,51 +1,2612 @@
-- project: PostgreSQL
-  desc: LLVM JIT related fix
+- project: termux packages
+  homepage: https://github.com/termux/termux-packages
   commits:
-    - https://github.com/postgres/postgres/commit/0207d5fbebed7eb698a7e5f3adf30fafe95bc4b9
-  date: 2021
-  langs: [C]
-- project: Python
-  desc: build fixes
-  commits: 
-    - https://github.com/python/cpython/commit/a0da131a74acdb147ecd64d729c86d65fecd0cff
-  date: 2019
-  langs: [C]
-- project: CMake
-  desc: FreeBSD support fixes
-  commits:
-    - https://gitlab.kitware.com/cmake/cmake/-/commit/956054aeca0cff2ef5a8c92586e992cc9ad51d7d
-    - https://gitlab.kitware.com/cmake/cmake/-/commit/c07bba27302960fc2f35b6a9e00eab8b32ca9a49
-  date: 2016-2021
-  langs: [CMake]
-- project: ScummVM
-  desc: TiMidity++ support
-  commits:
-    - https://github.com/scummvm/scummvm/commit/8eb73f269492e5123e86236f5398a14e6aa991b5
-  date: 2007
-  langs: [C]
-- project: Tiled
-  desc: build fixes
-  commits:
-    - https://github.com/mapeditor/tiled/commit/df962dac31232802547aa6af38c426b2eb15194b
-    - https://github.com/mapeditor/tiled/commit/b06fc9ad6adf2a48a9f495bdb72dcac2864836d0
-  date: 2013-2021
-  langs: [C++]
-- project: Minetest
-  desc: build and portability fixes
-  commits:
-    - https://github.com/minetest/minetest/commit/318a730c459a8524d7030d261946c35815dd4b29
-    - https://github.com/minetest/minetest/commit/de868d24c170dc8f92ea1280bac80f0ab528d3e0
-    - https://github.com/minetest/minetest/commit/ff35014eff73aadc3ffa957bd860958c9aeefd33
-    - https://github.com/minetest/minetest/commit/8e69b9cb261c503c5fb461086439aed28e434d19
-    - https://github.com/minetest/minetest/commit/2414580754734b62119369255b0e9c462381dc8a
-    - https://github.com/minetest/minetest/commit/d2fc98e4a689288a04d07da49b673f39ffabf64b
-    - https://github.com/minetest/minetest/commit/2ecf57c640ed7646be91ebc30e6f8fb32dac77df
-    - https://github.com/minetest/minetest/commit/53dca4f95fb48d2a16e1f26f01515d4811aab78d
-  date: 2011-2021
-  langs: [CMake, C++]
+  - url: https://github.com/termux/termux-packages/commit/82e412da53bb63aaee20e6bd5886d84bb8d70e10
+    date: '2021-11-18'
+  - url: https://github.com/termux/termux-packages/commit/f2a7732770d07e9c56e023a9a30e4f48c36b0d33
+    date: '2021-11-18'
+  - url: https://github.com/termux/termux-packages/commit/831cf9f9a8ecc375912bbcb837d714647da8e414
+    date: '2021-11-18'
+  dates: '2021'
+  langs:
+  - Shell
 - project: GNU Wget2
+  homepage: https://gitlab.com/gnuwget/wget2
   desc: build fix
   commits:
-    - https://gitlab.com/gnuwget/wget2/-/commit/26a2787dcdec6bd4a38517accb16dc8c9beba6cd
-  date: 2021
-  langs: [Autoconf]
+  - url: https://gitlab.com/gnuwget/wget2/-/commit/26a2787dcdec6bd4a38517accb16dc8c9beba6cd
+    date: '2021-11-18'
+  dates: '2021'
+  langs:
+  - Autoconf
+- project: FreeBSD poudriere
+  homepage: https://github.com/freebsd/poudriere/wiki
+  desc: minor features
+  commits:
+  - url: https://github.com/freebsd/poudriere/commit/068a8789988544a4dbd44ee37accf616ea56ffdf
+    date: '2021-11-17'
+  - url: https://github.com/freebsd/poudriere/commit/e5d36dbc827c01dd44d10a63c09c699d3091ac8d
+    date: '2015-09-14'
+  - url: https://github.com/freebsd/poudriere/commit/f93bd3b4d9dbff330257b4ae8b377523265e6099
+    date: '2014-11-19'
+  dates: 2014-2021
+  langs:
+  - Shell
+- project: CMake
+  homepage: https://cmake.org/
+  desc: FreeBSD support fixes
+  commits:
+  - url: https://gitlab.kitware.com/cmake/cmake/-/commit/c07bba27302960fc2f35b6a9e00eab8b32ca9a49
+    date: '2021-11-11'
+  - url: https://gitlab.kitware.com/cmake/cmake/-/commit/956054aeca0cff2ef5a8c92586e992cc9ad51d7d
+    date: '2016-09-26'
+  dates: 2016-2021
+  langs:
+  - CMake
+- project: NuML
+  homepage: https://github.com/NuML/NuML
+  desc: python compatibility fixes
+  commits:
+  - url: https://github.com/NuML/NuML/commit/f12cbe98eef208618955e581a6e8381ef019450a
+    date: '2021-11-02'
+  dates: '2021'
+  langs:
+  - Python
+- project: libSEDML
+  homepage: https://github.com/fbergmann/libSEDML
+  desc: python compatibility fixes
+  commits:
+  - url: https://github.com/fbergmann/libSEDML/commit/f824ecb1bd7c21ceb9d9bfadfc890e474026ce72
+    date: '2021-11-02'
+  dates: '2021'
+  langs:
+  - Python
+- project: Wyrmsun
+  homepage: https://github.com/Andrettin/Wyrmgus
+  desc: code fixes
+  commits:
+  - url: https://github.com/Andrettin/Wyrmgus/commit/bfa948a255cf1d574cee2a5f72e9a3ecfd95c9e1
+    date: '2021-01-11'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/fb3954bf301530c6c8f1791dd6647a47cacc607d
+    date: '2015-11-13'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/bded1bfed4e4e8ed00422387f04a35a883e6b5cc
+    date: '2015-06-02'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/587c8fcd782c24ce7cc528b9f6d5d89f3deb4400
+    date: '2015-05-14'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/88845d8d1cac0e3fe31fb5dd42c691b0ad57b46c
+    date: '2015-05-14'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/328c9ee6795436323f4d1e2d027c6c76bfc49e3f
+    date: '2015-05-14'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/c599819472978c6c53efafd9a4719c83a7c35cb5
+    date: '2015-05-14'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/e56386059f7c56c67798fcd90e4a8ca7b711fe33
+    date: '2015-05-14'
+  - url: https://github.com/Andrettin/Wyrmsun/commit/0bd3a7c10eaa4dcfc8e620c19f2d9378360a29c2
+    date: '2021-08-20'
+  - url: https://github.com/Andrettin/Wyrmsun/commit/15caa201694821770e1355f989a716afd3ea650b
+    date: '2018-12-26'
+  dates: 2015-2021
+  langs:
+  - C++
+- project: Iter Vehemens ad Necem
+  homepage: https://attnam.com/
+  desc: build fix
+  commits:
+  - url: https://github.com/Attnam/ivan/commit/6e66e3f2dcba6f6a2f43b0cc1860cc44abd72098
+    date: '2021-08-18'
+  dates: '2021'
+  langs:
+  - CMake
+- project: PostgreSQL
+  homepage: https://www.postgresql.org/
+  desc: LLVM JIT crash fix
+  commits:
+  - url: https://github.com/postgres/postgres/commit/0207d5fbebed7eb698a7e5f3adf30fafe95bc4b9
+    date: '2021-07-22'
+  dates: '2021'
+  langs:
+  - C
+- project: HyperRogue
+  homepage: https://roguetemple.com/z/hyper/
+  desc: build fixes, CI support
+  commits:
+  - url: https://github.com/zenorogue/hyperrogue/commit/0550ea97e61f541ab1ff36a9971f442a30dd09d6
+    date: '2021-06-09'
+  - url: https://github.com/zenorogue/hyperrogue/commit/d551c68a7461ebace22c9f41be75d2222766fe46
+    date: '2018-07-07'
+  - url: https://github.com/zenorogue/hyperrogue/commit/823930a1cf0aa9e835665b11e56d8ea19b9bed10
+    date: '2018-06-26'
+  - url: https://github.com/zenorogue/hyperrogue/commit/7ead4fd7acf575fe718352ceac57949dde84e23f
+    date: '2018-06-26'
+  - url: https://github.com/zenorogue/hyperrogue/commit/94bbd751c798e471602f8237ac8ac3b3b7659db2
+    date: '2018-06-25'
+  - url: https://github.com/zenorogue/hyperrogue/commit/bde60ca7bd0cd9afbeaec901202b9183dd7ab333
+    date: '2018-06-25'
+  - url: https://github.com/zenorogue/hyperrogue/commit/a2de831122a30c62dd771e8b3d52df73ec1c2366
+    date: '2017-10-31'
+  - url: https://github.com/zenorogue/hyperrogue/commit/2043db3e0bf8df7c95d51560869ffd3fdccf9675
+    date: '2017-06-26'
+  - url: https://github.com/zenorogue/hyperrogue/commit/ded88f4c3661d2b7601be26fbb7107e57fa76b89
+    date: '2017-06-26'
+  - url: https://github.com/zenorogue/hyperrogue/commit/17bf68f1a7ba2a6338f39dfe813765d46af48573
+    date: '2017-02-25'
+  dates: 2017-2021
+  langs:
+  - Automake
+  - C++
+- project: Minetest
+  homepage: https://www.minetest.net/
+  desc: build and portability fixes
+  commits:
+  - url: https://github.com/minetest/minetest/commit/53dca4f95fb48d2a16e1f26f01515d4811aab78d
+    date: '2021-05-15'
+  - url: https://github.com/minetest/minetest/commit/2ecf57c640ed7646be91ebc30e6f8fb32dac77df
+    date: '2019-10-23'
+  - url: https://github.com/minetest/minetest/commit/d2fc98e4a689288a04d07da49b673f39ffabf64b
+    date: '2015-04-08'
+  - url: https://github.com/minetest/minetest/commit/2414580754734b62119369255b0e9c462381dc8a
+    date: '2014-12-30'
+  - url: https://github.com/minetest/minetest/commit/8e69b9cb261c503c5fb461086439aed28e434d19
+    date: '2013-01-30'
+  - url: https://github.com/minetest/minetest/commit/ff35014eff73aadc3ffa957bd860958c9aeefd33
+    date: '2011-08-02'
+  - url: https://github.com/minetest/minetest/commit/de868d24c170dc8f92ea1280bac80f0ab528d3e0
+    date: '2011-08-02'
+  - url: https://github.com/minetest/minetest/commit/318a730c459a8524d7030d261946c35815dd4b29
+    date: '2011-08-01'
+  dates: 2011-2021
+  langs:
+  - C++
+  - CMake
+- project: Uncrustify
+  homepage: http://uncrustify.sourceforge.net/
+  desc: build fixes
+  commits:
+  - url: https://github.com/uncrustify/uncrustify/commit/380ec7918e9362719f5265de3bf1dfb649636490
+    date: '2021-05-14'
+  - url: https://github.com/uncrustify/uncrustify/commit/78e0a1853c3102fab781e0366e257ab8b18183cd
+    date: '2021-05-14'
+  - url: https://github.com/uncrustify/uncrustify/commit/e9eea467ecf340f3be5e92b283caac3f1e7a46d1
+    date: '2020-05-20'
+  - url: https://github.com/uncrustify/uncrustify/commit/d4b5d1a0216a511c43744d2a6bdd45e3be6d912d
+    date: '2019-11-27'
+  dates: 2019-2021
+  langs:
+  - C++
+  - CMake
+- project: Tiled
+  homepage: https://www.mapeditor.org/
+  desc: build fixes
+  commits:
+  - url: https://github.com/mapeditor/tiled/commit/b06fc9ad6adf2a48a9f495bdb72dcac2864836d0
+    date: '2021-04-27'
+  - url: https://github.com/mapeditor/tiled/commit/df962dac31232802547aa6af38c426b2eb15194b
+    date: '2013-03-07'
+  dates: 2013-2021
+  langs:
+  - qmake
+- project: Spring RTS Engine
+  homepage: https://springrts.com/
+  desc: build fixes
+  commits:
+  - url: https://github.com/spring/pyunitsync/commit/8d39185ba0785af6c1b9008c974f73a1cfd946f3
+    date: '2013-12-10'
+  - url: https://github.com/spring/spring/commit/fc61592bf587baf687033867dfee282a57be1719
+    date: '2021-04-26'
+  - url: https://github.com/spring/spring/commit/8c0104a77cca49480a46bd9c68a17589511a2a63
+    date: '2021-04-26'
+  - url: https://github.com/spring/spring/commit/3f76026481d19bcdd8b3ae66b4541de861c280db
+    date: '2021-04-26'
+  - url: https://github.com/spring/spring/commit/8a7f0927f705ae2442e257fa8ec06dad75e19445
+    date: '2021-04-26'
+  - url: https://github.com/spring/spring/commit/486f715f20610458e7010cd3ffdae943e16ce93b
+    date: '2021-04-26'
+  - url: https://github.com/spring/spring/commit/a65f1d860cdf43b13d3e09aba99435bf0c3ffa78
+    date: '2014-01-25'
+  - url: https://github.com/spring/spring/commit/23c3aca47ae05254b745830a303a3d56e11a9130
+    date: '2014-01-21'
+  - url: https://github.com/spring/spring/commit/2196e7a4ce15f73a331810f7ae61107ad7287e0a
+    date: '2013-12-10'
+  - url: https://github.com/spring/spring/commit/cbdc52e3f96f85bc77063fe572fb805bc17627f5
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/e5e7f0b5fb955a81b6de24f5e95d788f1269acc1
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/1b39241c036e64e0c47b09164a9c1dba2f7bdf81
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/b96b0319757653ae2ef2489778c112eeb586f1b8
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/85e376b2484798d655537c59bdd7befb75327042
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/8f00c17e9086b22bc5975b7e8d12bacb4dda0e24
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/a8ef642d90e8d89fe84595fba0e1a678977e65fb
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/02054068bdc80d01b4a3a221045b3d46b8554c38
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/cd88ca958f35fd3911b8faeaa63cef7b560a4f5f
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/129945ed8d6aabef559d29872ae9ca0bbdc20a09
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/01c4755fb24aa5d4a23d6b178e5cac3196280c60
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/0801af423ee1e7a2088385980b4d7257d07fef7f
+    date: '2013-11-09'
+  - url: https://github.com/spring/spring/commit/9e233672f32b4f078e0433633d107f2928dee34b
+    date: '2012-02-13'
+  - url: https://github.com/spring/spring/commit/9d437e4d9fe93b61060d42c48948414b8456ccbd
+    date: '2012-02-13'
+  dates: 2012-2021
+  langs:
+  - C++
+  - CMake
+- project: Simon Tatham's Puzzle Collection
+  homepage: https://www.chiark.greenend.org.uk/~sgtatham/puzzles/
+  desc: installation improvement
+  commits:
+  - url: https://git.tartarus.org/?p=simon/puzzles.git;a=commitdiff;h=b685eee47899dfc9fdb065567b029f9c9061ec68
+    date: '2021-04-02'
+  dates: '2021'
+  langs:
+  - CMake
+- project: osm2pgsql
+  homepage: https://github.com/openstreetmap/osm2pgsql
+  desc: build fixes
+  commits:
+  - url: https://github.com/openstreetmap/osm2pgsql/commit/4a76aefc3c4a080fd14edc81e1851e39f1a544f4
+    date: '2020-12-10'
+  - url: https://github.com/openstreetmap/osm2pgsql/commit/dda366542f1259b349e807f91b81a1511b19865d
+    date: '2015-03-02'
+  dates: 2015-2020
+  langs:
+  - Automake
+  - CMake
+- project: SuperTuxKart
+  homepage: https://supertuxkart.net/
+  desc: build fixes
+  commits:
+  - url: https://github.com/supertuxkart/stk-code/commit/4d97c5156c5728959d34d73983cdd47899db0d14
+    date: '2020-09-29'
+  - url: https://github.com/supertuxkart/stk-code/commit/ef911d8401b9a526789f6d23ac3c4625cd6d7993
+    date: '2020-09-01'
+  - url: https://github.com/supertuxkart/stk-code/commit/cfbec1f47014c4869d9d79d40822b4d077c9c92d
+    date: '2015-06-02'
+  - url: https://github.com/supertuxkart/stk-code/commit/94bf5949f5f9b1b5b271b570357531b081cbc75d
+    date: '2015-02-02'
+  dates: 2015-2020
+  langs:
+  - C++
+  - CMake
+- project: Inkscape
+  homepage: https://inkscape.org/
+  desc: minor build improvement
+  commits:
+  - url: https://gitlab.com/inkscape/inkscape/-/commit/e1a40ce2f415aa0d4445079b849149702bab0122
+    date: '2020-06-17'
+  dates: '2020'
+  langs:
+  - CMake
+- project: pycodestyle
+  homepage: https://github.com/PyCQA/pycodestyle
+  desc: build fix
+  commits:
+  - url: https://github.com/pycqa/pycodestyle/commit/11dd1c84879e476a4d3cb264d97bfea9bcfb30d6
+    date: '2020-05-26'
+  dates: '2020'
+  langs:
+  - Python
+- project: Wizznic!
+  homepage: http://sourceforge.net/projects/wizznic/
+  desc: build fixes
+  commits:
+  - url: https://github.com/DusteDdk/Wizznic/commit/1eba58b7df2db80e608d574311e7081b746b63c2
+    date: '2020-04-05'
+  - url: https://github.com/DusteDdk/Wizznic/commit/09572dedab580379442fc8d747112985e456601c
+    date: '2019-12-11'
+  dates: 2019-2020
+  langs:
+  - C
+  - Make
+- project: OpenSceneGraph
+  homepage: http://www.openscenegraph.org/
+  desc: build fixes
+  commits:
+  - url: https://github.com/openscenegraph/OpenSceneGraph/commit/91e73a5e30fbc06ab2b8753becfa3a3407b494af
+    date: '2019-12-10'
+  - url: https://github.com/openscenegraph/OpenSceneGraph/commit/043c3d8ddfa97f2430c1f51b78716b9472922c8e
+    date: '2019-12-10'
+  dates: '2019'
+  langs:
+  - C++
+  - CMake
+- project: Unknown Horizons
+  homepage: https://unknown-horizons.org/
+  desc: translation fixes
+  commits:
+  - url: https://github.com/unknown-horizons/unknown-horizons/commit/a0f93ce56f0218037a35ce59d8ebb747d9e2bfcb
+    date: '2019-12-04'
+  dates: '2019'
+- project: ValyriaTear
+  homepage: https://valyriatear.blogspot.com/
+  desc: build fixes
+  commits:
+  - url: https://github.com/Bertram25/ValyriaTear/commit/eb633ad9cd57090c6446e83a15cd6424e3c7e492
+    date: '2019-11-16'
+  - url: https://github.com/Bertram25/ValyriaTear/commit/6b53813f0e5ac1fe7e005791d5b78163a6c0d8be
+    date: '2013-10-08'
+  - url: https://github.com/Bertram25/ValyriaTear/commit/ee99c3b5c2e31482c89826c7821a8feadda0ec56
+    date: '2013-01-14'
+  - url: https://github.com/Bertram25/ValyriaTear/commit/bbe0631ec2e3f38a5538ef292139b908d5de5812
+    date: '2013-01-14'
+  dates: 2013-2019
+  langs:
+  - C++
+  - CMake
+- project: INSTEAD
+  homepage: https://instead.hugeping.ru/
+  desc: build fixes, code fixes, CI support, CMake support
+  commits:
+  - url: https://github.com/instead-hub/instead/commit/c97c53f5273a0681aefe771d36966e750db96618
+    date: '2019-10-10'
+  - url: https://github.com/instead-hub/instead/commit/e535721bfa2168936d4d722858ba377d91092cc1
+    date: '2014-11-22'
+  - url: https://github.com/instead-hub/instead/commit/e4cf84326533fbe9dde54ba3792b6b56f66a6d59
+    date: '2014-01-31'
+  - url: https://github.com/instead-hub/instead/commit/0cff5358d4a861a9970386342a7b2a537603f12f
+    date: '2014-01-27'
+  - url: https://github.com/instead-hub/instead/commit/99f3bc12fe30fa4aec821ef4c07396eb12f71a33
+    date: '2014-01-27'
+  - url: https://github.com/instead-hub/instead/commit/c9ce719646d63e5e770c1261ffff509ee8290779
+    date: '2014-01-24'
+  - url: https://github.com/instead-hub/instead/commit/78d0a22a5a242ac31220f6be6bdd364a5bfe8a5d
+    date: '2014-01-23'
+  - url: https://github.com/instead-hub/instead/commit/92d4de0e9b5d6f70e37d41e22d0a3bcb90a7c1cb
+    date: '2014-01-23'
+  - url: https://github.com/instead-hub/instead/commit/e9ce487d8cd2bec678035b781718d95d2edc1f17
+    date: '2014-01-22'
+  - url: https://github.com/instead-hub/instead/commit/db3948e11ce73de1c7fa6ccd35eac5f7f2ca7070
+    date: '2014-01-17'
+  - url: https://github.com/instead-hub/instead/commit/119dbecdeaedcd46bca81d2a12d327dee9f77893
+    date: '2014-01-17'
+  - url: https://github.com/instead-hub/instead/commit/73bc14c913091cfef93aa8426243819ca0318a22
+    date: '2014-01-15'
+  - url: https://github.com/instead-hub/instead/commit/3946144a78e33579f13a14a16444b168b53f6670
+    date: '2014-01-15'
+  - url: https://github.com/instead-hub/instead/commit/ed0577a6b80e83e8231971097230aa1163631b3f
+    date: '2014-01-14'
+  - url: https://github.com/instead-hub/instead/commit/a88f0835d3249fefd43d4af1ade7e046911d9f69
+    date: '2014-01-14'
+  - url: https://github.com/instead-hub/instead/commit/73398edcb13ea4d493c67fec4e846067be9d9be1
+    date: '2014-01-14'
+  - url: https://github.com/instead-hub/instead/commit/0134951b07c1312a648a36ac1f4a4297f5b50580
+    date: '2014-01-13'
+  - url: https://github.com/instead-hub/instead/commit/8d7c9b8603d1ea324648fffc9ca901d1c44e5e91
+    date: '2014-01-13'
+  - url: https://github.com/instead-hub/instead/commit/fa40f5178fe28e385766672b3a1a65175d1a5c5b
+    date: '2014-01-13'
+  - url: https://github.com/instead-hub/instead/commit/b3aec45358c4971e79f6725a6279552f96ffc4eb
+    date: '2014-01-13'
+  - url: https://github.com/instead-hub/instead/commit/d57c04e34a675c251060c8b88ac1a72a92077633
+    date: '2014-01-13'
+  - url: https://github.com/instead-hub/instead/commit/5b314887d6855bcd21a511538e4e15ace0d6f8c7
+    date: '2014-01-13'
+  - url: https://github.com/instead-hub/instead/commit/458e36df7bd762bce9bca92d611494fb2a2742b6
+    date: '2014-01-13'
+  - url: https://github.com/instead-hub/instead/commit/30400d1f9e1711ffaa421b4a701bdf57cdfb3441
+    date: '2014-01-13'
+  - url: https://github.com/instead-hub/instead/commit/ad8ecc3a23eb8258a4a6b59821b8c8f77f5245e7
+    date: '2014-01-13'
+  - url: https://github.com/instead-hub/instead/commit/490957ed5571a31d29ada47147b851b9d3153b3d
+    date: '2014-01-13'
+  - url: https://github.com/instead-hub/instead/commit/4a428b54128b535bba8933c4e1ab91fd0d466541
+    date: '2014-01-12'
+  - url: https://github.com/instead-hub/instead/commit/edf3a0e06fbe874ca3af979f794d59e51254c956
+    date: '2014-01-12'
+  - url: https://github.com/instead-hub/instead/commit/b3cfea00063e253543a79d5e860e1601413d62ed
+    date: '2014-01-10'
+  - url: https://github.com/instead-hub/instead/commit/529870f71fc3ccc4d4189ec7497816c1f412668a
+    date: '2014-01-10'
+  dates: 2014-2019
+  langs:
+  - C
+  - CMake
+- project: aiohttp
+  homepage: https://docs.aiohttp.org/en/stable/
+  desc: code style fixes
+  commits:
+  - url: https://github.com/aio-libs/aiohttp/commit/185eca1b065537ea246dc85930a1f0da78f3f046
+    date: '2019-07-19'
+  - url: https://github.com/aio-libs/aiohttp/commit/4a2fba9ff13ef90ca751c5d1055ad0f87b856268
+    date: '2019-07-19'
+  - url: https://github.com/aio-libs/aiohttp/commit/dcce5ea779a580c05c2b0f0555ea5cccdb4aea29
+    date: '2019-06-26'
+  dates: '2019'
+  langs:
+  - Python
+- project: RRDtool
+  homepage: https://oss.oetiker.ch/rrdtool/
+  desc: UB/crash fix
+  commits:
+  - url: https://github.com/oetiker/rrdtool-1.x/commit/1d700bf3ba13a75b91047e6e979231abd755892b
+    date: '2019-06-26'
+  dates: '2019'
+  langs:
+  - C
+- project: Widelands
+  homepage: https://www.widelands.org/
+  desc: build fixes
+  commits:
+  - url: https://github.com/widelands/widelands/commit/5f0c35fdb189cb0b5345cb24990a362251d8aeb2
+    date: '2019-05-09'
+  - url: https://github.com/widelands/widelands/commit/b676047d68ea8610d8eef6a459c5413c5c100f4a
+    date: '2012-11-30'
+  dates: 2012-2019
+  langs:
+  - CMake
+- project: Stunt Rally
+  homepage: https://stuntrally.tuxfamily.org/
+  desc: build and code fixes
+  commits:
+  - url: https://github.com/stuntrally/stuntrally/commit/4e81245a9ce1423c372e1d6a623059922a5f5253
+    date: '2019-04-26'
+  - url: https://github.com/stuntrally/stuntrally/commit/68f19ef3718f7fcbef00385496c55969ea2ff433
+    date: '2017-07-24'
+  - url: https://github.com/stuntrally/stuntrally/commit/350b0978d693d1d929cdd796b316af67a949c966
+    date: '2017-07-20'
+  - url: https://github.com/stuntrally/stuntrally/commit/3778410f2653b452f6146cddf4bf35a01581f191
+    date: '2017-07-20'
+  dates: 2017-2019
+  langs:
+  - C++
+  - CMake
+- project: Teeworlds
+  homepage: https://www.teeworlds.com/
+  desc: build fix
+  commits:
+  - url: https://github.com/teeworlds/teeworlds/commit/2488f9cdfa860b482baf52d7c33b507993562d90
+    date: '2019-04-22'
+  dates: '2019'
+  langs:
+  - CMake
+- project: Python
+  homepage: https://www.python.org/
+  desc: build fixes
+  commits:
+  - url: https://github.com/python/cpython/commit/a0da131a74acdb147ecd64d729c86d65fecd0cff
+    date: '2019-04-06'
+  dates: '2019'
+  langs:
+  - C
+- project: Ansible
+  homepage: https://www.ansible.com/
+  desc: FreeBSD support improvements
+  commits:
+  - url: https://github.com/ansible/ansible/commit/8195181a62aef72fd1d72bf900861115448d39c6
+    date: '2019-02-18'
+  - url: https://github.com/ansible/ansible/commit/843fba509f65bc704c956095af9a8125e042e06b
+    date: '2017-11-02'
+  - url: https://github.com/ansible/ansible/commit/a6ee449d6b3f4c3e31c8dcbc4a1c280d957ffef1
+    date: '2016-05-31'
+  - url: https://github.com/ansible/ansible/commit/472bf733e03564e74dffd5a0e89f3b6690399c9f
+    date: '2016-05-27'
+  - url: https://github.com/ansible/ansible/commit/13d7a61160e0fda525016885f372a54222ba50c6
+    date: '2016-05-27'
+  dates: 2016-2019
+  langs:
+  - Python
+- project: dhewm3
+  homepage: https://github.com/dhewm/dhewm3
+  desc: build fix
+  commits:
+  - url: https://github.com/dhewm/dhewm3/commit/17c10d40a50dc13044db3c8e49798a14affe96c1
+    date: '2019-02-11'
+  dates: '2019'
+  langs:
+  - C++
+- project: FOSSology
+  homepage: https://www.fossology.org/
+  desc: build and regexp compatibility fixes
+  commits:
+  - url: https://github.com/fossology/fossology/commit/36e22784c54897181c9a13dd49c1761efcbcf862
+    date: '2018-12-29'
+  - url: https://github.com/fossology/fossology/commit/3ff7487f46bba7531f905eab4d090e08546e2876
+    date: '2018-04-28'
+  - url: https://github.com/fossology/fossology/commit/9570e7f317d809b0459eacb952bd0adbff4862a8
+    date: '2017-07-21'
+  - url: https://github.com/fossology/fossology/commit/2c0b3ba38263167af2083c2ad4ca40f4d60793b5
+    date: '2017-02-28'
+  dates: 2017-2018
+  langs:
+  - Make
+- project: EasyRPG
+  homepage: https://easyrpg.org/
+  desc: build fixes
+  commits:
+  - url: https://github.com/EasyRPG/Player/commit/36871f07597ceb39a2eb78c9075361cbb8a2a2b2
+    date: '2018-12-06'
+  - url: https://github.com/EasyRPG/Player/commit/9369f13ddcb537c3d084aa33edca014f737894dd
+    date: '2016-08-23'
+  dates: 2016-2018
+  langs:
+  - C++
+  - CMake
+- project: AstroMenace
+  homepage: https://viewizard.com/
+  desc: build fixes
+  commits:
+  - url: https://github.com/viewizard/astromenace/commit/40776c9e0f1cf2f0e780be8556513c0bb3024034
+    date: '2018-10-16'
+  - url: https://github.com/viewizard/astromenace/commit/2e15372a024af7a09fe85b30f476b85200cf6219
+    date: '2018-10-16'
+  - url: https://github.com/viewizard/astromenace/commit/ff079e007ac200ea6a7c5c06e468406df0e4c02e
+    date: '2018-10-16'
+  - url: https://github.com/viewizard/astromenace/commit/8ee683eaceaebbce39bebdde7723a9855e2c6046
+    date: '2018-10-16'
+  - url: https://github.com/viewizard/astromenace/commit/962ebf85138a3d05266d762849cf2badb2501b36
+    date: '2018-10-16'
+  dates: '2018'
+  langs:
+  - CMake
+- project: SFML
+  homepage: https://www.sfml-dev.org/
+  desc: build fixes
+  commits:
+  - url: https://github.com/SFML/SFML/commit/119195ac20866fcecc93e33cda457b3fe54b1b0c
+    date: '2018-10-16'
+  - url: https://github.com/SFML/SFML/commit/27eadf2a7c8249f87b925f10ad8c73e32c437e9f
+    date: '2014-04-25'
+  - url: https://github.com/SFML/SFML/commit/f1431e416cb7d0a8d3858f80ff12f0d8bb1225d4
+    date: '2014-04-25'
+  - url: https://github.com/SFML/SFML/commit/208164898b40ebcc33a772d94971cd20b57bdada
+    date: '2014-04-25'
+  dates: 2014-2018
+  langs:
+  - C++
+  - CMake
+- project: Munin
+  homepage: https://munin-monitoring.org/
+  desc: minor plugin code fixes and improvements
+  commits:
+  - url: https://github.com/munin-monitoring/munin/commit/f0462854633cc6930f50bd700206b7a7887e9c4a
+    date: '2018-09-17'
+  - url: https://github.com/munin-monitoring/munin/commit/5b06740a8db3ca6f64872a7b712802a964441fe4
+    date: '2018-04-05'
+  - url: https://github.com/munin-monitoring/munin/commit/867609ee1043f7a99e2ae9fa2b06f9a26dd76084
+    date: '2018-04-05'
+  - url: https://github.com/munin-monitoring/munin/commit/8ba554c19f0c1b97e31c72080375652cabe92788
+    date: '2018-04-05'
+  - url: https://github.com/munin-monitoring/munin/commit/ec83a1dbe0915d7876c11545f67f215689f55896
+    date: '2018-04-05'
+  - url: https://github.com/munin-monitoring/munin/commit/049bf6aabcf702f7abdd46034f14310c36830550
+    date: '2018-04-05'
+  - url: https://github.com/munin-monitoring/munin/commit/0dc778108997db39c0b23591cd3afc17746df8f3
+    date: '2018-04-05'
+  - url: https://github.com/munin-monitoring/munin/commit/38c4775e9ed238d6315e54aecc39ff10fdf664dd
+    date: '2018-04-05'
+  - url: https://github.com/munin-monitoring/munin/commit/80f559a30bf30c1a27e1b6625b5b61bbbd13daeb
+    date: '2018-04-05'
+  - url: https://github.com/munin-monitoring/munin/commit/6a6d589287d229f07122e043bb464aaf188500ef
+    date: '2018-04-05'
+  - url: https://github.com/munin-monitoring/munin/commit/b94dfbf5ea18bca6b2b2a0215f4e3371e5870921
+    date: '2018-04-05'
+  - url: https://github.com/munin-monitoring/munin/commit/c2ece6f9059d18164dcc388b3f43be5c8a0a19f7
+    date: '2015-03-11'
+  - url: https://github.com/munin-monitoring/munin/commit/bfb721464257602ee27225fa0b73eb54e6c791e0
+    date: '2015-03-05'
+  - url: https://github.com/munin-monitoring/munin/commit/56b05ec66be89cd62495fb28b0e2296e6001524f
+    date: '2015-03-05'
+  - url: https://github.com/munin-monitoring/munin/commit/0b000b3150a99b3902512cbc691a0a8877f08aa1
+    date: '2015-03-05'
+  - url: https://github.com/munin-monitoring/munin/commit/f02e8c938b47e1054746901f3e0c776aaa3aff9b
+    date: '2015-03-05'
+  - url: https://github.com/munin-monitoring/munin/commit/8538cd97c17914728961e9087e52061c675c9d36
+    date: '2015-03-05'
+  - url: https://github.com/munin-monitoring/munin/commit/41e40f58650fdc3db0b746a163b95107c1993b9d
+    date: '2015-03-05'
+  - url: https://github.com/munin-monitoring/munin/commit/8cd4d2d60277e8dfbdcc7516b686e59d8baf0076
+    date: '2015-03-11'
+  - url: https://github.com/munin-monitoring/munin/commit/a8618c4e7c3aec00cf9ed2e214640a31ea868a05
+    date: '2015-03-05'
+  - url: https://github.com/munin-monitoring/munin/commit/84c88eb2127ec049e157999637e08eb9d22f786c
+    date: '2015-06-23'
+  - url: https://github.com/munin-monitoring/munin/commit/0872e9d6ed2a233c4400a8426fc9d46c08edc9c0
+    date: '2015-03-05'
+  - url: https://github.com/munin-monitoring/munin/commit/a1b7f5ec0dfe197b6235151c49a0c241cbe3d501
+    date: '2015-03-05'
+  - url: https://github.com/munin-monitoring/munin/commit/fb1d1b2159cec6010ebf42b311e002af8712475c
+    date: '2015-03-05'
+  - url: https://github.com/munin-monitoring/munin/commit/51a61125e71cbf8dc9b015461e9f54304e90f0f2
+    date: '2015-03-05'
+  - url: https://github.com/munin-monitoring/munin/commit/e7860de03f9efae070a1f3790cd4e693b3ab8450
+    date: '2015-03-05'
+  dates: 2015-2018
+  langs:
+  - Perl
+  - Shell
+- project: psycopg2
+  homepage: https://www.psycopg.org/
+  desc: build fix
+  commits:
+  - url: https://github.com/psycopg/psycopg2/commit/5ec573c83b145486cf310eb07267e8d2d0b49c79
+    date: '2018-07-26'
+  dates: '2018'
+  langs:
+  - C
+- project: Open-usp-Tukubai
+  homepage: https://github.com/usp-engineers-community/Open-usp-Tukubai
+  desc: build fixes
+  commits:
+  - url: https://github.com/usp-engineers-community/Open-usp-Tukubai/commit/ec4e9e50fc874edd78600ef1f661a6c77d5ae96a
+    date: '2018-07-09'
+  - url: https://github.com/usp-engineers-community/Open-usp-Tukubai/commit/e5874869a63be0018b55116b8261255a1d8bce39
+    date: '2018-07-09'
+  - url: https://github.com/usp-engineers-community/Open-usp-Tukubai/commit/3926bfa912cf1c2412d9a7167e5589c118f879e5
+    date: '2018-07-09'
+  dates: '2018'
+  langs:
+  - Make
+- project: FreeOrion
+  homepage: https://www.freeorion.org/
+  desc: build fix
+  commits:
+  - url: https://github.com/freeorion/freeorion/commit/618568705a0ca37ffd9e88d08cda3d3601d01d98
+    date: '2018-06-29'
+  dates: '2018'
+  langs:
+  - CMake
+- project: i2pd
+  homepage: https://i2pd.website/
+  desc: build and portability fixes
+  commits:
+  - url: https://github.com/PurpleI2P/i2pd/commit/4ffbb46cf9c63dfddc062771a9bb29a5d50524af
+    date: '2018-06-27'
+  - url: https://github.com/PurpleI2P/i2pd/commit/41e8ab53835eb599243856001adbeb314f106658
+    date: '2018-06-27'
+  - url: https://github.com/PurpleI2P/i2pd/commit/0f2d2156e6b4c75568a8c87606b1196cabff1948
+    date: '2017-12-11'
+  - url: https://github.com/PurpleI2P/i2pd/commit/511499d950d0fc85742ed18b0988e57c07918fa8
+    date: '2017-12-11'
+  - url: https://github.com/PurpleI2P/i2pd/commit/44d6d4405e299123d81341b103c5b99d3351a62e
+    date: '2017-12-05'
+  - url: https://github.com/PurpleI2P/i2pd/commit/4485d6fdf455cb91a89f36ab469c50d43d312bd7
+    date: '2017-11-21'
+  - url: https://github.com/PurpleI2P/i2pd/commit/959843ee9c1a63b7245ef8083480599a6ec92eb1
+    date: '2016-08-19'
+  - url: https://github.com/PurpleI2P/i2pd/commit/4ef183fee6f56ec76f891188c740e0bfc3888ac3
+    date: '2016-02-04'
+  - url: https://github.com/PurpleI2P/i2pd/commit/2115ce66064acc6a45ecae5184156fbf064bfafc
+    date: '2016-02-04'
+  - url: https://github.com/PurpleI2P/i2pd/commit/61d1b733f795cda35f3ace908d6d8c9c51a77ec5
+    date: '2016-02-04'
+  - url: https://github.com/PurpleI2P/i2pd/commit/4978edb8be736515e3b0fcc15e3e259982d4e79f
+    date: '2016-02-04'
+  dates: 2016-2018
+  langs:
+  - C++
+  - CMake
+- project: hiera-eyaml
+  homepage: https://github.com/TomPoulton/hiera-eyaml
+  desc: portability fix
+  commits:
+  - url: https://github.com/TomPoulton/hiera-eyaml/commit/9c3cc9b3da9bc0de63fe9384bb7412623e2bdba3
+    date: '2018-06-14'
+  dates: '2018'
+  langs:
+  - Shell
+- project: cppcheck
+  homepage: https://cppcheck.sourceforge.io/
+  desc: build fixes
+  commits:
+  - url: https://github.com/danmar/cppcheck/commit/596fc32dd795e3377fd30d9c096eb62d146d9b32
+    date: '2018-01-25'
+  - url: https://github.com/danmar/cppcheck/commit/94d39f6e91069c535f9799ae94f71e4bd9b6622e
+    date: '2017-05-19'
+  - url: https://github.com/danmar/cppcheck/commit/3bf737acbdb3c34b33fbc92243faeee2be6db407
+    date: '2015-08-17'
+  dates: 2015-2018
+  langs:
+  - CMake
+  - Make
+  - Python
+- project: librime
+  homepage: https://github.com/lotem/librime/
+  desc: build fixe
+  commits:
+  - url: https://github.com/lotem/librime/commit/97cd661f43c8f8500b3260954da791d2587d31c7
+    date: '2017-10-28'
+  dates: '2017'
+  langs:
+  - CMake
+- project: libosmium
+  homepage: https://github.com/osmcode/libosmium
+  desc: portability fix
+  commits:
+  - url: https://github.com/osmcode/libosmium/commit/d8e737196f7f849330c778951af7c676cb6ede19
+    date: '2017-10-28'
+  - url: https://github.com/osmcode/libosmium/commit/bffe6269abf98868b31e8b6fa7e0c700bd2993c9
+    date: '2016-12-19'
+  dates: 2016-2017
+  langs:
+  - C++
+- project: fuzzylite
+  homepage: https://www.fuzzylite.com/
+  desc: build fixes
+  commits:
+  - url: https://github.com/fuzzylite/fuzzylite/commit/ba748c896748e00f1cfd9b9b8ec21b8625d9d267
+    date: '2017-10-23'
+  - url: https://github.com/fuzzylite/fuzzylite/commit/7c80aeef9d854570c0331807a0bfa99ed404ae41
+    date: '2017-10-23'
+  - url: https://github.com/fuzzylite/fuzzylite/commit/509ccac9dd53932b158ee10b47e95d495deb3fd9
+    date: '2015-04-09'
+  dates: 2015-2017
+  langs:
+  - C++
+  - CMake
+- project: Endless Sky
+  homepage: https://endless-sky.github.io/
+  desc: build fixes
+  commits:
+  - url: https://github.com/endless-sky/endless-sky/commit/b9b3fabed00d82ae8fafe39bbeafe47e3c49f7de
+    date: '2017-10-13'
+  - url: https://github.com/endless-sky/endless-sky/commit/392227f164ae92e60adea1456b23fabff66eb339
+    date: '2017-08-21'
+  - url: https://github.com/endless-sky/endless-sky/commit/b35043093ef6d776cb778250e9cc6e6f1925e10d
+    date: '2015-04-16'
+  - url: https://github.com/endless-sky/endless-sky/commit/de5d7492a6b336ae459f93055f794b601b83831a
+    date: '2015-04-16'
+  dates: 2015-2017
+  langs:
+  - C++
+  - SCons
+- project: The Powder Toy
+  homepage: https://powdertoy.co.uk/
+  desc: build fix
+  commits:
+  - url: https://github.com/The-Powder-Toy/The-Powder-Toy/commit/fffe1b0c4086269bc87ed449d6f597a46f5bc567
+    date: '2017-09-21'
+  dates: '2017'
+  langs:
+  - SCons
+- project: MuseScore
+  homepage: https://musescore.org/
+  desc: build fix
+  commits:
+  - url: https://github.com/musescore/MuseScore/commit/a2ec01dec9de6bf6b0a8e6529c79844f7723d386
+    date: '2017-08-30'
+  dates: '2017'
+  langs:
+  - CMake
+- project: neofetch
+  homepage: https://github.com/dylanaraps/neofetch
+  desc: portability fix
+  commits:
+  - url: https://github.com/dylanaraps/neofetch/commit/f3be520826ef02cca30e4f0b91ec0f22fc1b2ba9
+    date: '2017-08-20'
+  dates: '2017'
+  langs:
+  - Make
+- project: polybar
+  homepage: https://polybar.github.io/
+  desc: portability fix
+  commits:
+  - url: https://github.com/polybar/polybar/commit/2314ca030c56e9d1951be5f9b707b638b38a649c
+    date: '2017-07-04'
+  - url: https://github.com/polybar/polybar/commit/b23ff17dde6377d006c18b8de694a2827d992b52
+    date: '2017-07-04'
+  dates: '2017'
+  langs:
+  - CMake
+- project: Warzone 2100
+  homepage: https://wz2100.net/
+  desc: build and portability fixes
+  commits:
+  - url: https://github.com/Warzone2100/warzone2100/commit/70e4ae5752b98d5e768cd030f57a487fac7d0789
+    date: '2017-04-29'
+  - url: https://github.com/Warzone2100/warzone2100/commit/3b4b8261f20c83f0eb76419b23fbdb633bb87df6
+    date: '2016-12-12'
+  - url: https://github.com/Warzone2100/warzone2100/commit/b84767f7f6b63419dc7700c5cfc79f54d18a0ed0
+    date: '2013-01-21'
+  - url: https://github.com/Warzone2100/warzone2100/commit/70e4ae5752b98d5e768cd030f57a487fac7d0789
+    date: '2017-04-29'
+  - url: https://github.com/Warzone2100/warzone2100/commit/3b4b8261f20c83f0eb76419b23fbdb633bb87df6
+    date: '2016-12-12'
+  - url: https://github.com/Warzone2100/warzone2100/commit/b84767f7f6b63419dc7700c5cfc79f54d18a0ed0
+    date: '2013-01-21'
+  dates: 2013-2017
+  langs:
+  - C++
+  - Shel
+- project: Mudlet
+  homepage: https://www.mudlet.org/
+  desc: build fix
+  commits:
+  - url: https://github.com/Mudlet/Mudlet/commit/76cca52a5d6309f0116c17abf70f3f3c7fe772d6
+    date: '2017-03-28'
+  dates: '2017'
+  langs:
+  - CMake
+- project: Werkzeug
+  homepage: https://werkzeug.palletsprojects.com/
+  desc: minor optimization
+  commits:
+  - url: https://github.com/pallets/werkzeug/commit/769ff09f0f345eedc2cce90717b00b5f6ed15654
+    date: '2017-03-22'
+  dates: '2017'
+  langs:
+  - Python
+- project: NVIDIA Texture Tools
+  homepage: https://github.com/castano/nvidia-texture-tools
+  desc: portability fixes
+  commits:
+  - url: https://github.com/castano/nvidia-texture-tools/commit/a64cc241699a90e24bbc58ef5f05647e8f361d49
+    date: '2017-02-16'
+  - url: https://github.com/castano/nvidia-texture-tools/commit/6b24b1f45c34f32153d13dae889faa0f448ed053
+    date: '2017-02-16'
+  dates: '2017'
+  langs:
+  - C++
+  - CMake
+- project: violetland
+  homepage: https://violetland.github.io/
+  desc: build fixes
+  commits:
+  - url: https://github.com/ooxi/violetland/commit/f909c1723d0758aded14a4cafc783e1e73b2272a
+    date: '2016-11-11'
+  - url: https://github.com/ooxi/violetland/commit/da80351581f826f0f4c1c2f7b494ed51a6acec51
+    date: '2016-11-11'
+  - url: https://github.com/ooxi/violetland/commit/ecb2be7be4d823fda5d60f5a4feb50222ccec7bb
+    date: '2016-11-11'
+  dates: '2016'
+  langs:
+  - CMake
+- project: screenFetch
+  homepage: https://github.com/KittyKatt/screenFetch
+  desc: portability fix
+  commits:
+  - url: https://github.com/KittyKatt/screenFetch/commit/9158a27c97a6e39cae7d44d68cd62b7f45d346e7
+    date: '2016-10-28'
+  dates: '2016'
+  langs:
+  - Shell
+- project: DVBlast
+  homepage: https://www.videolan.org/projects/dvblast.html
+  desc: build fixes
+  commits:
+  - url: https://code.videolan.org/videolan/dvblast/-/commit/12a1eb975f2f781ac666e8ba06566c93f369bfba
+    date: '2016-10-11'
+  - url: https://code.videolan.org/videolan/dvblast/-/commit/847a2ee1eb7e67b80823fa95dcdec629dab68617
+    date: '2016-10-11'
+  dates: '2016'
+  langs:
+  - C
+  - Make
+- project: Multicat
+  homepage: https://www.videolan.org/projects/multicat.html
+  desc: FreeBSD support
+  commits:
+  - url: https://code.videolan.org/videolan/multicat/-/commit/cb26fe7d06ce9d348bf8a158cce722f76ed213b9
+    date: '2016-10-07'
+  - url: https://code.videolan.org/videolan/multicat/-/commit/cdcfbb2280fc6b247ea44243bb6c719dffe8c145
+    date: '2016-10-07'
+  - url: https://code.videolan.org/videolan/multicat/-/commit/4b493784abab0f7e7e3a9b2d59cf78d09098a4bb
+    date: '2016-10-07'
+  - url: https://code.videolan.org/videolan/multicat/-/commit/fdb43d11224e46c048074f2b228a1ca23cccf723
+    date: '2016-10-07'
+  - url: https://code.videolan.org/videolan/multicat/-/commit/9f894cb89a211403a14226c1c01db58840260cf6
+    date: '2016-10-07'
+  dates: '2016'
+  langs:
+  - C
+- project: ja2-stracciatella
+  homepage: https://ja2-stracciatella.github.io/
+  desc: portability fixes
+  commits:
+  - url: https://github.com/ja2-stracciatella/ja2-stracciatella/commit/a1bee225bcbf79c9dc91e80615fdceb29cbad98c
+    date: '2016-09-26'
+  - url: https://github.com/ja2-stracciatella/ja2-stracciatella/commit/f2c78d45409fbd2ea7f816e9e1335af511f56a6e
+    date: '2016-09-26'
+  dates: '2016'
+  langs:
+  - CMake
+- project: lm4tools
+  homepage: https://github.com/utzig/lm4tools
+  desc: build fixes
+  commits:
+  - url: https://github.com/utzig/lm4tools/commit/613cc12456fef291f7f84c71a5ae34879384cea3
+    date: '2016-09-05'
+  - url: https://github.com/utzig/lm4tools/commit/141ffaca1adec63bc75e1d5f24b70df42f8665b7
+    date: '2016-09-05'
+  - url: https://github.com/utzig/lm4tools/commit/c579cf3c2f144e1e7f7af563a07c8030492ff4fc
+    date: '2016-09-05'
+  - url: https://github.com/utzig/lm4tools/commit/f763ae3eaf92754e193595b9c018e66197d21664
+    date: '2014-12-01'
+  - url: https://github.com/utzig/lm4tools/commit/5b3a930278b7cc9a4ec166c6a4ac52644c7abf78
+    date: '2014-12-01'
+  dates: 2014-2016
+  langs:
+  - Make
+- project: OSM2Go
+  homepage: https://github.com/osm2go/osm2go
+  desc: build fixes, features, CI support
+  commits:
+  - url: https://github.com/osm2go/osm2go/commit/00e8bf139146f99d8b3a5b7c4079287d07aa960b
+    date: '2016-08-19'
+  - url: https://github.com/osm2go/osm2go/commit/3736a7194bba377220c910dc3cd2a24670adabfe
+    date: '2016-05-28'
+  - url: https://github.com/osm2go/osm2go/commit/05a9127c092c44197053d103482552a8ce9071a7
+    date: '2016-05-28'
+  - url: https://github.com/osm2go/osm2go/commit/fa32a68f998d60d03208f82a24b77148a1ce9470
+    date: '2016-05-28'
+  - url: https://github.com/osm2go/osm2go/commit/c5e9e7a68bf5de7bd332c0222fb80509ee8424f3
+    date: '2016-05-28'
+  - url: https://github.com/osm2go/osm2go/commit/cc4e0d43c4ab1a9cac9edc4af3adc1b55f665294
+    date: '2016-02-01'
+  - url: https://github.com/osm2go/osm2go/commit/55568c6049d94ce2c222febaaa614bb6855e3d50
+    date: '2016-02-01'
+  - url: https://github.com/osm2go/osm2go/commit/7d8dcb53add18dee4258634f64949a8a0d586a0e
+    date: '2014-02-17'
+  - url: https://github.com/osm2go/osm2go/commit/ddde44dd67f23f6de452973d63a69b86516ee23c
+    date: '2014-02-16'
+  - url: https://github.com/osm2go/osm2go/commit/adf47dad1ff7f28fff61cf90294279d0e22b5862
+    date: '2014-02-16'
+  - url: https://github.com/osm2go/osm2go/commit/a386ff458a0743a2040cce0f14959e6e63fa2204
+    date: '2014-02-16'
+  - url: https://github.com/osm2go/osm2go/commit/882cc2739e3ff72ff365d56b63c0dda4814db309
+    date: '2014-02-15'
+  - url: https://github.com/osm2go/osm2go/commit/414ec25c447104271d35e326fe3b4ac5cdbdfd09
+    date: '2014-02-14'
+  - url: https://github.com/osm2go/osm2go/commit/b2156fe6b2f06ac0ccd7858856841c7d2070d5eb
+    date: '2014-02-14'
+  - url: https://github.com/osm2go/osm2go/commit/fa5aa8bdcebdc716dd4d2e540cb9766cb5270495
+    date: '2014-02-14'
+  - url: https://github.com/osm2go/osm2go/commit/5b9da7b31b929467554d17d37294c3d0d7f6eaec
+    date: '2014-02-14'
+  - url: https://github.com/osm2go/osm2go/commit/5da6d60d547907629f678980bbbca23ad8d4ea62
+    date: '2014-02-12'
+  - url: https://github.com/osm2go/osm2go/commit/fe077c284b78320e71ced853e95dcab361bc19ec
+    date: '2014-02-12'
+  - url: https://github.com/osm2go/osm2go/commit/0cba5642e52ec086343b4190ece0ba92498fe9d0
+    date: '2014-02-12'
+  - url: https://github.com/osm2go/osm2go/commit/21c3d2bbb3a63a52a8868a1389ea380ddbaa841a
+    date: '2014-02-12'
+  - url: https://github.com/osm2go/osm2go/commit/24bfce9f6e66550092542e76652cea6b145b2e1a
+    date: '2014-02-12'
+  - url: https://github.com/osm2go/osm2go/commit/7d9db170a2f4c881245cd7211d6382fbf186a7c5
+    date: '2014-02-12'
+  - url: https://github.com/osm2go/osm2go/commit/332a681b73ec3484fe153c4d4d56be4fa0c2e5b0
+    date: '2013-06-15'
+  - url: https://github.com/osm2go/osm2go/commit/ca781b195e1c3cb42cbde0347d51576aa5086207
+    date: '2013-04-25'
+  - url: https://github.com/osm2go/osm2go/commit/64089f6a9841f4e4b6d4b41dd9aade5e32e513b2
+    date: '2013-02-18'
+  - url: https://github.com/osm2go/osm2go/commit/2c11d2937de5ad8fdd73749f2956fd1b190ec953
+    date: '2012-11-16'
+  - url: https://github.com/osm2go/osm2go/commit/32cb6f5ec1638415d83f7bc7699a5e862166314b
+    date: '2012-08-07'
+  - url: https://github.com/osm2go/osm2go/commit/2e3851cb7d935acf5d0c0cd07eb87221abff36fc
+    date: '2011-12-21'
+  - url: https://github.com/osm2go/osm2go/commit/6e28cd2ef02492133a9b175ef1c0231ca67695a3
+    date: '2011-03-22'
+  dates: 2011-2016
+  langs:
+  - Autoconf
+  - Automake
+  - C
+- project: Apache Avro
+  homepage: https://avro.apache.org/
+  desc: code portability fix
+  commits:
+  - url: https://github.com/apache/avro/commit/f2c7b08c3395cd9065730c21bd1a6dc25a57dbf4
+    date: '2016-07-19'
+  dates: '2016'
+  langs:
+  - C
+- project: dnscrypt-wrapper
+  homepage: https://github.com/Cofyc/dnscrypt-wrapper
+  desc: build fix
+  commits:
+  - url: https://github.com/Cofyc/dnscrypt-wrapper/commit/c83c08c978d2be20a1c0d962d53d07bb55eadc1a
+    date: '2016-07-08'
+  dates: '2016'
+  langs:
+  - Make
+- project: luasql
+  homepage: https://github.com/keplerproject/luasql
+  desc: build fix
+  commits:
+  - url: https://github.com/keplerproject/luasql/commit/cc865b3ad4608fcf8662d825e5acbf5d558e03d3
+    date: '2016-06-24'
+  dates: '2016'
+  langs:
+  - C
+- project: openrw
+  homepage: https://openrw.org/
+  desc: portability fixes
+  commits:
+  - url: https://github.com/rwengine/openrw/commit/c302f10b19caab6ed5d863a227fc1e5936aa3110
+    date: '2016-05-25'
+  - url: https://github.com/rwengine/openrw/commit/6582704b056300a365240ac97030744d6b0b9aed
+    date: '2016-05-25'
+  dates: '2016'
+  langs:
+  - CMake
+- project: Enigma
+  homepage: https://www.nongnu.org/enigma/
+  desc: code fix
+  commits:
+  - url: https://github.com/Enigma-Game/Enigma/commit/661052e1b3cdf0852c40ee2423c4f33b7fa0549c
+    date: '2016-04-13'
+  dates: '2016'
+  langs:
+  - C++
+- project: Vangers
+  homepage: https://github.com/KranX/Vangers
+  desc: build fixes, took part in code porting to Linux
+  commits:
+  - url: https://github.com/KranX/Vangers/commit/486660cb8c631d45b121e1f8f8754e2ee7ba4e69
+    date: '2016-04-13'
+  - url: https://github.com/KranX/Vangers/commit/3d99a5f568d73167d006c1d79c6c8de1f9ba36f1
+    date: '2016-04-13'
+  - url: https://github.com/KranX/Vangers/commit/08720854ceb8d57f358b79bb71ee08b68b087d9e
+    date: '2016-04-13'
+  - url: https://github.com/KranX/Vangers/commit/4baeaf7929daaf314e21095479802831cf4557b0
+    date: '2016-04-13'
+  - url: https://github.com/KranX/Vangers/commit/7549226ec41868684397fd256ab9143ba3b5a750
+    date: '2016-04-13'
+  - url: https://github.com/KranX/Vangers/commit/aff0573cc2a720750e07a9f92e6799142a53e258
+    date: '2016-04-13'
+  - url: https://github.com/KranX/Vangers/commit/e4b0a2f7852fa674c94d94fe0e8b927eda2df729
+    date: '2016-04-07'
+  - url: https://github.com/KranX/Vangers/commit/e2fb7aa921d4e1bdf6ade477407d53f4628f01a4
+    date: '2016-04-07'
+  - url: https://github.com/KranX/Vangers/commit/9e1975b3135c5511493ce29343c65bd0d26b0e80
+    date: '2016-04-07'
+  - url: https://github.com/KranX/Vangers/commit/b095d433681db7fd2581d03d86f1d63b646ef3ca
+    date: '2016-04-06'
+  - url: https://github.com/KranX/Vangers/commit/9f8855b805dae2c09a52506906641c5718a26786
+    date: '2016-04-06'
+  - url: https://github.com/KranX/Vangers/commit/3755a74a9fd782cf209dba779e0427995db19b6f
+    date: '2016-04-06'
+  - url: https://github.com/KranX/Vangers/commit/01fcf3f60a043cebaac1d8b571047ed9b59b7848
+    date: '2016-04-06'
+  - url: https://github.com/KranX/Vangers/commit/68fc3ac7a159edd4bbceaeb34daeff1225e61a6c
+    date: '2016-04-06'
+  - url: https://github.com/KranX/Vangers/commit/7f5d06ac95ea90fb3660bd3c073ae4fddb851bee
+    date: '2016-04-06'
+  dates: '2016'
+  langs:
+  - C
+  - C++
+  - CMake
+- project: Buku
+  homepage: https://github.com/jarun/Buku
+  desc: build fixes, minor feature
+  commits:
+  - url: https://github.com/jarun/Buku/commit/02ce7ae0a42807c68b49ccd7857dc3c175b0406f
+    date: '2016-04-08'
+  - url: https://github.com/jarun/Buku/commit/c2112fb411cd217ca8a40d10160cfadf40381757
+    date: '2016-04-08'
+  - url: https://github.com/jarun/Buku/commit/477be87f7ce903a09d5e0e9c9522f09a4da46e41
+    date: '2016-04-08'
+  - url: https://github.com/jarun/Buku/commit/fbf5006978e29a43b0bbfc594c195324a1a61693
+    date: '2016-04-08'
+  - url: https://github.com/jarun/Buku/commit/20b3b526292901a8610cef10ca08a03a6963995f
+    date: '2016-04-08'
+  - url: https://github.com/jarun/Buku/commit/c90f70af7d5154116f7c03e03084a38f0ef5df66
+    date: '2016-04-08'
+  dates: '2016'
+  langs:
+  - Make
+  - Python
+- project: Doomsday Engine
+  homepage: https://dengine.net/
+  desc: crash fix
+  commits:
+  - url: https://github.com/skyjake/Doomsday-Engine/commit/3630aa2f719bc8394c9a9a9d7948e14af384929f
+    date: '2016-02-10'
+  dates: '2016'
+  langs:
+  - C++
+- project: OpenMW
+  homepage: https://openmw.org/
+  desc: build fixes
+  commits:
+  - url: https://gitlab.com/OpenMW/openmw/-/commit/84305a1297f6749a8ec82df2ec95e4a4a6d7d91c
+    date: '2015-12-02'
+  - url: https://gitlab.com/OpenMW/openmw/-/commit/0e8ff22d6fabe839380acdb2cde3fd11706ebbab
+    date: '2013-02-28'
+  - url: https://gitlab.com/OpenMW/openmw/-/commit/f994b7d227bd2639882f5f8a1b525bff6db77c9f
+    date: '2013-02-27'
+  - url: https://gitlab.com/OpenMW/openmw/-/commit/d6bf2b7d294d7298b691677e84ac051c86030397
+    date: '2012-07-17'
+  - url: https://gitlab.com/OpenMW/openmw/-/commit/0e934a52ca765c097b822440cd0d0635ca8e0c8b
+    date: '2012-07-16'
+  - url: https://gitlab.com/OpenMW/openmw/-/commit/1c53add6c4d3d349b32ac7bb94d9a396142b2c1f
+    date: '2012-07-16'
+  - url: https://gitlab.com/OpenMW/openmw/-/commit/e862b6b5a5cc7a8a001e3aa5df2983bfc3ef406b
+    date: '2012-07-16'
+  - url: https://gitlab.com/OpenMW/openmw/-/commit/84b475130a88e32398120c5eb86bcfed5d6c0ff1
+    date: '2012-04-05'
+  - url: https://gitlab.com/OpenMW/openmw/-/commit/463acb2f75b339d075d08ed9285eaba3ab97044d
+    date: '2011-09-28'
+  dates: 2011-2015
+  langs:
+  - C++
+  - CMake
+- project: Boost.Spirit
+  homepage: http://boost-spirit.com/home/
+  desc: code fix
+  commits:
+  - url: https://github.com/boostorg/spirit/commit/f0b6db5b7285954a2e439dcb5f16d6530222a276
+    date: '2015-11-16'
+  dates: '2015'
+  langs:
+  - C++
+- project: jekyll-sitemap
+  homepage: https://github.com/jekyll/jekyll-sitemap
+  desc: portability fix
+  commits:
+  - url: https://github.com/jekyll/jekyll-sitemap/commit/61c15b150c9661dafa2a0ee6461acb6c40204a69
+    date: '2015-10-08'
+  dates: '2015'
+  langs:
+  - Shell
+- project: MAPS.ME
+  homepage: https://github.com/mapsme/omim
+  desc: build and portability fixes
+  commits:
+  - url: https://github.com/mapsme/omim/commit/75e8e89e02a5e0aab9d8b51a214a530128426e49
+    date: '2015-10-02'
+  - url: https://github.com/mapsme/omim/commit/3f755e61fd3df54f0c5ee4bb30de5095f3d4871d
+    date: '2015-10-02'
+  - url: https://github.com/mapsme/omim/commit/6ba793a553cb43bffb6d39de331ebe5a9297f684
+    date: '2015-10-02'
+  dates: '2015'
+  langs:
+  - Shell
+  - qmake
+- project: C++ Core Guidelines
+  homepage: http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+  desc: documentation fix
+  commits:
+  - url: https://github.com/isocpp/CppCoreGuidelines/commit/9f85515f7dac46210a41ffdc59af26779e8b08ce
+    date: '2015-09-21'
+  dates: '2015'
+- project: RocksDB
+  homepage: https://rocksdb.org/
+  desc: code fixes
+  commits:
+  - url: https://github.com/facebook/rocksdb/commit/f171faa240ccd12ac05d54b7ea0a8c29d2f1d9d6
+    date: '2015-09-15'
+  - url: https://github.com/facebook/rocksdb/commit/4b0b0201c9abb7675413ce25e5044b1c9a8853c8
+    date: '2015-09-15'
+  dates: '2015'
+  langs:
+  - C++
+- project: cbsd
+  homepage: https://github.com/olevole/cbsd
+  desc: minor fix
+  commits:
+  - url: https://github.com/olevole/cbsd/commit/41775a2cd4316daaa2808aba24235790da67a25b
+    date: '2015-09-08'
+  dates: '2015'
+- project: JSON-CPP
+  homepage: https://github.com/open-source-parsers/jsoncpp
+  desc: build fix
+  commits:
+  - url: https://github.com/open-source-parsers/jsoncpp/commit/7acfd599f011bdf5182e814b3c8d1ff2b3374832
+    date: '2015-08-21'
+  dates: '2015'
+  langs:
+  - C++
+- project: Ruby-GNOME2
+  homepage: https://ruby-gnome2.osdn.jp/
+  desc: portability fix
+  commits:
+  - url: https://github.com/ruby-gnome2/ruby-gnome2/commit/63068cffe593c3a02de043a57992b940eb4ca5b0
+    date: '2015-08-14'
+  dates: '2015'
+- project: OpenStreetMap.ru
+  homepage: https://github.com/ErshKUS/OpenStreetMap.ru
+  desc: web frontend minor features
+  commits:
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/c07a75268bf943727522995ecde2a5203a7655ba
+    date: '2015-05-20'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/f9ea96089a8b09cf93064d75add89c45ffce3579
+    date: '2014-07-07'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/c0edf612e6003b63ab68fbd3b6f8f1e537d5339d
+    date: '2014-05-28'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/f0c6f14995ebbce4e833dab2dda31b4100cbbb78
+    date: '2014-05-28'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/e217d5a322d0b0e34b2b7bb80540828fc90f791e
+    date: '2014-03-28'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/35bbad964588fd948ab90e22d2b032d7c925e8c2
+    date: '2014-02-06'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/af15c331800931304315f082a1b65b758570e30a
+    date: '2013-12-11'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/4ab47a964c44d2c58b0509f8e3c31980b0434907
+    date: '2013-11-19'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/81cc9936ca7dd4cc524fdb3d5b9f7b2283e97a44
+    date: '2013-10-29'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/435afa5785653fb7d1a02a47b390790d7ebaf1bf
+    date: '2013-09-26'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/dd6deceb88a8f8632102c961208287019d5141c4
+    date: '2013-07-31'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/125cacf293b906c768056b6bf0ac3fbf8aca7e20
+    date: '2013-07-04'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/ac9b893e801df30a09ea002a6a6c874948c01bf4
+    date: '2013-06-07'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/c3e956c4cc205250fe71238ad5350fa76aeb3c09
+    date: '2013-04-23'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/3bebb138ff7740a5612e7666249b49b314be61f5
+    date: '2013-02-15'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/019375a998712219e977f3c73728feb015496feb
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/8a116201e8409796dca2fe68e45fbdc9cf7bbfd4
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/656427629e7c4960d0041af4824e0286be4fe255
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/c8eb06678f1ab7bd44ba180484ff5a1d375370bb
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/2e2d76a0e68acb0b4cffa05b6ac2adf7e7b30a78
+    date: '2013-02-03'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/6f1e3d22c8ad77dbeec6e8df12b83f62a5906346
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/b173c9b24c17bb8e2f45c3509debe6d2b16929c0
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/c5f52ee7aae06d0ff88d9e8fd4828aadd0559c74
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/1e9c6af7aab4cf30543d104aa05c0fd40a8fa34c
+    date: '2012-12-26'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/7a2cfc4f63b40d0d9335e37903e86950a4d0c35b
+    date: '2012-12-12'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/89f8cbaac898415eca2c25373092a55ae4ad37da
+    date: '2012-12-11'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/646926f459f3040fe1ce8591eeeea5932efd1ca4
+    date: '2012-12-09'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/675ed6548fae03524bcd7fc8811c7dc7c8e6ef77
+    date: '2012-12-07'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/64525a97b87967188d7ae5a3fa48d58be803bdc3
+    date: '2012-12-06'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/da32809d6672b4d1cd8b5657bf67a21a7fc9cb9c
+    date: '2012-12-06'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/568614f98d87ebc163013ecfc9d38de165b7ebd0
+    date: '2012-12-03'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/513634ebc55e9985df71b8d8451edd7d9ca9a744
+    date: '2012-02-29'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/a1db5bdbd2aa376849eef1b1b36a6a89d3c595ca
+    date: '2012-01-06'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/d621e64951eee872dc00b20340c3a86518b77ece
+    date: '2011-11-26'
+  - url: https://github.com/ErshKUS/OpenStreetMap.ru/commit/9a7264cd910324e0ca067af3fe945ed0e5da3c55
+    date: '2011-11-25'
+  dates: 2011-2015
+  langs:
+  - Javascript
+- project: 'Seven Kingdoms: Ancient Adversaries'
+  homepage: https://7kfans.com/
+  desc: code portability fix
+  commits:
+  - url: https://github.com/the3dfxdude/7kaa/commit/1bcd0fc60777bb8520fbe4f1c5a4686f97b1a9dd
+    date: '2015-05-20'
+  dates: '2015'
+  langs:
+  - C++
+- project: FreeBSD pkg
+  homepage: https://github.com/freebsd/pkg
+  desc: minor features
+  commits:
+  - url: https://github.com/freebsd/pkg/commit/759adcb7e1189d01b8ca76aa91158635eec29ac5
+    date: '2015-05-08'
+  - url: https://github.com/freebsd/pkg/commit/633dcbf54d359e8af8659df28832c3153c3c576c
+    date: '2015-04-18'
+  - url: https://github.com/freebsd/pkg/commit/213718c4c608e61341bf33b3ee7d481c05038102
+    date: '2014-07-27'
+  - url: https://github.com/freebsd/pkg/commit/aa835114af15cc2b5556bc273baaedfa22a5ef63
+    date: '2013-12-19'
+  dates: 2013-2015
+  langs:
+  - C
+- project: VCMI
+  homepage: https://vcmi.eu/
+  desc: portability and build fixes
+  commits:
+  - url: https://github.com/vcmi/vcmi/commit/093ad29ae112b1f78d4e3984cfa8abc3c345381a
+    date: '2015-04-09'
+  - url: https://github.com/vcmi/vcmi/commit/eab0b1e674a9775a000a3cf876b5dd572ef60e23
+    date: '2015-04-09'
+  dates: '2015'
+  langs:
+  - C++
+  - CMake
+- project: Pioneer
+  homepage: https://pioneerspacesim.net/
+  desc: code fixes
+  commits:
+  - url: https://github.com/pioneerspacesim/pioneer/commit/b63c4a66543eed0df7efbdbcfbb81f18e8acea55
+    date: '2015-03-27'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/78190b64c3128b246c77f955854ee3aa2d2ffc8c
+    date: '2014-12-11'
+  dates: 2014-2015
+  langs:
+  - C++
+- project: cave9
+  homepage: https://github.com/bart9h/cave9
+  desc: build simplification
+  commits:
+  - url: https://github.com/bart9h/cave9/commit/e9bbd2a350fa2ed06faccba0d2629b9ef41e4e0a
+    date: '2015-03-18'
+  dates: '2015'
+- project: electrum-client
+  homepage: https://github.com/spesmilo/electrum
+  desc: portability fix
+  commits:
+  - url: https://github.com/spesmilo/electrum/commit/27c2a4e202abde8cedcfaabdbfa1f1a4aa30fb1b
+    date: '2015-03-14'
+  dates: '2015'
+  langs:
+  - Python
+- project: osmCatalog
+  homepage: https://github.com/ErshKUS/osmCatalog
+  desc: complete implementation of web-based viewer
+  commits:
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c5c1f580751b20b96ea1695113132c8c7bc2d77a
+    date: '2015-03-12'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/1d9704575c1c31900cc081b5cc1c973e94671398
+    date: '2014-08-01'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/92e8126c5fcf01a08bb5be100528b0885344d5e7
+    date: '2014-08-01'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/de79ceb3ac61b2332fff8288c3c687c97a2ca7ab
+    date: '2014-08-01'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/4e12ca0bac7ed6e907c2166c380101a2fe789c3b
+    date: '2014-08-01'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/6290531bcf59537e8caee63d00b7201bb0e402d8
+    date: '2014-08-01'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/eaef43f76ed5947991d43979dbbf7e390aaa9ad6
+    date: '2014-07-31'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/dc3c653c57c39f41b6b088cb24c2b629c61fe90d
+    date: '2014-06-05'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/9d82a9f9f9f83f2990403f29b9e72cda1460e52e
+    date: '2014-06-05'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/5b6bcf9276baf9147da851d2b1ba63d3194306b6
+    date: '2014-05-16'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/b247bdb1d0b7d5fba0f560e30739ef65bf2468ac
+    date: '2014-04-06'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/33d9bf31da1850a8474faa658324999562f27362
+    date: '2014-03-29'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/f1e81914f85fbce60bb8aea94d62468f2d5a253a
+    date: '2014-03-29'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c6869b57aa521a01d4c6407152cdba9033aa6f44
+    date: '2014-03-28'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/6e82d52b583f722ff3da0357860f545596d57fc1
+    date: '2014-03-28'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/dec35e45843a2f6a07a89c87d9ae9d640b416dd9
+    date: '2013-12-19'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/8b541b7d61ce874d9560ee285c46d4d209df8c00
+    date: '2014-03-18'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/2876f4e3f97111a1d1b1911728a695e4a8d3b7e3
+    date: '2014-03-19'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/71afe37ee441f837fac91bce4311c094e3869a02
+    date: '2014-03-19'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/acee2a5dbe932aff510f2421a63cd3fca82a4d9f
+    date: '2014-03-18'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/28ae94f8e042871840493379f659b50dbae30e72
+    date: '2014-03-18'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/f60f5fabbbb98e2c2c707d1b5b25e8d5b8057b42
+    date: '2014-03-28'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/407c6dc539709b6e6d49b475dc606ca7a648a5b4
+    date: '2014-03-18'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/6ada56b77b7c671925a71f41a0c5f5a5a7f6582b
+    date: '2014-03-18'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/40d6508a8a20edc830a5bd2632f63f33228e3488
+    date: '2014-03-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/17012669c07ed886e32a2f73671ad81cb8033717
+    date: '2014-03-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/adcf6d0ebf09d85d6259f30439f7d89eac7b36cd
+    date: '2014-03-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/be626bd12111d0bf74b70904e2da31c7fc9f4666
+    date: '2014-03-07'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/4a373544e74d8cf7e324d0955caefadc75e1c91c
+    date: '2014-03-07'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/10b53e3157ba0d2cc7814324bc4b5a01422fece8
+    date: '2014-02-10'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/f4a53f5e2c5f7e019e7cfcfa871019688321fe2b
+    date: '2013-11-28'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/f26c85fb07e9346a70d5fb5d81a7ef2ca406ee5f
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/429319d81cd031ec37da6ad1749f0a6f1133f1d7
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/b79e9af75426d33c02746ce6495d0f98ad79f268
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/122e2a2273eadeb067586cf0100ee5568a00d355
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/51a28def6316e5db93d5724923510f8cf95941e1
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/83700a2a9625d2260dddf7368c06dafde5b9ebec
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/0b2cc5fe79d50eb4989ccd2298d3d6e3b3de1c5c
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e544d18d3b1b1ecd5176715c4359676854768a8d
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/657a27b281e250c16ea04cea0334ca243a3601fb
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/24007f26a645c3463e491437534fd70175bb0c22
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/97a85ab44f207dd4b48987792a278e5283801f51
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/4fbcf61343e8d41c8d5041492b4bf75d07af3a7c
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/cb4c4973468ebad2833ea4aa0ca5dd1f6e4105b2
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/786117c3bbb79fc0671eae2ed18a35b8043041a1
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/efde82b692fe4357fe5625d5bc21f241c1112f69
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e3f1eb83aff3ef6847c0a97c656fa6493c881876
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/3ee776a703458516e0c2bbba752846cac39ef97d
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/46e53dc2b85705d5e604eb4b04d659809e0d4349
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/f3b4363de1b17acc3d1b200afecca2020a9f8edf
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/79045f9a221f402b99829ff2c75e0bd35a754815
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/ac5500a470de34af763477e3571681f7bea42ef3
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/f02f55f86d3ea33ba2fd424cf0be9567c8495101
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/848efe66094175f8cd12f2ae4c345fda3afd0344
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/d21d74a3d2e628b1b7afa32e6907b93448f36ff5
+    date: '2013-11-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/6b0c2c8d8ec22875353d35233d1fbfe7f2a8ac15
+    date: '2013-11-25'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c2441d09666d9ed53bd4236a23e1b55252e9cdeb
+    date: '2013-11-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/3305be2b62e2430f9561e4b39569b002d52dd9e4
+    date: '2013-11-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/fadb646510cd1a6208a7ed4810c8c3547fccba70
+    date: '2013-11-07'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/3cdb7fa9a6b23dc786473da6bccd1978bda167ab
+    date: '2013-10-08'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/5fe37b57713f7db0999fc8456171f1b38ca54cc1
+    date: '2013-10-08'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/40cc24f4d02b1a2ef0da38511e3fa15347ca5706
+    date: '2013-10-08'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/dda431b75b6d00d3fe5a586d1d991395915adfa6
+    date: '2013-10-07'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/a63c9e2d2ae57fd25026eb4ca65503b5a2154266
+    date: '2013-10-07'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/5209cf56c0989fec9f3be65ef7ec7102c7dd763c
+    date: '2013-10-07'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/fd5c37552cbbfbe9456f6fbe98371732733dcb86
+    date: '2013-10-07'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/d256cde17631473aa04b6f7b0561f869acb6f6bb
+    date: '2013-10-03'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/a9cf9f7e3bdda11471e81313f3d21b6d034355e8
+    date: '2013-09-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/333f75b68e24ce55d7b6109af82e8908a4876752
+    date: '2013-09-16'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/1983723b9ca1af74e052813535e4b3156c64051e
+    date: '2013-09-11'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/62b00d12931ec55f4522c19b779c0658a1154dd8
+    date: '2013-09-08'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/f40e58a505ac9df4696fd7e886c3f4f98f16f08e
+    date: '2013-09-04'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/5eb63b0415004fc3aae14db3fceb1508b1410291
+    date: '2013-09-04'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/ecd5ae754ee09ac72aba7535cc49e0a3d28f2736
+    date: '2013-09-04'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/59bfad984e85a83d9fc2f93b546032143c61aea0
+    date: '2013-08-27'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/ba0f3b5757ffe3458525f486c2d572477e8db0c6
+    date: '2013-08-23'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/244e3f7b27a96c0792adc166712f16b6f82d97dd
+    date: '2013-08-23'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/fbb2f547ae0417bfe44d8a10c34e05afa392d286
+    date: '2013-08-09'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/87b1f94ad8e70f1b3da170c0a763521ff0fe05fb
+    date: '2013-08-09'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/776d39c5d1d24c9df7c42b711c895fd0665c521f
+    date: '2013-08-06'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/09f6a9d5b6e5405e1b239a11ee1d469f54e5e092
+    date: '2013-08-03'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/9b58332effb023e15d5790fbe264f4efb6f8d397
+    date: '2013-08-03'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/17d366e1b880440b4b17fab5f0ceb66e6410b9c4
+    date: '2013-08-03'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/725465b56d5c963c5c8d6e578ed641bf924e2e54
+    date: '2013-07-05'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/deabe2122521e51f528a095e4181909bbb3a9e23
+    date: '2013-06-28'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/704d0dc1350450b8d0fc9cb5bbb9525af95030cf
+    date: '2013-06-27'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/920c29880625436c93547f73800bba54333d8ef1
+    date: '2013-06-27'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/b137b1f84cf42577977a48700c31af83240c6a72
+    date: '2013-06-27'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/281ae8ebc78f20b9ec059e9478062b14875a6702
+    date: '2013-06-27'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/a40edc552200338e1b0c1bf55f510da1d29c1f63
+    date: '2013-06-27'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/92e5335686bfc35381eaf1795c140042fee54a15
+    date: '2013-06-27'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/6dd3ccb8cce68f83610491a044d524bfaa25739a
+    date: '2013-06-27'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/aa0dddb46fec3a5df2edce739529dc02fe3ada5d
+    date: '2013-06-27'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/a5cb0531c2a4c30ab36f07e1d645cea2dd4dcc70
+    date: '2013-06-27'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e0517f37058d302024892bba5e7b56efe0231735
+    date: '2013-06-13'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/324a8b296fc9ab288c8e5a79ae6c59191abc63b7
+    date: '2013-06-13'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/fe1056255b175b74d61ade685dabeefc44aacd18
+    date: '2013-06-04'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/a8851b36e54131b3cd8966fb88501eae87f78f6a
+    date: '2013-05-31'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/9af1583cb390d9a241afac9133955b9b8ea9e4f8
+    date: '2013-05-31'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/afe026b708c954e8d031d4322419850c94d4eb58
+    date: '2013-05-31'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/ac5a38d5e952a47e5b9ff86dd2a4d1dec441ef97
+    date: '2013-05-31'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/f808ee89425db8aaf7c5c14d7c58ea73d3947c7b
+    date: '2013-05-29'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c9716072b6046a2ae2bcb43c4d17eff9dfdca407
+    date: '2013-05-28'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/416d5be223b111a9bcdafecdb468adb765070f2f
+    date: '2013-05-28'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/6398c5509672635de53a1ddee45574070cfa0cc0
+    date: '2013-05-28'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/caeeeb556af0e42080199674ba0bbfc0e6e70f93
+    date: '2013-05-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/d6165cf60082136941ce27fdf8694470999f0c66
+    date: '2013-05-21'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e8ea84a1f461c01b9c37d2a79cc3049930330b58
+    date: '2013-05-21'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/834912e45023fbcd2d55b4f119d59626cfb25787
+    date: '2013-05-21'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c33f281585b221e554a9615e6dda1eeddcff42b0
+    date: '2013-05-20'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/67b4486b1326fea02b0ec14d829594937f07d973
+    date: '2013-05-20'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/54d7e2e47dce0b95fe2b617231c3b0f2635c4dcb
+    date: '2013-05-20'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/7c0b3a3d87b249c6e31385e6c123e6395814bfd7
+    date: '2013-05-20'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e55739eabc967bd300a95e1e9e057536f9a49455
+    date: '2013-05-20'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/fff0058d1c6f066a2a2798e2094fd5f461704b4d
+    date: '2013-05-20'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/66bcec44da378f342b0bc7eba8af606d79d8525d
+    date: '2013-05-15'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/0a2aba3b18b3674837c8fd4d0fc7e6ac860dd914
+    date: '2013-05-13'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e83659fe54d1551d773e3f802dfc9b9f4230666b
+    date: '2013-05-13'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/5cd4e55b5f3b28c429bc3fa3745752f8071f61c4
+    date: '2013-04-19'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/319c21efc1a382ecbdacd4bf0e71e14a75cc419b
+    date: '2013-04-06'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/8110948d67ae7ece87c2dfbcb167cf95a7f8939b
+    date: '2013-04-04'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/65a5ba6ceebd7e72a5099ba0cf063bdf28aee22a
+    date: '2013-04-04'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/d216289db3b5defe399dbbf3a5b6eef53d94c8fd
+    date: '2013-04-04'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/f5a791dce5fabd8025240b2cdb90acd1ec180591
+    date: '2013-03-31'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/09350aca85f529212fb23f90c3bd7fcce63c1d45
+    date: '2013-03-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/abe59dcc184dc8e9449525effd52b179242715ff
+    date: '2013-03-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/727a70e71312b206c51d2dbe87f3745dfe8a4ced
+    date: '2013-03-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/1034076f4948e8ec692390ce6323c229f3fe7e61
+    date: '2013-03-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/5a46a9f63217bfac22adf65be37138839c6d038b
+    date: '2013-03-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/888cd58028f2941722b896fd0f68cd759ff51f36
+    date: '2013-03-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/3927662b90f8a6f7c311290bbbfb59aadcf37008
+    date: '2013-03-25'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/0c420bedf5a9aaebaeaefc8ee01ab08b6ec6c7f5
+    date: '2013-03-25'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c28591ffb7161ed480cd37b115ddafa9345723ef
+    date: '2013-03-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c7c04593cb2f783faea9efc7cc815999113b787c
+    date: '2013-03-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/0969c41138eaef82bb8472737d4d428a1f1e4bde
+    date: '2013-03-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/0576ae2932d4ba3086b4937a8370bdbd752c4766
+    date: '2013-03-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/cd4fabfc620971c9311ec9abbaa6e279d75a9a39
+    date: '2013-03-21'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/a02dbf7b5813465ee1035ddc197cfed2a9238c12
+    date: '2013-03-21'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/ab12b924e761c3ac93fd5fd4f0d6dd455c3635a6
+    date: '2013-03-21'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/401beadd80263318de7a12a509f97642b15263a9
+    date: '2013-03-21'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/6f3d25309b8db816d06faa52077f8d0e04b5b572
+    date: '2013-03-21'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/06693ffd5b20c06cd7bbf51ff29a65d26fcf9d13
+    date: '2013-03-21'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/f473373b604f3fae782f91f7159b4d1ad88d79f1
+    date: '2013-03-21'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e85d39fc2bbe7833dfc84339f77799920759bd39
+    date: '2013-03-20'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/d8ef5f71530a54aa93de58605b1efeca52beac71
+    date: '2013-03-19'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/43f6d39b9e3af5dbf590567a3c754172060da517
+    date: '2013-03-19'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/396884b05cdd56bd044e9f09a55d74fb0b445309
+    date: '2013-03-19'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/874d356b22304d168568c1b2f22cf895e9b2a99c
+    date: '2013-03-12'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/41fa0ca2c583908b12245cc1c35d7855e194c560
+    date: '2013-03-12'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/a25c80ea598c7576722c0f806c1736802b85a399
+    date: '2013-03-12'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/1a55eef1f7d4c4a6afaebcde0260ef464dcf4489
+    date: '2013-03-12'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/a7cdc7fe2c961ddcb3e23a82de43bcd4ada5ad91
+    date: '2013-03-11'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/3a1cac7dec628dab0a65a1fd0a852f775f1985af
+    date: '2013-03-06'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e1f699875c187d724f4e52f8eb814111eeeae678
+    date: '2013-03-06'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/fc9a1700b4d55e6fe82837226d0e55c1b75f7901
+    date: '2013-03-05'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/66110eb2cba0d131172352997a5244dd921b80db
+    date: '2013-03-02'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/5ae1edb861b69400890208e5bf9c9f5229567482
+    date: '2013-02-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/867ce9ef00d23b86c1139a3a84accd2a158078d5
+    date: '2013-02-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/dee80f3d9573d8a42a8bc8e003765da65e57c628
+    date: '2013-02-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e4b2a062017a6c89314d6e6a39585d77318606dd
+    date: '2013-02-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/2f7516d4afdecdbdb701b9c77bb03e7cc2f843eb
+    date: '2013-02-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c4e300e348075ad93d5a0584c25b429604a85c31
+    date: '2013-02-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/1fa24cb71876dbe61bab238f27167793683cc3c9
+    date: '2013-02-21'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/cd64291f849253e3bf9bbfbd0f407c236e3f0dc8
+    date: '2013-02-21'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c0293e7281e839ef31503a2aeb3bfd7ae2aab654
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/925b95dd70229b282b7a64264a78b2ad6583da71
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/d3d8ffcb0fe1248adc8208b2b0cfea6797852f64
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/068ffbe0a25d6a99054b78fc2d0dafc58895916c
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/b501c5feca7a3344c82f93c1a55e2a48beb9d1b9
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/5c1b41b33a2601c120bb5096ae42c946b5e1092a
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/3c6bfa84fdbe23beb1dac4f3fc39e2ca1cc26293
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/4724c4b9caf1a3e623abfdc365ccd1f669e024eb
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e2d466c38e4f63604d9fbe7dc425ce12ec14dc52
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/6351c60e140edb6b01d2ddecdc2aba3553cca5db
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/77dbffc5087a82db6344ea2ab5cbebfea7cb71ce
+    date: '2013-02-14'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e3d6fb2c173505d2d57860f858186178913227d3
+    date: '2013-02-11'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/d69da46bafcf59e28e1becbe7b2735ae3b5ef78b
+    date: '2013-02-11'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/a81f4078b4878827b9aae6ef8a8e734eeb1998a4
+    date: '2013-02-11'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/2ff2e5b6bc8d569da1c82a4eee7f7fc339250f1c
+    date: '2013-02-07'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/7cb98f6f1748247a1c77bf14e740a91ac3ec8ef9
+    date: '2013-02-07'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/217b3950de9981a4ae30b350c7e7543822aeecc4
+    date: '2013-02-05'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/2d61dcad17e930d60ae31dfb684f9cd2ce193868
+    date: '2013-02-05'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/4de14c57ce6928d83ec0980481875882a39420ea
+    date: '2013-02-05'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/540cf316bb04be0415000533b81ac61733d7349c
+    date: '2013-02-05'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e73782c6ab29bce0f7ca53a5cd9bcdab9ffc0a0a
+    date: '2013-02-04'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c45e445c29ca37515498e0a499e98ea72664ebdd
+    date: '2013-02-04'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c99f830ad4f09786aa6f71806278fcfd38c7bfdb
+    date: '2013-02-04'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/2961bfcfa0ceed29a0f66af0ea48ff1c80177ea3
+    date: '2013-02-04'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/12aef5c4e7a71e2db0e5603a2caff2462a793946
+    date: '2013-02-03'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/51f3769925a95e6edafa529fb9ba31e3e22f2c15
+    date: '2013-02-01'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/ccc9d3aacc391ced105d42ecd9aaf3919211fdec
+    date: '2013-01-31'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/2414151d28c7a165a1271c17dc5bf10fe46c78f3
+    date: '2013-01-31'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/9cd82530a189ab58548e422f7f9db45dd2db5db6
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/3ebf7563234738e7bfe097b21fa20d42c2ed609a
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/6b0d751f60d62c6fa3f217ca5b9ddeb1b6210f23
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/a6bf337d6f1cc6a2cc26dc624a9b4ee423575e3b
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c8efed6d07aee71800d2b353e9efc44041407897
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/15f729bca9f24f3e1ae420d01fb9f4da25e35717
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/624a7c9675f241b81e399942fff613f91781c547
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/fd9ad15d44c13a6da122efa0ad3073f49ebd2859
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/f30b19880af034f3c0641c8efb8c2004256bb243
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/f754150eb32ae49ef48698701e5d8c5960c3afb6
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/64831dffb74c341c0cd53c58f1cf9a87294b5b0a
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/dc40ac74a5d8df0bb82ccffe354007095ea12d06
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/9bd3ade2189f5778880f12dd9217602e3e1f35db
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/bc4549f0f393f682084ced6ea401b5114bbf72de
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c67d07be05ed20d1f78d93fd1caf32bc5eaa40c6
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/3d75b16351107077934f597490367bcd6962bf9d
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/bef629c7c2047ea10c842cfc16d43d5aec5120bb
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/bc64f54daa754cfe8c81496fa080abdb645c21d9
+    date: '2013-01-30'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/3d06eaa7b9b6c9744173ea64917fa8ea005c9afe
+    date: '2013-01-29'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/38d9d6391d83446826001e686b2472101938fca0
+    date: '2013-01-29'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/407a65747bcc805b6d3f10873a3b5e4f311a4bbb
+    date: '2013-01-29'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/490e58a5d4ae25ea91ffb1c5ab8c112dde6d15eb
+    date: '2013-01-29'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/efbc3859e7bf42e2128e4c6c027d071b19bc1750
+    date: '2013-01-29'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/967819b5c78040ccfd53ffbe07961c02ef3267db
+    date: '2013-01-29'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/78ff6896f538c114f9822d78db0c913261a914e9
+    date: '2013-01-29'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/0891157259a8fc366a09a4c2fa25e80b47799e2e
+    date: '2013-01-29'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/fbee08a3bfd5569ab46218919340a03689e232b7
+    date: '2013-01-29'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/10afdd79ebe334fc5ec75e3fb5d9fe05841d3495
+    date: '2013-01-28'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/520f38d1a1dd6171007490e67dc158325c290329
+    date: '2013-01-26'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/572a5b1662bc98a8f1caeaf15b0b9c23cdcac4f4
+    date: '2013-01-23'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/49802f86b2c23154972d896c77618e07b1e72c0c
+    date: '2013-01-23'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/bf6b063d90bd7b245f0caee958837861ba043d98
+    date: '2013-01-23'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/6d9671c0b55aaa88453e65e42bea3946cc669213
+    date: '2013-01-23'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/11252011d54b434dba188a1d89fc97853dc3924f
+    date: '2013-01-23'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/74fd42e772e5dc064152b710a148da50a214b89f
+    date: '2013-01-23'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/b0b72a917a3edf29a1a54540c91ddadbbd10308f
+    date: '2013-01-23'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/1783ad9cc5b9d089fe3ec166eb6a93bb11afbb74
+    date: '2013-01-23'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e9c0116ff674ba396597ea25df1a54d870b72e0f
+    date: '2013-01-23'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/619ff900aa722eb9f0e0945a102f21aadb612049
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/ba11587da4020212db78e55964ae72a5ce981673
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c0391be95f7b8e96fab31b30e2ad0eb4da887d33
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/9f48968ddd6bd2653c4d69b3b93fd8b1308ea424
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/1b4fe75ae18bece767edf0272a9287123d02e96a
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e65975ee941a80b9da2788e09958618a2be442b9
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/311f97b24c4b7ae088b75708a595b560153b55bd
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/5ea617292f18a15eb167f29ed0ab80255be1e5df
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/14df52d35c823fc49b1de5f5f79ff703f9fcffce
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/b95031edd35d505a06f65cf1ed1b0b12f4ef75f9
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/cc43c34a1f643a338646027fd46357b0cc983068
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/f22e3105158d597ef1da6dd1e232917b89e1e723
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/96a4423ee4d9e42f501aca771189b83739ec1b6d
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/70f23aab82234eebd8173d51774892c367bdb416
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/09f40c3a6f70861bd683c172ef58c8c2078d69bc
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/298412d7595fd12982265dcf5c4d642490d9b0cf
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/a1bef170654dc99cd66759798bb073c151649570
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/16065086126b19afcb73768461ae887811357e39
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/87f010220a70f7f991d0c7bbacf7fde7b5bbd0b0
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/bc3601464053e07cd61c9caf57201b43398d9b03
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/ea06c1d11c7d2c663bbbad49519c14d5e0436bfe
+    date: '2013-01-22'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/a5184ccada1ea5ef9a58a9a92e8649b1c7964473
+    date: '2013-01-19'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/0a8b092ff1bbfcd1f0b875c7cd764aba091fdfb9
+    date: '2013-01-19'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e37d8c944a898e07894715b37552a3d09ab173f1
+    date: '2013-01-18'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/e477279b72a1e6439927c40f907eaee0d3a0741c
+    date: '2013-01-18'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c7846b6ba8f5a981eb231f7caed3b32ebedd7dc3
+    date: '2013-01-18'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/39efd09855f1fa93b07a3ed6bd14eeced221b8a6
+    date: '2013-01-18'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/d54dc39daff5459ef107b642ef7e1253cc71bd2a
+    date: '2013-01-18'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/ddaee5748df5475caf0b8561458a7364c1af997e
+    date: '2013-01-10'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/0ea002b7f38463154a13fe0db1e446dcad81b509
+    date: '2013-01-10'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/7252791cc3c5fd667399f37914bdb87cd6985562
+    date: '2013-01-10'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/18a5629c15ae290e7d628f8463826f46581c4897
+    date: '2013-01-10'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/7971e4e476ef617ed85b82e285014fbe3c34210d
+    date: '2013-01-10'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/5abcd892448de026024dbc032aa8124f090213b8
+    date: '2013-01-10'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/8a5a445d64c9280d39e404b744fd233c26809997
+    date: '2013-01-10'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/509749644b12487e5d793be695918422b0cdb960
+    date: '2013-01-09'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/2323e7224dd3f38ec9ca450bcdfd1c145a18daad
+    date: '2013-01-09'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/78912521cf552089555dba39935bb1965845fac2
+    date: '2013-01-09'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/82c7e330414b2b31ed01f3ccde6574dac6e5b01e
+    date: '2013-01-09'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/5fc6e2a17e8e33d979fc7be20358a2e49f149c1f
+    date: '2013-01-09'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/c8b2d07b7bd662d47c47c77d98edb89c2e8274a4
+    date: '2012-12-29'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/8d997c6a286ad1660c906426567bb47b437a5688
+    date: '2012-12-29'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/41da332b43bc51e357d5d52f6e14ae490373e9de
+    date: '2012-12-27'
+  - url: https://github.com/ErshKUS/osmCatalog/commit/4da1f90d0ee8eac5fc36062a7f6258c9abdd07f4
+    date: '2012-12-27'
+  dates: 2012-2015
+  langs:
+  - Javascript
+- project: twister
+  homepage: https://github.com/miguelfreitas/twister-core
+  desc: build fix
+  commits:
+  - url: https://github.com/miguelfreitas/twister-core/commit/a403124c9e79a450771657905f8158ae76eeefc3
+    date: '2015-03-07'
+  - url: https://github.com/miguelfreitas/twister-core/commit/cfe8f14c91204c906673f89a7792ad02a603c5e4
+    date: '2015-03-07'
+  dates: '2015'
+  langs:
+  - C
+  - C++
+- project: WCMCommander
+  homepage: https://github.com/corporateshark/WCMCommander
+  desc: build and portability fixes, CMake support
+  commits:
+  - url: https://github.com/corporateshark/WCMCommander/commit/a896d353d4ec4b1764c19bec541f7212d5f07b28
+    date: '2015-02-01'
+  - url: https://github.com/corporateshark/WCMCommander/commit/b1fba350b4d9b48e51ebba95fd1e0c5f70f9ff3e
+    date: '2015-02-01'
+  - url: https://github.com/corporateshark/WCMCommander/commit/6fbd5e715af056c02e76662086e0c08c85cd3b12
+    date: '2015-02-01'
+  - url: https://github.com/corporateshark/WCMCommander/commit/ed68a4e60d3d40b7ff38bdbe6bad1d1cf46cf407
+    date: '2015-02-01'
+  - url: https://github.com/corporateshark/WCMCommander/commit/705cb27f7f70c855e8819e7a6e93797744aabf75
+    date: '2015-02-01'
+  - url: https://github.com/corporateshark/WCMCommander/commit/4bedf4d9853be6bb02e58da1e3aef2036dff71fa
+    date: '2015-02-01'
+  - url: https://github.com/corporateshark/WCMCommander/commit/536a26ed16651f767d18f19b441699d7e9316c62
+    date: '2015-01-23'
+  - url: https://github.com/corporateshark/WCMCommander/commit/80aedecb759e649f0fbe6706a9becee80ea23efd
+    date: '2014-12-22'
+  - url: https://github.com/corporateshark/WCMCommander/commit/615d9c3972b6758606eb9447eb4f5d1aa7edd9be
+    date: '2014-12-22'
+  - url: https://github.com/corporateshark/WCMCommander/commit/e94a1373786102ff8f75983f2249bbdf149534a7
+    date: '2014-10-28'
+  - url: https://github.com/corporateshark/WCMCommander/commit/db4ec6f14bdd7e55ecdccc448921dfe45d779533
+    date: '2014-10-28'
+  - url: https://github.com/corporateshark/WCMCommander/commit/edc578dbde1663ef43ee83aada8a32533e7c06fa
+    date: '2014-10-16'
+  - url: https://github.com/corporateshark/WCMCommander/commit/41aff40adedfd3fcedf8d66db81a041d85c3dea3
+    date: '2014-10-16'
+  - url: https://github.com/corporateshark/WCMCommander/commit/0e9434f967c754e2ec26c942681794cf1fb89825
+    date: '2014-10-16'
+  - url: https://github.com/corporateshark/WCMCommander/commit/b97e27f084e1fa0c1c623844e0c487231c449618
+    date: '2014-10-16'
+  - url: https://github.com/corporateshark/WCMCommander/commit/ab2b88560ff136b59a3a22fa146940ad9cbfbc0c
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/0d699fe2abb800d4afa78e622e95761622c480ed
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/4ab219eb4ca569e2682f6016f6d45189e48d2232
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/e0125bf0a5584334a5960b720ba7ce6dcf8c6ebb
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/ea6cf7c89d751c653ce5bc3c31f2f24b8c8e1af3
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/65b76371611429bed269f8e7b4e4745d40575971
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/acd37fbf36c92522174f2ec3753f2e24b75420e8
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/5ad2840e9da0ec892e5b941aad59bf18951f8ab1
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/041e4342f59811c24ce47d467074e9b3f9a0e13a
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/2b73e8fe2f7bf3dea0d071023e1410d32f38e451
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/879b678ab3e2f8b0df0874e6fc447f3838658865
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/e49e760e02a49a24153214f8ca29d8cad3c8dc11
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/a565e31c7365023ad14a9a605717299c3a6fc754
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/8d3de8d8a4e94a6c8383fb7a08290ae89887a63b
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/b037a20e7ebf173bc60892ee03ba44ddea83f400
+    date: '2014-09-26'
+  - url: https://github.com/corporateshark/WCMCommander/commit/d450cec3e95681d80998c4b91fb1620288618d7d
+    date: '2014-09-12'
+  - url: https://github.com/corporateshark/WCMCommander/commit/fdbf7c9e290b0a5ac88e420507d7eca8f45bd724
+    date: '2014-09-12'
+  - url: https://github.com/corporateshark/WCMCommander/commit/25bebc4df7d2adc0474e8e09329dff79265eebfd
+    date: '2014-09-10'
+  - url: https://github.com/corporateshark/WCMCommander/commit/00aa7f62d6d526f71960937fc4bec40a3aed7821
+    date: '2014-09-09'
+  - url: https://github.com/corporateshark/WCMCommander/commit/7f818043259822431af8d066d11347dfbd2478dd
+    date: '2014-09-05'
+  - url: https://github.com/corporateshark/WCMCommander/commit/26c09db9af9457d80a7043dc67c716ac36955af6
+    date: '2014-09-05'
+  - url: https://github.com/corporateshark/WCMCommander/commit/7c1d0230ec168744a68c0bde3b1ff722124488b4
+    date: '2014-09-05'
+  - url: https://github.com/corporateshark/WCMCommander/commit/fc28c7aec577f4ab7ae40236ecaf76446d054b93
+    date: '2014-09-05'
+  - url: https://github.com/corporateshark/WCMCommander/commit/67c200f61d6b4ea374f16a07161907e15b7eb9f1
+    date: '2014-09-05'
+  - url: https://github.com/corporateshark/WCMCommander/commit/e54bed79e5350ef15629b479f3992ff1449c89ce
+    date: '2014-09-05'
+  - url: https://github.com/corporateshark/WCMCommander/commit/929af4c48e5297dd154112218250534249d9d40d
+    date: '2014-08-30'
+  - url: https://github.com/corporateshark/WCMCommander/commit/8eab81c5f32714862f1b90a6ad4bc932502aa9e4
+    date: '2014-08-30'
+  - url: https://github.com/corporateshark/WCMCommander/commit/65fba117d10d1745be0841e7a6db14332885ec0e
+    date: '2014-08-30'
+  - url: https://github.com/corporateshark/WCMCommander/commit/5cd586ac4f4feb7e2263879baf9a6d601336806d
+    date: '2014-08-30'
+  - url: https://github.com/corporateshark/WCMCommander/commit/441051f6214fc9e30d2b2459ae2035f3ce143207
+    date: '2014-08-27'
+  - url: https://github.com/corporateshark/WCMCommander/commit/67eab1a6e852a7c095c87bf1fd41d9e528867ad1
+    date: '2014-08-27'
+  - url: https://github.com/corporateshark/WCMCommander/commit/5a0eb48f53a57cac01d026f5a534f76fc3ead8ef
+    date: '2014-08-27'
+  - url: https://github.com/corporateshark/WCMCommander/commit/5559d74958278cf875f1c57a261eb431d438ddbc
+    date: '2014-08-27'
+  dates: 2014-2015
+  langs:
+  - C++
+  - CMake
+- project: TwinklebearDev-Lessons
+  homepage: http://twinklebeardev.blogspot.com/p/sdl-20-tutorial-index.html
+  desc: warning fixes
+  commits:
+  - url: https://github.com/Twinklebear/TwinklebearDev-Lessons/commit/ce65a80c0c62b46d8fd038d414bc67562a8cbcaf
+    date: '2015-01-19'
+  dates: '2015'
+  langs:
+  - C++
+- project: The Secret Chronicles of Dr. M.
+  homepage: https://secretchronicles.org/
+  desc: portability fix
+  commits:
+  - url: https://github.com/Secretchronicles/TSC/commit/5770264ec746c909391f6a4f63c1ecf0f9657018
+    date: '2014-11-28'
+  - url: https://github.com/Secretchronicles/TSC/commit/b9698e8718fcf92b468e382561f92b6946e26268
+    date: '2014-11-28'
+  dates: '2014'
+  langs:
+  - CMake
+- project: Falkon Browser
+  homepage: https://www.falkon.org/
+  desc: build fix
+  commits:
+  - url: https://github.com/KDE/falkon/commit/9fcf8e677f11a901e392041e850c3d700877675f
+    date: '2014-09-26'
+  dates: '2014'
+  langs:
+  - C++
+- project: OpenXcom
+  homepage: https://openxcom.org/
+  desc: build and portability fixes
+  commits:
+  - url: https://github.com/SupSuper/OpenXcom/commit/968e8f9bb9cef7f498ca2564d87b1068f97d479f
+    date: '2014-09-11'
+  - url: https://github.com/SupSuper/OpenXcom/commit/a138153ca2f6d05b9632c8ced615aabfbb6ce35e
+    date: '2014-09-11'
+  - url: https://github.com/SupSuper/OpenXcom/commit/0b6c2e8f8e47cf61016315b74f0a89c8fd55429c
+    date: '2013-05-15'
+  - url: https://github.com/SupSuper/OpenXcom/commit/e8247a5010733a182c902b804491f906f52b0f08
+    date: '2013-05-15'
+  dates: 2013-2014
+  langs:
+  - C
+  - Make
+- project: OpenSpades
+  homepage: https://openspades.yvt.jp/
+  desc: build fixes
+  commits:
+  - url: https://github.com/yvt/openspades/commit/dd79b6895fe1285f6bb5dabc7117524f0c037951
+    date: '2014-08-26'
+  - url: https://github.com/yvt/openspades/commit/f520dd972c08d5f067ed5fee9bf66d1bc7ebba28
+    date: '2014-07-31'
+  - url: https://github.com/yvt/openspades/commit/a744744591e3b1dca3e7afcbbf902daa290ff044
+    date: '2014-07-31'
+  - url: https://github.com/yvt/openspades/commit/8407576b8b9503b65fc775d2803470abf0702185
+    date: '2014-07-31'
+  - url: https://github.com/yvt/openspades/commit/fd7c0a874c218d83de1c507f5920eb62d02a3665
+    date: '2014-07-31'
+  - url: https://github.com/yvt/openspades/commit/67322c0913dd6ea7a8c00d9c3d5e760351265b99
+    date: '2014-07-31'
+  dates: '2014'
+  langs:
+  - C++
+  - CMake
+- project: uTox
+  homepage: https://github.com/uTox/uTox
+  desc: build and code fixes
+  commits:
+  - url: https://github.com/uTox/uTox/commit/34cbe66993c9002f1eee1dd42889e2a3fb5da7e2
+    date: '2014-08-22'
+  - url: https://github.com/uTox/uTox/commit/c2317a5afe59a25d875c97a1473ddf78980afca4
+    date: '2014-08-22'
+  - url: https://github.com/uTox/uTox/commit/8f8af853299932fff6b659b93a58d8b531cbd813
+    date: '2014-08-18'
+  - url: https://github.com/uTox/uTox/commit/de7d322eee4299455d7e96bffd4ee47e1d0174fc
+    date: '2014-08-18'
+  - url: https://github.com/uTox/uTox/commit/11f23792ee573482750e2ce1a6090a8c89e065ac
+    date: '2014-08-18'
+  - url: https://github.com/uTox/uTox/commit/cec9b238fc076b2d30e7c6c503cd9f594aa86948
+    date: '2014-08-18'
+  dates: '2014'
+  langs:
+  - C
+  - Make
+- project: Dolphin Emulator
+  homepage: https://dolphin-emu.org/
+  desc: build fix
+  commits:
+  - url: https://github.com/dolphin-emu/dolphin/commit/99df57a35edc286d2d4cb00ed28a9ff53c8924e5
+    date: '2014-08-20'
+  dates: '2014'
+  langs:
+  - CMake
+- project: OpenStreetMap Overpass-API
+  homepage: https://overpass-api.de/
+  desc: code fixes
+  commits:
+  - url: https://github.com/drolbr/Overpass-API/commit/7ddb2fe519673dad6945fa7fcbabebd999e5f796
+    date: '2014-05-12'
+  - url: https://github.com/drolbr/Overpass-API/commit/d2ee251851ac5d912be54af07c85c8226c397950
+    date: '2014-05-12'
+  dates: '2014'
+  langs:
+  - C++
+- project: Sonic Robo Blast 2
+  homepage: https://www.srb2.org/
+  desc: CMake support and portability fix
+  commits:
+  - url: https://github.com/STJr/SRB2/commit/dad0ad59c18ec03d74da6f45f001c07bb1053e94
+    date: '2014-04-25'
+  - url: https://github.com/STJr/SRB2/commit/3f170769da258f0e12da941f625b9f707bed1c35
+    date: '2014-04-24'
+  - url: https://github.com/STJr/SRB2/commit/7d52913adde150009fb47ad06eac85a5c1451cbf
+    date: '2014-04-25'
+  dates: '2014'
+  langs:
+  - C
+  - CMake
+- project: Git
+  homepage: https://git-scm.com/
+  desc: build and portability fixes
+  commits:
+  - url: https://github.com/git/git/commit/62fb6d03dab0f6d93b1e1fcaef312bf6e2718f17
+    date: '2014-03-11'
+  - url: https://github.com/git/git/commit/6912ea952bf5d1b2d21d5935d6b726bab02d8bf6
+    date: '2013-05-21'
+  dates: 2013-2014
+  langs:
+  - Autoconf
+  - Shell
+- project: Dagon engine
+  homepage: https://github.com/Senscape/Dagon
+  desc: build and code fixes
+  commits:
+  - url: https://github.com/Senscape/Dagon/commit/42f26b4b86dcfcc71f760760cc75e6e9bc876c6a
+    date: '2014-02-06'
+  - url: https://github.com/Senscape/Dagon/commit/4fb1457113edd5cccccda3b27407f5009459fb1c
+    date: '2014-02-06'
+  - url: https://github.com/Senscape/Dagon/commit/979140db1dae96a371cfa94be48433ae0a062676
+    date: '2013-02-18'
+  - url: https://github.com/Senscape/Dagon/commit/01ca85a0a111385412871f95eb1761a04baa43bf
+    date: '2013-02-18'
+  - url: https://github.com/Senscape/Dagon/commit/17534856b47e50cb8629ecec7cb812c486c6873c
+    date: '2013-02-18'
+  dates: 2013-2014
+  langs:
+  - C++
+  - Lua
+- project: Hedgewars
+  homepage: https://hedgewars.org/
+  desc: build and bug fixes
+  commits:
+  - url: https://github.com/hedgewars/hw/commit/235eb18ed9e2c4fe4d56d57b62afc1989f051dce
+    date: '2013-12-25'
+  - url: https://github.com/hedgewars/hw/commit/faca4062885b178ca2ed02ab01d11922ae7a7617
+    date: '2013-12-25'
+  dates: '2013'
+  langs:
+  - C
+  - CMake
+- project: Flare RPG
+  homepage: https://github.com/clintbellanger/flare-engine
+  desc: build, bug and portability fixes
+  commits:
+  - url: https://github.com/flareteam/flare-engine/commit/8c8cb34650448472b6a9a818c1ccc72981d6bd86
+    date: '2013-09-17'
+  - url: https://github.com/flareteam/flare-engine/commit/adace007b6201d15f56f212508465125963fce00
+    date: '2012-09-13'
+  - url: https://github.com/flareteam/flare-engine/commit/627be84abed066e70d17bb0503acb4eb4ec0ba6d
+    date: '2012-09-08'
+  - url: https://github.com/flareteam/flare-engine/commit/325d107d57f16ecf7cdfdef1a591e598e2a4356f
+    date: '2012-08-01'
+  - url: https://github.com/flareteam/flare-engine/commit/eda3e4c81dbdb0626a04b1f2d55861b494b02562
+    date: '2012-07-31'
+  - url: https://github.com/flareteam/flare-engine/commit/ba42a1059847d138f0dcb2b217938419d7da65ca
+    date: '2012-05-24'
+  - url: https://github.com/flareteam/flare-engine/commit/5fb797f5c10f41489fb8054783e96e8e73a1be46
+    date: '2011-12-24'
+  - url: https://github.com/flareteam/flare-engine/commit/675a71ad237207289836fbc24537d0125684429d
+    date: '2011-12-22'
+  - url: https://github.com/flareteam/flare-engine/commit/8ce8d32e52820d4d385be78114d4f45c5d80b2cf
+    date: '2011-12-22'
+  - url: https://github.com/flareteam/flare-engine/commit/d7107f21eb8b4aa552472bd233788589936fbf7d
+    date: '2011-12-22'
+  - url: https://github.com/flareteam/flare-engine/commit/fca075ae706c6b042d728bc55f5c981c47daf53d
+    date: '2011-12-22'
+  - url: https://github.com/flareteam/flare-engine/commit/0fc7eb8d4e83b149cd19b3247f987ae6f6796fd5
+    date: '2011-08-26'
+  - url: https://github.com/flareteam/flare-game/commit/d8bf4a2559483bdbaa8d961dd66b40924b4f7928
+    date: '2013-12-21'
+  - url: https://github.com/flareteam/flare-game/commit/f4562db6679bb0bc689190df70075b5c546658bc
+    date: '2013-12-17'
+  - url: https://github.com/flareteam/flare-game/commit/adace007b6201d15f56f212508465125963fce00
+    date: '2012-09-13'
+  - url: https://github.com/flareteam/flare-game/commit/627be84abed066e70d17bb0503acb4eb4ec0ba6d
+    date: '2012-09-08'
+  - url: https://github.com/flareteam/flare-game/commit/325d107d57f16ecf7cdfdef1a591e598e2a4356f
+    date: '2012-08-01'
+  - url: https://github.com/flareteam/flare-game/commit/eda3e4c81dbdb0626a04b1f2d55861b494b02562
+    date: '2012-07-31'
+  - url: https://github.com/flareteam/flare-game/commit/e49756f3ec28c4fc92622495285c2e9f54fff363
+    date: '2012-01-28'
+  - url: https://github.com/flareteam/flare-game/commit/ba42a1059847d138f0dcb2b217938419d7da65ca
+    date: '2012-05-24'
+  - url: https://github.com/flareteam/flare-game/commit/5fb797f5c10f41489fb8054783e96e8e73a1be46
+    date: '2011-12-24'
+  - url: https://github.com/flareteam/flare-game/commit/675a71ad237207289836fbc24537d0125684429d
+    date: '2011-12-22'
+  - url: https://github.com/flareteam/flare-game/commit/8ce8d32e52820d4d385be78114d4f45c5d80b2cf
+    date: '2011-12-22'
+  - url: https://github.com/flareteam/flare-game/commit/d7107f21eb8b4aa552472bd233788589936fbf7d
+    date: '2011-12-22'
+  - url: https://github.com/flareteam/flare-game/commit/fca075ae706c6b042d728bc55f5c981c47daf53d
+    date: '2011-12-22'
+  - url: https://github.com/flareteam/flare-game/commit/0fc7eb8d4e83b149cd19b3247f987ae6f6796fd5
+    date: '2011-08-26'
+  - url: https://github.com/flareteam/flare-game/commit/a851a103584d1572971d4de8a7fd018f79b2f697
+    date: '2011-08-26'
+  dates: 2011-2013
+  langs:
+  - C++
+  - CMake
+- project: libSpringLobby
+  homepage: https://github.com/springlobby/lsl
+  desc: build fixes
+  commits:
+  - url: https://github.com/springlobby/lsl/commit/3631d711ce1850470d4c097bf2f888176729a2e7
+    date: '2013-12-10'
+  - url: https://github.com/springlobby/lsl/commit/ebb0eb0d198efd9adbaf9b289e6b79965746d356
+    date: '2013-12-10'
+  dates: '2013'
+  langs:
+  - C++
+  - CMake
+- project: pr-downloader
+  homepage: https://github.com/abma/pr-downloader
+  desc: build fixes
+  commits:
+  - url: https://github.com/abma/pr-downloader/commit/930f8310f2540c3c535a7eec63a025e817a3bb8b
+    date: '2013-12-10'
+  - url: https://github.com/abma/pr-downloader/commit/0ba43d12275000c4c3adcfd217b023a9c037d4e1
+    date: '2013-01-29'
+  - url: https://github.com/abma/pr-downloader/commit/11ce0f45f7d997cac7ded6658ce1362eca02b650
+    date: '2013-01-29'
+  - url: https://github.com/abma/pr-downloader/commit/66e76815637f5f5bd989dad5618508b2d39c4df7
+    date: '2013-01-29'
+  - url: https://github.com/abma/pr-downloader/commit/ba42671c01197b686f66d36ea1b1f8daf470d4d7
+    date: '2013-01-29'
+  dates: '2013'
+  langs:
+  - C++
+- project: SpringLobby
+  homepage: https://github.com/springlobby/springlobby
+  desc: build fixes
+  commits:
+  - url: https://github.com/springlobby/springlobby/commit/4608ac5abe692696f3c29fcb73d2805a400efd1f
+    date: '2013-12-10'
+  - url: https://github.com/springlobby/springlobby/commit/b0cd9bc80553dcc64d2893e4774430e2ddbacaf3
+    date: '2013-12-10'
+  dates: '2013'
+  langs:
+  - C++
+  - Shell
+- project: alaCarte
+  homepage: https://alacarte-maps.github.io/
+  desc: warning and build fixes, minor features
+  commits:
+  - url: https://github.com/alacarte-maps/alacarte/commit/7afa352fabc5df664cbda564435ad9a9f9e3f974
+    date: '2013-12-04'
+  - url: https://github.com/alacarte-maps/alacarte/commit/6c05339dc1276efc98d97bf3b9cf566d9405edbe
+    date: '2013-12-04'
+  - url: https://github.com/alacarte-maps/alacarte/commit/c373b8f311c43c6dffa86a38304ad2d700944145
+    date: '2013-12-04'
+  - url: https://github.com/alacarte-maps/alacarte/commit/730951fe7090b15334b18f4a447dabea35c4acf4
+    date: '2013-12-03'
+  - url: https://github.com/alacarte-maps/alacarte/commit/4a98be8e3fedc294cb14ad14ac242af8bbaba4fd
+    date: '2013-12-03'
+  - url: https://github.com/alacarte-maps/alacarte/commit/7f32c658c8b56e810ff0e2111b90c9bcdd5ed090
+    date: '2013-04-26'
+  - url: https://github.com/alacarte-maps/alacarte/commit/e6a94ea9a57b1b8a66d87ff01f365a4c57948703
+    date: '2013-04-26'
+  - url: https://github.com/alacarte-maps/alacarte/commit/67cb6906134dd4de385dc958d35f8e82ea2fecd4
+    date: '2013-04-23'
+  - url: https://github.com/alacarte-maps/alacarte/commit/e4c639855aae25c8a00c97e81a33ce37fa9d42f3
+    date: '2013-04-23'
+  - url: https://github.com/alacarte-maps/alacarte/commit/9a64377c0e202334ee89de6b79edf3e125ff68f9
+    date: '2013-04-23'
+  - url: https://github.com/alacarte-maps/alacarte/commit/9436af835e56a8f84e1772f829d8f2a74275cc2d
+    date: '2013-04-22'
+  - url: https://github.com/alacarte-maps/alacarte/commit/6ef2b6550cbbe9df5121202982be756c2baf356a
+    date: '2013-04-22'
+  - url: https://github.com/alacarte-maps/alacarte/commit/828019352efdee5fcc5402ef11036affef5ebf74
+    date: '2013-04-22'
+  - url: https://github.com/alacarte-maps/alacarte/commit/734e3f972b0e5872be79959247d91f3ac3387e7c
+    date: '2013-04-20'
+  - url: https://github.com/alacarte-maps/alacarte/commit/20b066f68c7f6e86ed1602fa5076d694355b3f7e
+    date: '2013-04-20'
+  - url: https://github.com/alacarte-maps/alacarte/commit/01235413961c5fb66d257078f9ed1cd5b5430f9e
+    date: '2013-04-19'
+  - url: https://github.com/alacarte-maps/alacarte/commit/53cb7e710471c1704a432e10172a59270e430a9f
+    date: '2013-04-19'
+  - url: https://github.com/alacarte-maps/alacarte/commit/427b01f54abf1e4c28beaed28c146b4511b52b28
+    date: '2013-04-19'
+  - url: https://github.com/alacarte-maps/alacarte/commit/84a9c1ff293fcf3d03cc85f7ea83ac584a2fca64
+    date: '2013-04-19'
+  - url: https://github.com/alacarte-maps/alacarte/commit/047f1d27d8c0aef5834a7769d235f68928fe25ff
+    date: '2013-04-19'
+  - url: https://github.com/alacarte-maps/alacarte/commit/05bcb8e7e3268d66ee0bdddeb20cd6355cd3c5d2
+    date: '2013-04-18'
+  - url: https://github.com/alacarte-maps/alacarte/commit/e4c14b4eaddaad07c44d9e1ec4dc7ff0de89ca66
+    date: '2013-04-18'
+  - url: https://github.com/alacarte-maps/alacarte/commit/06888503cf973b05bbfca91929c83a487da54ce3
+    date: '2013-04-18'
+  - url: https://github.com/alacarte-maps/alacarte/commit/fb0110fda644a7d49e95f027cbccaf315a71c681
+    date: '2013-04-18'
+  - url: https://github.com/alacarte-maps/alacarte/commit/e51a6ef5709a46275bb138ea105454f3bec52d15
+    date: '2013-04-18'
+  - url: https://github.com/alacarte-maps/alacarte/commit/443ff003a6f7460d9eca13400ac7c1843f065c0e
+    date: '2013-04-17'
+  dates: '2013'
+  langs:
+  - C++
+  - CMake
+- project: autorevision
+  homepage: https://autorevision.github.io/
+  desc: portability and minor bug fixes
+  commits:
+  - url: https://github.com/Autorevision/autorevision/commit/0fdde78f90e71b04523bc714c2305b9cdad7b783
+    date: '2013-11-19'
+  - url: https://github.com/Autorevision/autorevision/commit/1550b96c7677d2fcc159b0db6070d6c453b5582c
+    date: '2013-11-19'
+  - url: https://github.com/Autorevision/autorevision/commit/e077829cb6c247d6213dc6a22de6fe104f4544ca
+    date: '2013-01-21'
+  - url: https://github.com/Autorevision/autorevision/commit/1118f9bdb912f38fb18e36d3741202c97ef397ab
+    date: '2013-01-18'
+  - url: https://github.com/Autorevision/autorevision/commit/705d69f193ae823da876ad9862a8dd7ea1f96754
+    date: '2013-01-18'
+  - url: https://github.com/Autorevision/autorevision/commit/a2493bafc1c3ab04b719178fb27e3dcb3cf05024
+    date: '2013-01-18'
+  - url: https://github.com/Autorevision/autorevision/commit/08aea3c40499f42d53c75dff112c235ada35b49b
+    date: '2013-01-18'
+  - url: https://github.com/Autorevision/autorevision/commit/29e4ab16e638c153364cda224957977b8b31e48e
+    date: '2013-01-18'
+  dates: '2013'
+  langs:
+  - Shell
+- project: EQEmu
+  homepage: https://github.com/EQEmu/Server
+  desc: build fix
+  commits:
+  - url: https://github.com/EQEmu/Server/commit/7ee417ab05a3513b8dab28b64bc37cc66676f419
+    date: '2013-10-09'
+  dates: '2013'
+  langs:
+  - CMake
+- project: Caesaria
+  homepage: https://bitbucket.org/dalerank/caesaria/wiki/Home
+  desc: build and crash fixes
+  commits:
+  - url: https://bitbucket.org/dalerank/caesaria/commits/29c26ee8c7f8c2265ff6d3dfca3ee9b5b8bdca49
+    date: '2013-09-06'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/0aa18b01e71d008f781c65ca12009bb768aee5cf
+    date: '2013-08-30'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/527458986ca363044ee1c3598d9dc90588c0a0a4
+    date: '2013-08-30'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/746aefcbab9d004870cbb9408decb703417aab8b
+    date: '2013-08-23'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/ca7da3c426a1635640295a605d5f87646819059e
+    date: '2013-08-23'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/afb9bd2166429a60be1329679b4596eb2596119e
+    date: '2013-08-23'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/ef8b6b447980a644ab8f4b22f477f30dcf123498
+    date: '2013-07-22'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/8cda93d0a6655388c7cf4e73df89ab473b2c7cf0
+    date: '2013-07-22'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/8fa598c43b6cee84430ef954d0881f0b45132d2e
+    date: '2013-07-22'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/0020fb7e623400b01a7c01b3dd1e38ac8f8cbc9e
+    date: '2013-07-04'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/3ae9a19c54a853f0debe87dd4efb63c6d63e6d5f
+    date: '2013-07-03'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/a4425e9cf8b7caa179ef9edcfe8efad74ce41f31
+    date: '2013-07-03'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/536043b7be71f3918c9c89384c5e03c1eca8ba5b
+    date: '2013-07-03'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/b220b8bad60d0af0b95e8bc2657bdc8e951978d6
+    date: '2013-07-03'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/98cf06e1d50df1770d766d3e33f9fb233c1ff2d9
+    date: '2013-07-03'
+  - url: https://bitbucket.org/dalerank/caesaria/commits/32846a45dc873a7d4d8d46fd9685362ccc3961e1
+    date: '2013-07-03'
+  dates: '2013'
+  langs:
+  - C++
+  - CMake
+- project: PIRE
+  homepage: https://github.com/yandex/pire/wiki
+  desc: build fix
+  commits:
+  - url: https://github.com/yandex/pire/commit/18935766471bee00d19cca02315655fa5c2f0bd6
+    date: '2013-08-28'
+  dates: '2013'
+  langs:
+  - Automake
+  - C++
+- project: OSMPBF
+  homepage: https://github.com/openstreetmap/OSM-binary
+  desc: build fix
+  commits:
+  - url: https://github.com/openstreetmap/OSM-binary/commit/2c281c9bf80212adcd2db52974c931870b0a3e1a
+    date: '2013-08-27'
+  dates: '2013'
+  langs:
+  - Make
+- project: Tox
+  homepage: https://github.com/TokTok/c-toxcore
+  desc: build and warning fixes
+  commits:
+  - url: https://github.com/TokTok/c-toxcore/commit/89dd7ed0111d2aebe5d362052f8582bfc17c7cbc
+    date: '2013-07-30'
+  - url: https://github.com/TokTok/c-toxcore/commit/5ac7f3d99084d519e7eddcf40e7d81e8b91400f0
+    date: '2013-07-30'
+  - url: https://github.com/TokTok/c-toxcore/commit/6d0abb4132e4aa215c713ae3d0fa365957cd865c
+    date: '2013-07-30'
+  dates: '2013'
+  langs:
+  - C++
+  - CMake
+- project: OpenStreetMap Taginfo
+  homepage: https://wiki.openstreetmap.org/wiki/Taginfo
+  desc: portability fix
+  commits:
+  - url: https://github.com/joto/taginfo/commit/a4714af29f5ccdd50a8ef04717039298f0032a42
+    date: '2013-05-27'
+  - url: https://github.com/joto/taginfo/commit/ce6041c669c6c97d7ec649b10f842766ec7a8232
+    date: '2013-05-24'
+  - url: https://github.com/joto/taginfo/commit/e222178f65b567e694ab0c06a01e03f9ea032044
+    date: '2013-05-24'
+  - url: https://github.com/joto/taginfo/commit/9009b58f944debbc82daa13a8c029b357f237125
+    date: '2013-05-23'
+  dates: '2013'
+  langs:
+  - Make
+- project: osc
+  homepage: https://github.com/openSUSE/osc
+  desc: minor code fix
+  commits:
+  - url: https://github.com/openSUSE/osc/commit/8e9e8c492c6963167286e5b30b32c1b89c7ffbd5
+    date: '2013-02-06'
+  - url: https://github.com/openSUSE/osc/commit/8cd08c352bf9c9bce05ed2ad6f6bab2dd1841c2d
+    date: '2013-02-06'
+  dates: '2013'
+  langs:
+  - Python
+- project: OpenLieroX
+  homepage: https://github.com/albertz/openlierox
+  desc: build and C++11 fixes
+  commits:
+  - url: https://github.com/albertz/openlierox/commit/22cb2696781ad628598f2da69f6afd86cd903b79
+    date: '2012-12-14'
+  - url: https://github.com/albertz/openlierox/commit/472cf220df7ea13e69dfb3f28cf23391958f50e9
+    date: '2012-12-14'
+  - url: https://github.com/albertz/openlierox/commit/e9eb3ecf23608a0bb56870cd53dd2127616c8f5b
+    date: '2012-12-14'
+  dates: '2012'
+  langs:
+  - C++
+- project: OpenGOO
+  homepage: https://github.com/Mandarancio/OpenGOO
+  desc: build fixes
+  commits:
+  - url: https://github.com/Mandarancio/OpenGOO/commit/686c8ee53a687b33b9a95c096f956b62e1d7c8ac
+    date: '2012-08-09'
+  - url: https://github.com/Mandarancio/OpenGOO/commit/7b5a7eaff48d6562550c1fa883609d812dc305e7
+    date: '2012-08-09'
+  - url: https://github.com/Mandarancio/OpenGOO/commit/25d6d569e1096acc99f363311af44f7bb4962bb1
+    date: '2012-08-09'
+  dates: '2012'
+  langs:
+  - C
+  - qmake
+- project: SmartDeblur
+  homepage: https://github.com/Y-Vladimir/SmartDeblur
+  desc: build fix
+  commits:
+  - url: https://github.com/Y-Vladimir/SmartDeblur/commit/eae90d87ca095cc43fdd9592d378b8531b62c5be
+    date: '2012-07-16'
+  dates: '2012'
+  langs:
+  - C++
+- project: Tiggit
+  homepage: https://github.com/korslund/Tiggit
+  desc: build fix
+  commits:
+  - url: https://github.com/korslund/Tiggit/commit/27f5aaaa5fb3d2f0410fb187da42862b07cc1f3e
+    date: '2012-05-23'
+  dates: '2012'
+  langs:
+  - CMake
+- project: "L\xD6VE"
+  homepage: https://love2d.org
+  desc: build/portability fixes
+  commits:
+  - url: https://github.com/love2d/love/commit/204f561033a39f66d2d590c574e6a1f3cb131715
+    date: '2012-04-20'
+  dates: '2012'
+  langs:
+  - Autoconf
+- project: Panda3D
+  homepage: https://www.panda3d.org/
+  desc: build fix
+  commits:
+  - url: https://github.com/panda3d/panda3d/commit/dcc0d58c77ba692573cc8f6c352218e1f267a59a
+    date: '2011-11-01'
+  dates: '2011'
+  langs:
+  - Python
+- project: FlightGear
+  homepage: https://www.flightgear.org/
+  desc: build/portability fixes
+  commits:
+  - url: https://github.com/FlightGear/flightgear/commit/a3df9dd120e963d043a1a2fcd7f5e1ead9bef8eb
+    date: '2011-09-01'
+  - url: https://github.com/FlightGear/simgear/commit/ceac7b46fc932a78fdbdfc2b0094b28ee716f757
+    date: '2011-09-01'
+  dates: '2011'
+  langs:
+  - Autoconf
+- project: portupgrade
+  homepage: http://wiki.freebsd.org/portupgrade
+  desc: minor code fixxe
+  commits:
+  - url: https://github.com/pkgtools/pkgtools/commit/8f8faac0e79a86eb45e92d62d626dbbb04e6cec6
+    date: '2011-08-29'
+  - url: https://github.com/pkgtools/pkgtools/commit/b5ca757d279d3c1ee4970497f0ab036a7d711526
+    date: '2011-08-29'
+  dates: '2011'
+  langs:
+  - Ruby
+- project: OpenStreetBugs
+  homepage: https://wiki.openstreetmap.org/wiki/OpenStreetBugs
+  desc: vulnerable config fix
+  commits:
+  - url: https://github.com/emka/openstreetbugs/commit/7aa76231ea115a79bea59881db78532eae88b384
+    date: '2011-03-22'
+  dates: '2011'
+- project: Chromium B.S.U.
+  homepage: https://chromium-bsu.sourceforge.io/
+  desc: build fixes
+  commits:
+  - url: https://sourceforge.net/p/chromium-bsu/code/ci/d8882e7ea14b86648cb1d982e3077dfb22018d3e/
+    date: '2010-07-06'
+  - url: https://sourceforge.net/p/chromium-bsu/code/ci/0987b00563329aa7b214850c9b9dd294245742d5/
+    date: '2010-07-06'
+  dates: '2010'
+  langs:
+  - Autoconf
+  - Automake
+- project: Lightspark
+  homepage: http://lightspark.github.io/
+  desc: build fixes
+  commits:
+  - url: https://github.com/lightspark/lightspark/commit/67f65c709dbd1d5b712352016f65d6b2dee26c33
+    date: '2010-05-19'
+  - url: https://github.com/lightspark/lightspark/commit/afd03082da61ef153a7d05ce56017f67d8aebce4
+    date: '2010-05-19'
+  - url: https://github.com/lightspark/lightspark/commit/7f5720af684c478535308d9968c504bdccec3c8a
+    date: '2010-05-19'
+  - url: https://github.com/lightspark/lightspark/commit/7090a3714edd772cb2f9bcc1672b7987e65012f2
+    date: '2010-05-19'
+  - url: https://github.com/lightspark/lightspark/commit/9fe0ab003ae9673a86641622d1471b0b5636e46b
+    date: '2010-05-19'
+  dates: '2010'
+  langs:
+  - CMake
+- project: Naev
+  homepage: https://naev.org/
+  desc: build fixes
+  commits:
+  - url: https://github.com/naev/naev/commit/e95e38260c0c7953fa7c679d4a6000b596706838
+    date: '2008-11-25'
+  dates: '2008'
+  langs:
+  - C
+- project: ScummVM
+  homepage: https://www.scummvm.org/
+  desc: TiMidity++ support
+  commits:
+  - url: https://github.com/scummvm/scummvm/commit/8eb73f269492e5123e86236f5398a14e6aa991b5
+    date: '2007-11-02'
+  dates: '2007'
+  langs:
+  - C

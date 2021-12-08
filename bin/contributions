@@ -1,0 +1,294 @@
+#!/usr/bin/env python3
+
+import argparse
+import json
+import os
+import re
+import shutil
+import subprocess
+import sys
+import tempfile
+from dataclasses import field
+from typing import Any, Optional
+
+import pydantic
+import yaml
+from pydantic.dataclasses import dataclass
+
+
+@dataclass
+class Commit:
+    url: str
+    date: str
+
+
+@dataclass
+class Entry:
+    project: str
+    homepage: Optional[str] = None
+    desc: Optional[str] = None
+    commits: list[Commit] = field(default_factory=list)
+    dates: Optional[str] = None
+    langs: Optional[list[str]] = None
+
+    def dump(self) -> dict[str, Any]:
+        """Dump as dict
+
+        Dump this entry as a dict suitable for serialization into
+        human readable YAML.
+        """
+        return {
+            k: v
+            for k, v in json.loads(json.dumps(self, default=pydantic.json.pydantic_encoder, sort_keys=False)).items()
+            if v is not None
+        }
+
+
+class RepositoryUrl:
+    _repo_url: str
+    _commit_url: str
+
+    def __init__(self, url: str) -> None:
+        if match := re.match('[^/]*//([^/]+)/([^/]+)/([^/]+)', url):
+            host, account, project = match.group(1, 2, 3)
+
+            project_url = f'https://{host}/{account}/{project}'
+            self._repo_url = f'{project_url}.git'
+
+            match host:
+                case 'github.com':
+                    self._commit_url = f'{project_url}/commit/{{commit}}'
+                case 'bitbucket.org':
+                    self._commit_url = f'{project_url}/commits/{{commit}}'
+                case gitlabhost if gitlabhost.startswith('gitlab.') or gitlabhost in ('gitlab.com', 'code.videolan.org'):
+                    self._commit_url = f'{project_url}/-/commit/{{commit}}'
+                case _:
+                    self._commit_url = f'{project_url} → {{commit}}'
+
+        else:
+            self._repo_url = f'{url}???'
+            self._commit_url = f'{url} → {{commit}}'
+
+    def get_repo_url(self) -> str:
+        return self._repo_url
+
+    def construct_commit_url(self, commit: str) -> str:
+        return self._commit_url.format(commit=commit)
+
+    def __eq__(self, other: Any) -> bool:
+        if not isinstance(other, RepositoryUrl):
+            return NotImplemented
+        return self._repo_url == other._repo_url
+
+    def __hash__(self) -> int:
+        return hash(self._repo_url)
+
+    def __repr__(self) -> str:
+        return f'RepositoryUrl("{self._repo_url}")'
+
+
+class GitRunner:
+    _path: str
+
+    def __init__(self, path: str) -> None:
+        self._path = path
+
+    def cleanup(self) -> None:
+        if os.path.exists(self._path):
+            shutil.rmtree(self._path)
+
+    def __enter__(self) -> 'GitRunner':
+        self.cleanup()
+        return self
+
+    def __exit__(self, exc_type: Any, exc_val: Any, exc_tb: Any) -> bool:
+        self.cleanup()
+        return False
+
+    def __call__(self, *args) -> list[str]:
+        if not os.path.exists(self._path):
+            os.makedirs(self._path)
+
+        res = subprocess.run(
+            ['git'] + list(args),
+            stdout=subprocess.PIPE,
+            encoding='utf-8',
+            cwd=self._path
+        )
+
+        res.check_returncode()
+        return [line.strip() for line in res.stdout.split('\n') if line.strip()]
+
+
+class Database:
+    _path: str
+    _entries: dict[str, Entry]
+
+    def __init__(self, path: str) -> None:
+        self._path = path
+        self._entries = {e.project: e for e in Database._load(path)}
+
+    @staticmethod
+    def _load(path: str) -> list[Entry]:
+        if not os.path.exists(path):
+            return []
+
+        res = []
+        with open(path, 'r') as fd:
+            for data in yaml.safe_load(fd):
+                try:
+                    res.append(Entry(**data))
+                except (pydantic.error_wrappers.ValidationError, TypeError) as e:
+                    raise RuntimeError(f'Cannot parse contributions entry "{data}"') from e
+
+        return res
+
+    @staticmethod
+    def _save(path: str, entries: list[Entry]) -> None:
+        with open(path + '.tmp', 'w') as fd:
+            fd.write(
+                yaml.safe_dump(
+                    [entry.dump() for entry in entries],
+                    default_flow_style=False,
+                    sort_keys=False
+                )
+            )
+            fd.flush()
+            os.fsync(fd.fileno())
+
+        os.replace(path + '.tmp', path)
+
+    def _normalize(self) -> list[Entry]:
+        entries = list(self._entries.values())
+
+        for entry in entries:
+            dates = [commit.date for commit in entry.commits]
+            if dates:
+                a = min(dates).split('-')[0]
+                b = max(dates).split('-')[0]
+                if a != b:
+                    entry.dates = f'{a}-{b}'
+                else:
+                    entry.dates = f'{a}'
+            else:
+                entry.dates = None
+
+            if entry.langs:
+                entry.langs = sorted(entry.langs)
+
+        return sorted(
+            entries,
+            key=lambda entry: max((commit.date for commit in entry.commits), default=''), reverse=True
+        )
+
+    def __enter__(self) -> dict[str, Entry]:
+        return self._entries
+
+    def __exit__(self, exc_type: Any, exc_val: Any, exc_tb: Any) -> bool:
+        Database._save(self._path, self._normalize())
+        return False
+
+
+_longhelp = f"""
+This is a script for contributions database maintenance.\n\n
+
+purposes:
+- Keep the database sorted (descending by last contribution
+  date) and autofill generated fields (such as contribution date
+  ranges)
+- Automatically parse contribution commits from upstream
+  repositories.
+
+typical usages:
+  just reformat the database:
+    {sys.argv[0]}
+
+  update commits for a named project:
+    {sys.argv[0]} -p PROJECT -u
+
+    (repositories to use are derived from existing commits)
+
+  add a new project:
+    {sys.argv[0]} -p PROJECT [-H HOMEPAGE] [-d DESC] [-l LANGS] [-r REPOSITORY]
+
+    (repository to use need to be specified explicitly in either -r or -H)
+
+  change a field for a new project:
+    {sys.argv[0]} -p PROJECT -l NEW_LANG
+
+    (changes langs for a given project)
+"""
+
+
+def parse_arguments() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter, description=_longhelp)
+
+    parser.add_argument('-c', '--contributions', type=str, required=True, help='path to contributions.yaml')
+    parser.add_argument('-p', '--project', type=str, help='project name')
+    parser.add_argument('-d', '--desc', type=str, help='contribution summary')
+    parser.add_argument('-H', '--homepage', type=str, help='project homepage')
+    parser.add_argument('-r', '--repository', type=str, help='project repository URL')
+    parser.add_argument('-l', '--langs', type=str, help='project languages (comma separated)')
+    parser.add_argument('-u', '--update', action='store_true', help='update project commits information')
+    parser.add_argument('-g', '--grep', action='store_true', help='instead of checking commit author directly, grep for author')
+
+    return parser.parse_args()
+
+
+def process_project(db: dict[str, Entry], args: argparse.Namespace):
+    entry = db.setdefault(args.project, Entry(args.project))
+
+    if args.homepage == '':
+        entry.homepage = None
+    elif args.homepage:
+        entry.homepage = args.homepage
+
+    if args.desc == '':
+        entry.desc = None
+    elif args.desc:
+        entry.desc = args.desc
+
+    if args.langs == '':
+        entry.langs = None
+    elif args.langs:
+        entry.langs = args.langs.split(',')
+
+    repositories = set()
+    if args.repository:
+        repositories = {
+            RepositoryUrl(args.repository)
+        }
+    elif entry.commits:
+        repositories = {
+            RepositoryUrl(commit.url)
+            for commit in entry.commits
+        }
+    elif args.homepage:
+        repositories = {
+            RepositoryUrl(args.homepage)
+        }
+
+    if not entry.commits or args.update:
+        if not repositories:
+            raise RuntimeError('No repositories defined (need existing entry with commits or --repository)')
+
+        new_commits = []
+        for repository in repositories:
+            with GitRunner(tempfile.mkdtemp()) as git:
+                git('clone', '-c', 'credential.helper=!echo username=dummy; echo password=dummy', repository.get_repo_url(), '.')
+                for commit, date in map(str.split, git('log', '--format=%H %as', '--grep=amdmi3' if args.grep else '--author=amdmi3')):
+                    new_commits.append(Commit(repository.construct_commit_url(commit), date))
+
+        entry.commits = new_commits
+
+
+def main():
+    args = parse_arguments()
+
+    with Database(args.contributions) as db:
+        if args.project:
+            process_project(db, args)
+
+
+if __name__ == '__main__':
+    main()

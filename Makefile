@@ -8,6 +8,14 @@ gen::
 	@rm -rf ${CONTENT_DIR}
 	@hugo --destination=${CONTENT_DIR}
 
+lint::
+	-isort --check bin/contributions
+	-flake8 --ignore=I,E501 bin/contributions
+	-mypy bin/contributions
+
+data/contributions.yaml::
+	bin/contributions data/contributions.yaml
+
 serve::
 	@hugo serve -D
 

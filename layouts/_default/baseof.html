@@ -20,6 +20,7 @@
 					{{ with .Site.GetPage "/" }}<a class="site-title" href="{{ .Permalink }}">AMDmi3.core</a>{{ end }}
 					<nav>
 						{{ with .Site.GetPage "/" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+						{{ with .Site.GetPage "/contributions" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
 						{{ with .Site.GetPage "/posts" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
 						{{/* {{ with .Site.GetPage "/projects/active" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }} */}}
 						{{ if .IsTranslated }}
