@@ -227,8 +227,8 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument('-p', '--project', type=str, help='project name')
     parser.add_argument('-d', '--desc', type=str, help='contribution summary')
     parser.add_argument('-H', '--homepage', type=str, help='project homepage')
-    parser.add_argument('-r', '--repository', type=str, help='project repository URL')
-    parser.add_argument('-l', '--langs', type=str, help='project languages (comma separated)')
+    parser.add_argument('-r', '--repository', type=str, nargs='+', help='project repository URL(s)')
+    parser.add_argument('-l', '--langs', type=str, nargs='*', help='contribution language(s)')
     parser.add_argument('-u', '--update', action='store_true', help='update project commits information')
     parser.add_argument('-g', '--grep', action='store_true', help='instead of checking commit author directly, grep for author')
 
@@ -238,25 +238,25 @@ def parse_arguments() -> argparse.Namespace:
 def process_project(db: dict[str, Entry], args: argparse.Namespace):
     entry = db.setdefault(args.project, Entry(args.project))
 
-    if args.homepage == '':
-        entry.homepage = None
-    elif args.homepage:
+    if args.homepage:
         entry.homepage = args.homepage
+    elif args.homepage is not None:
+        entry.homepage = None
 
-    if args.desc == '':
-        entry.desc = None
-    elif args.desc:
+    if args.desc:
         entry.desc = args.desc
+    elif args.desc is not None:
+        entry.desc = None
 
-    if args.langs == '':
+    if args.langs:
+        entry.langs = args.langs
+    elif args.langs is not None:
         entry.langs = None
-    elif args.langs:
-        entry.langs = args.langs.split(',')
 
     repositories = set()
-    if args.repository:
+    if args.repository is not None:
         repositories = {
-            RepositoryUrl(args.repository)
+            RepositoryUrl(repository) for repository in args.repository
         }
     elif entry.commits:
         repositories = {
