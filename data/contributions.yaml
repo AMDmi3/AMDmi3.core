@@ -1323,6 +1323,29 @@
   dates: '2016'
   langs:
   - Make
+- project: DesktopAdventures
+  homepage: https://github.com/shinyquagsire23/DesktopAdventures
+  desc: code fixes
+  commits:
+  - url: https://github.com/shinyquagsire23/DesktopAdventures/commit/1eef000998d7ef110887cd87c37c754e56504c6f
+    date: '2016-07-07'
+  - url: https://github.com/shinyquagsire23/DesktopAdventures/commit/989d67eaff5175cd05ac8224b287b8e432425036
+    date: '2016-07-07'
+  dates: '2016'
+  langs:
+  - C
+- project: simple-christofides
+  homepage: https://github.com/moskupols/simple-christofides
+  desc: build and portability fixes
+  commits:
+  - url: https://github.com/moskupols/simple-christofides/commit/b19d373bfe7e37a26b70e483e582b419432baa2d
+    date: '2016-07-01'
+  - url: https://github.com/moskupols/simple-christofides/commit/d63dc3c2f73a6acc03b7d74178616b333691f9c9
+    date: '2016-07-01'
+  dates: '2016'
+  langs:
+  - C++
+  - Make
 - project: luasql
   homepage: https://github.com/keplerproject/luasql
   desc: build fix
@@ -1391,6 +1414,15 @@
   - C
   - C++
   - CMake
+- project: atop-freebsd
+  homepage: https://github.com/samm-git/atop-freebsd
+  desc: compatibility fix
+  commits:
+  - url: https://github.com/samm-git/atop-freebsd/commit/126d7956899f8509bd8032f3289710a9ea478b07
+    date: '2016-04-13'
+  dates: '2016'
+  langs:
+  - C
 - project: Buku
   homepage: https://github.com/jarun/Buku
   desc: build fixes, minor feature
@@ -1411,12 +1443,58 @@
   langs:
   - Make
   - Python
+- project: uclcmd
+  homepage: https://github.com/allanjude/uclcmd
+  desc: build fixes
+  commits:
+  - url: https://github.com/allanjude/uclcmd/commit/0e8b4ae2840f59d124758976161392c1a743b9b0
+    date: '2016-03-29'
+  - url: https://github.com/allanjude/uclcmd/commit/4a3eb5b845da516a773d4e2a1dd41e80f421cb10
+    date: '2016-03-29'
+  dates: '2016'
+  langs:
+  - Make
+- project: Dilay
+  homepage: https://github.com/abau/dilay
+  desc: code fixes
+  commits:
+  - url: https://github.com/abau/dilay/commit/be68010fde47a26506481683243d81a6ee3a3829
+    date: '2016-03-09'
+  - url: https://github.com/abau/dilay/commit/d05fc45e37f21c79be402807314c8861c7992af7
+    date: '2016-03-09'
+  - url: https://github.com/abau/dilay/commit/e739ee577780cd2403687f18ef0f4fb94d086453
+    date: '2016-03-09'
+  - url: https://github.com/abau/dilay/commit/c2a5c5931d366ae0c62dbb70edfe347c417a0ea5
+    date: '2016-03-09'
+  dates: '2016'
+  langs:
+  - C++
+- project: Boost
+  homepage: https://www.boost.org/
+  desc: code fixes
+  commits:
+  - url: https://github.com/boostorg/tuple/commit/8b6613e592824b30d48a9252604172abfa33c5f2
+    date: '2016-03-01'
+  - url: https://github.com/boostorg/spirit/commit/f0b6db5b7285954a2e439dcb5f16d6530222a276
+    date: '2015-11-16'
+  dates: 2015-2016
+  langs:
+  - C++
 - project: Doomsday Engine
   homepage: https://dengine.net/
   desc: crash fix
   commits:
   - url: https://github.com/skyjake/Doomsday-Engine/commit/3630aa2f719bc8394c9a9a9d7948e14af384929f
     date: '2016-02-10'
+  dates: '2016'
+  langs:
+  - C++
+- project: Scan Tailor
+  homepage: https://scantailor.org/
+  desc: code fixes
+  commits:
+  - url: https://github.com/scantailor/scantailor/commit/2be2b472f0cc35ef82d9e92b2813534aa780b050
+    date: '2016-02-09'
   dates: '2016'
   langs:
   - C++
@@ -1446,15 +1524,15 @@
   langs:
   - C++
   - CMake
-- project: Boost.Spirit
-  homepage: http://boost-spirit.com/home/
-  desc: code fix
+- project: ProxySQL
+  homepage: https://www.proxysql.com/
+  desc: build fixes
   commits:
-  - url: https://github.com/boostorg/spirit/commit/f0b6db5b7285954a2e439dcb5f16d6530222a276
-    date: '2015-11-16'
+  - url: https://github.com/sysown/proxysql/commit/502f7c088412c8be34e4b6ce553fdd6c4c0d974e
+    date: '2015-11-06'
   dates: '2015'
   langs:
-  - C++
+  - Make
 - project: jekyll-sitemap
   homepage: https://github.com/jekyll/jekyll-sitemap
   desc: portability fix
@@ -1503,6 +1581,15 @@
   - url: https://github.com/olevole/cbsd/commit/41775a2cd4316daaa2808aba24235790da67a25b
     date: '2015-09-08'
   dates: '2015'
+- project: ICC Examin
+  homepage: https://github.com/oyranos-cms/icc-examin
+  desc: minor build fix
+  commits:
+  - url: https://github.com/oyranos-cms/icc-examin/commit/65e3fe86f1fa587ec987dab4370e6a0db53a4422
+    date: '2015-09-08'
+  dates: '2015'
+  langs:
+  - Make
 - project: JSON-CPP
   homepage: https://github.com/open-source-parsers/jsoncpp
   desc: build fix
@@ -1519,6 +1606,60 @@
   - url: https://github.com/ruby-gnome2/ruby-gnome2/commit/63068cffe593c3a02de043a57992b940eb4ca5b0
     date: '2015-08-14'
   dates: '2015'
+- project: Lix
+  homepage: https://github.com/SimonN/Lix
+  desc: build fixes
+  commits:
+  - url: https://github.com/SimonN/Lix/commit/1b2273f4fd347791d28e2ff230e2a012f1fb2ba0
+    date: '2015-07-29'
+  - url: https://github.com/SimonN/Lix/commit/be831ec3188954d68b3f9b3d6c534cb570589d21
+    date: '2015-07-29'
+  dates: '2015'
+  langs:
+  - C++
+  - Make
+- project: NPG-explorer
+  homepage: https://mouse.belozersky.msu.ru/tools/npge.html
+  desc: build fixes
+  commits:
+  - url: https://github.com/npge/npge/commit/3538bb335ad78c9c4401cca1b2b16dd778fe09c4
+    date: '2015-07-15'
+  - url: https://github.com/npge/npge/commit/62c3dd5f725d558fbaab4efed7eb3c69706358fc
+    date: '2015-07-15'
+  - url: https://github.com/npge/npge/commit/7e295be39559b4914e96be08a87d53e7d9d9981c
+    date: '2015-07-10'
+  - url: https://github.com/npge/npge/commit/8b69bbd151f14f4b91003ac341cad1e7249c1bc6
+    date: '2015-07-10'
+  dates: '2015'
+  langs:
+  - C++
+  - CMake
+- project: FastNetMon
+  homepage: https://fastnetmon.com/
+  desc: build and portability fixes
+  commits:
+  - url: https://github.com/pavel-odintsov/fastnetmon/commit/8aed006cda875d21eab1025d1c0783bccd5afc4f
+    date: '2015-06-03'
+  - url: https://github.com/pavel-odintsov/fastnetmon/commit/07c06930f065bf26344406bf723437a7ab131cc6
+    date: '2015-06-02'
+  - url: https://github.com/pavel-odintsov/fastnetmon/commit/fbc54a93d63637f78b47a687971fd32b143a75c6
+    date: '2015-06-02'
+  - url: https://github.com/pavel-odintsov/fastnetmon/commit/6480af14fde4906a38aead3c9292bbb1c51967b1
+    date: '2015-06-02'
+  dates: '2015'
+  langs:
+  - CMake
+- project: pkgstat
+  homepage: https://github.com/dleonard0/pktstat
+  desc: portability fixes
+  commits:
+  - url: https://github.com/dleonard0/pktstat/commit/27c219073ed99c34ff8e8909676cd1308ba1396b
+    date: '2015-05-29'
+  - url: https://github.com/dleonard0/pktstat/commit/0d07d085664da37a637448c96881dce6c2146175
+    date: '2015-05-29'
+  dates: '2015'
+  langs:
+  - C
 - project: OpenStreetMap.ru
   homepage: https://github.com/ErshKUS/OpenStreetMap.ru
   desc: web frontend minor features
