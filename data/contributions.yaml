@@ -425,16 +425,18 @@
   - Make
 - project: ValyriaTear
   homepage: https://valyriatear.blogspot.com/
-  desc: build fixes
+  desc: build and portability fixes
   commits:
-  - url: https://github.com/Bertram25/ValyriaTear/commit/eb633ad9cd57090c6446e83a15cd6424e3c7e492
+  - url: https://github.com/ValyriaTear/ValyriaTear/commit/eb633ad9cd57090c6446e83a15cd6424e3c7e492
     date: '2019-11-16'
-  - url: https://github.com/Bertram25/ValyriaTear/commit/6b53813f0e5ac1fe7e005791d5b78163a6c0d8be
+  - url: https://github.com/ValyriaTear/ValyriaTear/commit/6b53813f0e5ac1fe7e005791d5b78163a6c0d8be
     date: '2013-10-08'
-  - url: https://github.com/Bertram25/ValyriaTear/commit/ee99c3b5c2e31482c89826c7821a8feadda0ec56
+  - url: https://github.com/ValyriaTear/ValyriaTear/commit/ee99c3b5c2e31482c89826c7821a8feadda0ec56
     date: '2013-01-14'
-  - url: https://github.com/Bertram25/ValyriaTear/commit/bbe0631ec2e3f38a5538ef292139b908d5de5812
+  - url: https://github.com/ValyriaTear/ValyriaTear/commit/bbe0631ec2e3f38a5538ef292139b908d5de5812
     date: '2013-01-14'
+  - url: https://github.com/ValyriaTear/vt-utils/commit/7327fe90652b16832d45cd9535849e71d9e4990a
+    date: '2019-11-14'
   dates: 2013-2019
   langs:
   - C++
@@ -507,6 +509,15 @@
   langs:
   - C
   - CMake
+- project: mhWaveEdit
+  homepage: https://github.com/magnush/mhwaveedit
+  desc: build fix
+  commits:
+  - url: https://github.com/magnush/mhwaveedit/commit/207082b2b93ab5423e3d0cde030b2d9e5d82911f
+    date: '2019-09-17'
+  dates: '2019'
+  langs:
+  - C
 - project: aiohttp
   homepage: https://docs.aiohttp.org/en/stable/
   desc: code style fixes
@@ -565,6 +576,15 @@
   dates: '2019'
   langs:
   - CMake
+- project: DDNet
+  homepage: https://ddnet.tw/
+  desc: build fixes
+  commits:
+  - url: https://github.com/ddnet/ddnet/commit/e404d6fd63f7ebf059fc43fc0141d195c570d51b
+    date: '2019-04-22'
+  dates: '2019'
+  langs:
+  - CMake
 - project: Python
   homepage: https://www.python.org/
   desc: build fixes
@@ -574,6 +594,15 @@
   dates: '2019'
   langs:
   - C
+- project: Endlessh
+  homepage: https://github.com/skeeto/endlessh
+  desc: trivial build improvement
+  commits:
+  - url: https://github.com/skeeto/endlessh/commit/a6d5425cba255b50654fb10ad6b46ec30a517ec0
+    date: '2019-03-26'
+  dates: '2019'
+  langs:
+  - Make
 - project: Ansible
   homepage: https://www.ansible.com/
   desc: FreeBSD support improvements
@@ -624,6 +653,29 @@
   - url: https://github.com/EasyRPG/Player/commit/9369f13ddcb537c3d084aa33edca014f737894dd
     date: '2016-08-23'
   dates: 2016-2018
+  langs:
+  - C++
+  - CMake
+- project: FreeBSD portscout
+  homepage: https://github.com/freebsd/portscout
+  desc: implement JSON output
+  commits:
+  - url: https://github.com/freebsd/portscout/commit/4dbfddb268d04462bb903c57d65c63a0d8d39a4d
+    date: '2018-11-14'
+  - url: https://github.com/freebsd/portscout/commit/8205fa1034803c0b2c5d75d51997cec9161f8a1e
+    date: '2018-11-14'
+  dates: '2018'
+  langs:
+  - Perl
+- project: Me and My Shadow
+  homepage: https://github.com/acmepjz/meandmyshadow
+  desc: build and compatibility fixes
+  commits:
+  - url: https://github.com/acmepjz/meandmyshadow/commit/8a831e7764adc57908764555d20104cda6c33154
+    date: '2018-10-25'
+  - url: https://github.com/acmepjz/meandmyshadow/commit/4847e6b5755258a1e0534f2d4b91dce2ce3b459e
+    date: '2018-10-24'
+  dates: '2018'
   langs:
   - C++
   - CMake
@@ -790,6 +842,42 @@
   dates: '2018'
   langs:
   - Shell
+- project: twms
+  homepage: https://github.com/Komzpa/twms
+  desc: build fix
+  commits:
+  - url: https://github.com/Komzpa/twms/commit/b621ca1e212c17c861f1516f3d99d405e098f9bd
+    date: '2018-05-16'
+  - url: https://github.com/Komzpa/twms/commit/f789ca9ce5b57665ee4670f18c4b919103448896
+    date: '2018-05-15'
+  dates: '2018'
+  langs:
+  - Python
+- project: mptsd
+  homepage: https://georgi.unixsol.org/programs/mptsd/
+  desc: build fixes
+  commits:
+  - url: https://github.com/gfto/mptsd/commit/f0e3a1b1322433c58f697c3c8579a145ee3add02
+    date: '2018-05-06'
+  - url: https://github.com/gfto/mptsd/commit/86fee947279046dd542394dcd97f83c3423224bd
+    date: '2018-05-06'
+  dates: '2018'
+  langs:
+  - Make
+- project: libtsfuncs
+  homepage: https://georgi.unixsol.org/programs/libtsfuncs/
+  desc: build fixes
+  commits:
+  - url: https://github.com/gfto/libtsfuncs/commit/73b18eda11d4cc8c2c7010eaa7bf28f35aac7e83
+    date: '2018-05-06'
+  - url: https://github.com/gfto/libtsfuncs/commit/95bf6fcd97c53c18236d3b49c3f8bd4754f3924e
+    date: '2018-05-06'
+  - url: https://github.com/gfto/libtsfuncs/commit/848acf5a92b7ff885466f69c0d4e119f029fc9d6
+    date: '2018-04-18'
+  dates: '2018'
+  langs:
+  - C
+  - Make
 - project: cppcheck
   homepage: https://cppcheck.sourceforge.io/
   desc: build fixes
@@ -805,6 +893,37 @@
   - CMake
   - Make
   - Python
+- project: ddgr
+  homepage: https://github.com/jarun/ddgr
+  desc: build fixes
+  commits:
+  - url: https://github.com/jarun/ddgr/commit/2732132ac88beba7dad5bd3f250917df63541278
+    date: '2017-11-29'
+  - url: https://github.com/jarun/ddgr/commit/53b7d75506f1001ea16a74d6cdecd316976b81fe
+    date: '2017-11-29'
+  dates: '2017'
+  langs:
+  - Make
+- project: mir2x
+  homepage: https://github.com/etorth/mir2x
+  desc: build fix
+  commits:
+  - url: https://github.com/etorth/mir2x/commit/c17850af87803ca360bc25694b6b050266e3982d
+    date: '2017-11-07'
+  dates: '2017'
+  langs:
+  - CMake
+- project: tty-solitaire
+  homepage: https://github.com/mpereira/tty-solitaire
+  desc: build fixes
+  commits:
+  - url: https://github.com/mpereira/tty-solitaire/commit/b792ce833f537b3e58f23cc52e195ab08e1555f9
+    date: '2017-11-03'
+  - url: https://github.com/mpereira/tty-solitaire/commit/73c864e02480112b3f78dc103d64614f36fa158e
+    date: '2017-11-03'
+  dates: '2017'
+  langs:
+  - Make
 - project: librime
   homepage: https://github.com/lotem/librime/
   desc: build fixe
@@ -825,6 +944,15 @@
   dates: 2016-2017
   langs:
   - C++
+- project: io_lib
+  homepage: https://github.com/jkbonfield/io_lib
+  desc: build fix
+  commits:
+  - url: https://github.com/jkbonfield/io_lib/commit/baac05df495c6d59de64fda36100734b32279645
+    date: '2017-10-28'
+  dates: '2017'
+  langs:
+  - C
 - project: fuzzylite
   homepage: https://www.fuzzylite.com/
   desc: build fixes
@@ -893,6 +1021,15 @@
   dates: '2017'
   langs:
   - CMake
+- project: dnsmap
+  homepage: https://github.com/lifanov/dnsmap
+  desc: portability fix
+  commits:
+  - url: https://github.com/lifanov/dnsmap/commit/48601bbc6f8e900f72ff65518122a6d5a8852604
+    date: '2017-06-28'
+  dates: '2017'
+  langs:
+  - Shell
 - project: Warzone 2100
   homepage: https://wz2100.net/
   desc: build and portability fixes
@@ -913,6 +1050,17 @@
   langs:
   - C++
   - Shel
+- project: AnsiLove
+  homepage: https://www.ansilove.org/
+  desc: documentation fixes
+  commits:
+  - url: https://github.com/ansilove/ansilove/commit/2551c516d968e28189790cba75f07eee5fcfa81b
+    date: '2017-04-24'
+  - url: https://github.com/ansilove/ansilove/commit/6890381bdb29e2030217cb790f359d5b4c2dc4fd
+    date: '2016-11-16'
+  dates: 2016-2017
+  langs:
+  - Shell
 - project: Mudlet
   homepage: https://www.mudlet.org/
   desc: build fix
@@ -943,6 +1091,30 @@
   langs:
   - C++
   - CMake
+- project: ascii-invaders
+  homepage: https://github.com/macdice/ascii-invaders
+  desc: build fixes
+  commits:
+  - url: https://github.com/macdice/ascii-invaders/commit/23be0334d83a6b99caf3e73cae484a28e0a44454
+    date: '2016-12-12'
+  - url: https://github.com/macdice/ascii-invaders/commit/c8401e5a224277f65c1a6763626567709921cf78
+    date: '2016-11-21'
+  dates: '2016'
+  langs:
+  - Make
+- project: OAML
+  homepage: https://oamldev.github.io/
+  desc: build and portability fixes
+  commits:
+  - url: https://github.com/oamldev/oaml/commit/3bf38c7e694c19ac5d718680838642a77dbe8b76
+    date: '2016-11-23'
+  - url: https://github.com/oamldev/oaml/commit/cee5c16d0a514180e8732169b71977c1e26b1826
+    date: '2016-11-23'
+  - url: https://github.com/oamldev/oaml/commit/3ba473d47cc810fffe0579cc7423c13b13315813
+    date: '2016-11-23'
+  dates: '2016'
+  langs:
+  - CMake
 - project: violetland
   homepage: https://violetland.github.io/
   desc: build fixes
@@ -965,6 +1137,25 @@
   dates: '2016'
   langs:
   - Shell
+- project: indexinfo
+  homepage: https://github.com/bapt/indexinfo
+  desc: code fixes
+  commits:
+  - url: https://github.com/bapt/indexinfo/commit/803c54052046df0d1d8564c47499f6b6e0142a4f
+    date: '2016-10-26'
+  - url: https://github.com/bapt/indexinfo/commit/4ec13b1ea1e8c8626e5f387bc08e3b77b922aa80
+    date: '2016-10-26'
+  - url: https://github.com/bapt/indexinfo/commit/1519e84962bf0c6631343c390950758c5ba8e59a
+    date: '2016-10-26'
+  - url: https://github.com/bapt/indexinfo/commit/7dbd6e95acfccab54ce92ab6a4b89be7d3b1a43f
+    date: '2016-10-26'
+  - url: https://github.com/bapt/indexinfo/commit/db1724511c18a46207df1945952075b36e82b3e0
+    date: '2016-10-26'
+  - url: https://github.com/bapt/indexinfo/commit/11396815fe936adfee772e38b1903d52ef344dd0
+    date: '2016-10-26'
+  dates: '2016'
+  langs:
+  - C
 - project: DVBlast
   homepage: https://www.videolan.org/projects/dvblast.html
   desc: build fixes
@@ -1005,6 +1196,22 @@
   dates: '2016'
   langs:
   - CMake
+- project: OldSkoolGravityGame
+  homepage: https://sourceforge.net/projects/osgg/
+  desc: build and portability fixes
+  commits:
+  - url: https://github.com/DusteDdk/Osgg/commit/b8e6396022f280ce2cda71897e8892ece1d84cdb
+    date: '2016-09-11'
+  - url: https://github.com/DusteDdk/Osgg/commit/646fafefdbc5542a14cbb04bbdcc876b47f69a4f
+    date: '2016-09-11'
+  - url: https://github.com/DusteDdk/Osgg/commit/1fffb1fe9ab936ed89bd6b5d7667cf4003ace358
+    date: '2016-09-11'
+  - url: https://github.com/DusteDdk/Osgg/commit/9345b07a5d50dedc96cf540563f95fadaf8b8112
+    date: '2016-09-11'
+  dates: '2016'
+  langs:
+  - C++
+  - Make
 - project: lm4tools
   homepage: https://github.com/utzig/lm4tools
   desc: build fixes
@@ -1022,6 +1229,15 @@
   dates: 2014-2016
   langs:
   - Make
+- project: libopencad
+  homepage: https://github.com/nextgis-borsch/lib_opencad
+  desc: build fix
+  commits:
+  - url: https://github.com/sandyre/libopencad/commit/d0406826a6917d45f2a277dbbcfea41ab8c21b6b
+    date: '2016-08-25'
+  dates: '2016'
+  langs:
+  - CMake
 - project: OSM2Go
   homepage: https://github.com/osm2go/osm2go
   desc: build fixes, features, CI support
@@ -1298,7 +1514,7 @@
   - C++
 - project: Ruby-GNOME2
   homepage: https://ruby-gnome2.osdn.jp/
-  desc: portability fix
+  desc: incorrect shebang fix
   commits:
   - url: https://github.com/ruby-gnome2/ruby-gnome2/commit/63068cffe593c3a02de043a57992b940eb4ca5b0
     date: '2015-08-14'
