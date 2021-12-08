@@ -239,6 +239,15 @@
   langs:
   - C++
   - CMake
+- project: Snes9x 2010
+  homepage: https://github.com/libretro/snes9x2010
+  desc: portability fix
+  commits:
+  - url: https://github.com/libretro/snes9x2010/commit/f62fa3df6a64a4870c730c36f03e88f921cad2eb
+    date: '2021-04-23'
+  dates: '2021'
+  langs:
+  - Make
 - project: Simon Tatham's Puzzle Collection
   homepage: https://www.chiark.greenend.org.uk/~sgtatham/puzzles/
   desc: installation improvement
@@ -248,6 +257,37 @@
   dates: '2021'
   langs:
   - CMake
+- project: sdwmbar
+  homepage: https://github.com/sakhmatd/sdwmbar
+  desc: portability fixes
+  commits:
+  - url: https://github.com/sakhmatd/sdwmbar/commit/4c7f1c398a4cb8049d3030c15c0a0f2a699f41f0
+    date: '2021-03-17'
+  dates: '2021'
+  langs:
+  - Make
+- project: Bonzomatic
+  homepage: https://github.com/Gargaj/Bonzomatic
+  desc: build fix
+  commits:
+  - url: https://github.com/Gargaj/Bonzomatic/commit/59fe3e70f9ba8b188c94b0b290285123627038a3
+    date: '2021-03-14'
+  dates: '2021'
+  langs:
+  - C++
+- project: Word War vi
+  homepage: https://smcameron.github.io/wordwarvi/
+  desc: build fixes
+  commits:
+  - url: https://github.com/smcameron/wordwarvi/commit/9cee5ee186c36ef78dd07156e968e6bf60923168
+    date: '2021-02-03'
+  - url: https://github.com/smcameron/wordwarvi/commit/ff157765b31dc8c139706ee726c52da20e025a30
+    date: '2021-02-03'
+  - url: https://github.com/smcameron/wordwarvi/commit/9d77b4c61190ce04a1d9ed8a6b483457e9f0d297
+    date: '2016-10-06'
+  dates: 2016-2021
+  langs:
+  - Make
 - project: osm2pgsql
   homepage: https://github.com/openstreetmap/osm2pgsql
   desc: build fixes
@@ -276,6 +316,15 @@
   langs:
   - C++
   - CMake
+- project: aioftp
+  homepage: https://aioftp.readthedocs.io/
+  desc: fix test on FreeBSD
+  commits:
+  - url: https://github.com/aio-libs/aioftp/commit/305a5b321abc8a554ea6f00f26243ccca5d7d908
+    date: '2020-07-16'
+  dates: '2020'
+  langs:
+  - Python
 - project: Inkscape
   homepage: https://inkscape.org/
   desc: minor build improvement
@@ -285,8 +334,35 @@
   dates: '2020'
   langs:
   - CMake
+- project: typeshed
+  homepage: https://github.com/python/typeshed
+  desc: fix for Flask type annotations
+  commits:
+  - url: https://github.com/python/typeshed/commit/c14e56bcbb4b1f6590b867ae157a02b699b87464
+    date: '2020-06-10'
+  dates: '2020'
+  langs:
+  - Python
+- project: XMoto
+  homepage: https://xmoto.tuxfamily.org/
+  desc: build and portability fixes
+  commits:
+  - url: https://github.com/xmoto/xmoto/commit/a6ec3aefb80f4adf076a88fa2c07d99e54a1afc7
+    date: '2020-06-02'
+  - url: https://github.com/xmoto/xmoto/commit/201113521b04b932be77efd87703b7a4ee48b102
+    date: '2020-06-02'
+  - url: https://github.com/xmoto/xmoto/commit/ea807e8ddb1fc195d57ee9e1a66c71fecadfd6f6
+    date: '2020-06-02'
+  - url: https://github.com/xmoto/xmoto/commit/fbc5815caa4eb0ee20ff39dec48548cf2ab99290
+    date: '2020-06-02'
+  - url: https://github.com/xmoto/xmoto/commit/90461e6233196cb25847ece0455b9e83b76a2e6c
+    date: '2020-06-02'
+  dates: '2020'
+  langs:
+  - C++
+  - CMake
 - project: pycodestyle
-  homepage: https://github.com/PyCQA/pycodestyle
+  homepage: https://pycodestyle.pycqa.org/en/latest/
   desc: build fix
   commits:
   - url: https://github.com/pycqa/pycodestyle/commit/11dd1c84879e476a4d3cb264d97bfea9bcfb30d6
@@ -318,6 +394,15 @@
   langs:
   - C++
   - CMake
+- project: Nift
+  homepage: https://nift.dev/
+  desc: build fixes
+  commits:
+  - url: https://github.com/nifty-site-manager/nsm/commit/1d4e21d4997395ac0cb6aff83fcfab5e93212fa4
+    date: '2019-12-10'
+  dates: '2019'
+  langs:
+  - Make
 - project: Unknown Horizons
   homepage: https://unknown-horizons.org/
   desc: translation fixes
@@ -325,6 +410,19 @@
   - url: https://github.com/unknown-horizons/unknown-horizons/commit/a0f93ce56f0218037a35ce59d8ebb747d9e2bfcb
     date: '2019-12-04'
   dates: '2019'
+- project: AVRA
+  homepage: https://github.com/Ro5bert/avra
+  desc: build and portability fixes
+  commits:
+  - url: https://github.com/Ro5bert/avra/commit/837e9f85e79c270125a8f24ef363c3b6f19592b4
+    date: '2019-11-29'
+  - url: https://github.com/Ro5bert/avra/commit/afdb0c76d70767297414f7f5f705dbcd6a9bcde6
+    date: '2019-11-28'
+  - url: https://github.com/Ro5bert/avra/commit/9647f0d1c276bbc869975df0751e665c477fae38
+    date: '2019-11-28'
+  dates: '2019'
+  langs:
+  - Make
 - project: ValyriaTear
   homepage: https://valyriatear.blogspot.com/
   desc: build fixes
