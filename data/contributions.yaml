@@ -1049,7 +1049,7 @@
   dates: 2013-2017
   langs:
   - C++
-  - Shel
+  - Shell
 - project: AnsiLove
   homepage: https://www.ansilove.org/
   desc: documentation fixes
