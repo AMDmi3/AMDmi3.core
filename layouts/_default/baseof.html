@@ -8,50 +8,57 @@
 		<link rel="stylesheet" type="text/css" href="/style.css">
 		<link rel="stylesheet" type="text/css" href="/syntax.css">
 		{{ if .IsTranslated }}
-		{{ range .AllTranslations }}
-		<link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}">
-		{{ end }}
+			{{ range .AllTranslations }}
+				<link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}">
+			{{ end }}
 		{{ end }}
 	</head>
 	<body>
-		<header>
+		<header class="header-section">
 			<div class="wrapper">
-				<div class="site-nav-outer">
-					{{ with .Site.GetPage "/" }}<a class="site-title" href="{{ .Permalink }}">AMDmi3.core</a>{{ end }}
-					<nav>
-						{{ with .Site.GetPage "/" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
-						{{ with .Site.GetPage "/contributions" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
-						{{ with .Site.GetPage "/posts" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
-						{{/* {{ with .Site.GetPage "/projects/active" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }} */}}
-						{{ if .IsTranslated }}
-						<span class="site-nav-spacer"></span>
-						{{ range .Translations }}
-						<a href="{{ .RelPermalink }}" rel="alternate">{{ .Lang | upper }}</a>
+				<div class="top-menu">
+					<div class="top-menu_container">
+						{{ with $.Site.GetPage "/" }}
+							<a class="site-logo" href="{{ .Permalink }}">AMDmi3.core</a>
 						{{ end }}
+					</div>
+					<nav class="top-menu_container top-menu_container__grow top-menu_container__right">
+						{{ range $page := (slice "/" "/contributions" "/posts") }}
+							{{ with $.Site.GetPage $page }}
+								<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+							{{ end }}
+						{{ end }}
+						{{ if .IsTranslated }}
+							{{ range .Translations }}
+								<a href="{{ .RelPermalink }}" rel="alternate" title="{{ i18n (printf "this_page_in.%s" .Lang) }}">{{ .Lang | upper }}</a>
+							{{ end }}
 						{{ end }}
 					</nav>
 				</div>
 			</div>
 		</header>
-		<main>
+		<main class="main-section">
 			<div class="wrapper">
 				{{ block "main" . }}
 				{{ end }}
 			</div>
 		</main>
-		<footer>
+		<footer class="footer-section">
 			<div class="wrapper">
 				<nav class="footer">
-					<ul>
-						<li>© {{ i18n "author" }}</li>
-						<li>Content is <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA</a></li>
+					<ul class="footer_container footer-list">
+						<li style="line-spacing: 200%">© {{ i18n "author" }}, <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA</a></li>
+						<li><ul>
+							<li><a href="https://github.com/AMDmi3/AMDmi3.core/blob/master/content/{{ .File.Path }}">{{ i18n "this_page.source" }}</a></li>
+							<li><a href="https://github.com/AMDmi3/AMDmi3.core/edit/master/content/{{ .File.Path }}">{{ i18n "this_page.edit" }}</a></li>
+							<li><a href="https://github.com/AMDmi3/AMDmi3.core/issues/new?title=Please fix page &quot;{{ .Title }}&quot;">{{ i18n "this_page.report" }}</a></li>
+						</ul></li>
 					</ul>
-					<ul>
+					<ul class="footer_container footer-list">
 						<li>E-Mail: <a href="mailto:amdmi3@amdmi3.ru">amdmi3@amdmi3.ru</a></li>
 						<li>GitHub: <a href="https://github.com/AMDmi3">AMDmi3</a></li>
 						<li>Mastodon: <a href="https://fosstodon.org/@AMDmi3">@AMDmi3@fosstodon.org</a></li>
 						<li>Telegram: <a href="https://telegram.me/AMDmi3">@AMDmi3</a></li>
-						<li><a href="https://github.com/AMDmi3/AMDmi3.core/issues/new">File issue for this blogs repository</a></li>
 					</ul>
 				</nav>
 			</div>

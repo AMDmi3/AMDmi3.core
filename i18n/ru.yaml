@@ -3,3 +3,17 @@ recent_posts:
      
 author:
   other: Дмитрий Маракасов
+
+this_page_in:
+  ru:
+    other: Эта страница на русском
+  en:
+    other: Эта страница на английском
+
+this_page:
+  source:
+    other: Исходный код страницы
+  edit:
+    other: Редактировать страницу
+  report:
+    other: Сообщить об ошибке

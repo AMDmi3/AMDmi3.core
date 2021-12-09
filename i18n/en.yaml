@@ -3,3 +3,17 @@ recent_posts:
 
 author:
   other: Dmitry Marakasov
+
+this_page_in:
+  en:
+    other: This page in English
+  ru:
+    other: This page in Russian
+
+this_page:
+  source:
+    other: This page source
+  edit:
+    other: Edit this page
+  report:
+    other: Report a problem
