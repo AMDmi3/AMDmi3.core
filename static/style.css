@@ -62,14 +62,37 @@ table th { background-color: #f0f0f0; border: 1px solid #dedede; border-bottom-c
 table td { border: 1px solid #e8e8e8; }
 
 /* images */
-figure {
-	padding: 0.5rem; border-radius: 0.25rem; overflow-x: auto; border: 1px solid #dedede;
+.figure {
+	padding: 0.5rem;
+	border-radius: 0.25rem;
+	overflow-x: auto;
+	border: 1px solid #dedede;
+}
+
+.figure_float-left {
+	float: left;
+	margin: 0 0.5rem 0.5rem 0;
+}
+
+.figure_float-right {
+	float: right;
+	margin: 0 0 0.5rem 0.5rem;
+}
+
+.figure__container {
+	text-align: center;
+}
+
+.figure__caption {
+	text-align: center;
 }
 
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	align-items: center;
+	clear: both;
 }
 
 /* sidy by side */

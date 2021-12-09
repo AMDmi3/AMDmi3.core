@@ -1,15 +1,17 @@
 {{ $original := .Page.Resources.GetMatch (.Get "src") }}
 {{ $image := $original.Resize (.Get "size") }}
 
-<figure>
-	<a href="{{ $original.RelPermalink }}">
-		<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
-         {{- if (.Get "caption") }}
-         alt="{{ .Get "caption" | markdownify| plainify }}"
-         {{- end -}}
-    />
-	</a>
-  {{- if (.Get "caption") -}}
-	<figcaption><p>{{- .Get "caption" | markdownify -}}</p></figcaption>
+<figure class="figure{{ if (.Get "float") }} figure_float-{{ .Get "float" }}{{ end }}">
+	<div class="figure__container">
+		<a href="{{ $original.RelPermalink }}">
+			<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
+				{{- if (.Get "caption") }}
+					alt="{{ .Get "caption" | markdownify| plainify }}"
+				{{- end -}}
+			/>
+		</a>
+	</div>
+	{{- if (.Get "caption") -}}
+		<figcaption class="figure__caption"><p>{{- .Get "caption" | markdownify -}}</p></figcaption>
 	{{- end }}
 </figure>
