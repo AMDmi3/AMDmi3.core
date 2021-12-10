@@ -19,6 +19,9 @@ data/contributions.yaml::
 serve::
 	@hugo serve -D
 
+optipng::
+	find content -name '*.png' | xargs -t -n1 -P4 optipng -q -o99
+
 check:: gen
 	@find ${CONTENT_DIR} -name "*.html" | while read f; do \
 		${TIDY} \
