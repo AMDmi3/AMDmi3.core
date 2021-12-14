@@ -1761,6 +1761,52 @@
   dates: 2013-2015
   langs:
   - C
+- project: Griel's Quest
+  homepage: https://github.com/nevat/griels-quest
+  desc: code and build fixes
+  commits:
+  - url: https://github.com/nevat/griels-quest/commit/7718cd0590b7f64dea1a9778139d87c6513e69bf
+    date: '2015-04-11'
+  - url: https://github.com/nevat/griels-quest/commit/9daa21d92fb9de85cc151ce619efb95fcfc96fcc
+    date: '2015-04-10'
+  - url: https://github.com/nevat/griels-quest/commit/0fff2c13956ac17794f6ddffd9244f30966a0876
+    date: '2015-04-10'
+  - url: https://github.com/nevat/griels-quest/commit/a0ebb42f2ba11f8303ea1c2a3596849c7626662a
+    date: '2015-04-10'
+  - url: https://github.com/nevat/griels-quest/commit/52807ce6b21d5abf2aeca32c40238b61f0eae410
+    date: '2015-04-10'
+  - url: https://github.com/nevat/griels-quest/commit/157ff57030598afbbbbb512ed7bec3d198591780
+    date: '2015-04-10'
+  dates: '2015'
+  langs:
+  - C
+  - Make
+- project: l'Abbaye des Morts
+  homepage: https://github.com/nevat/abbayedesmorts-gpl
+  desc: code and build fixes
+  commits:
+  - url: https://github.com/nevat/abbayedesmorts-gpl/commit/e9d56b7493a506d3d0afbdb6cb800fc322ccab94
+    date: '2015-04-09'
+  - url: https://github.com/nevat/abbayedesmorts-gpl/commit/c603c83637706bd308e3643cf19bcf26614120d7
+    date: '2015-04-10'
+  - url: https://github.com/nevat/abbayedesmorts-gpl/commit/69fc9c70ff79cdca5228a71010d79c8636b06e59
+    date: '2015-04-10'
+  - url: https://github.com/nevat/abbayedesmorts-gpl/commit/3714ca310d934bfa7118eb77d0cbba5d5dc332ac
+    date: '2015-04-09'
+  - url: https://github.com/nevat/abbayedesmorts-gpl/commit/042034519c21b3a3f6db9f2f379c7f0d7ab1278d
+    date: '2015-04-09'
+  - url: https://github.com/nevat/abbayedesmorts-gpl/commit/e73c3b437d8e2074ea39811978dbfc5f0e3cea17
+    date: '2015-04-09'
+  - url: https://github.com/nevat/abbayedesmorts-gpl/commit/822f7b57f97ba08f36185907971de51c605ff84b
+    date: '2015-04-09'
+  - url: https://github.com/nevat/abbayedesmorts-gpl/commit/3ef2d733a7dce1ae52e16137a0ed60e315f4b4c7
+    date: '2015-04-09'
+  - url: https://github.com/nevat/abbayedesmorts-gpl/commit/20f8070447200c2aee0ed02e87af5a54fb4e6e21
+    date: '2015-04-09'
+  dates: '2015'
+  langs:
+  - C
+  - Make
 - project: VCMI
   homepage: https://vcmi.eu/
   desc: portability and build fixes
@@ -1773,6 +1819,15 @@
   langs:
   - C++
   - CMake
+- project: Red Eclipse
+  homepage: https://redeclipse.net/
+  desc: code fixes
+  commits:
+  - url: https://github.com/redeclipse/base/commit/4f46c20febbaea48f4156d894979bf1b4ad8b31b
+    date: '2015-04-03'
+  dates: '2015'
+  langs:
+  - C
 - project: Pioneer
   homepage: https://pioneerspacesim.net/
   desc: code fixes
@@ -1782,6 +1837,15 @@
   - url: https://github.com/pioneerspacesim/pioneer/commit/78190b64c3128b246c77f955854ee3aa2d2ffc8c
     date: '2014-12-11'
   dates: 2014-2015
+  langs:
+  - C++
+- project: Construo
+  homepage: https://construo.github.io/
+  desc: code fix
+  commits:
+  - url: https://github.com/Construo/construo/commit/0004c48aa0037398f64e468a849a638f85326394
+    date: '2015-03-26'
+  dates: '2015'
   langs:
   - C++
 - project: cave9
@@ -1800,6 +1864,38 @@
   dates: '2015'
   langs:
   - Python
+- project: Harris
+  homepage: https://github.com/ec429/harris
+  desc: code and build fixes
+  commits:
+  - url: https://github.com/ec429/harris/commit/439b2d478a73d04d10b14b668dcad4e9b14accce
+    date: '2015-03-13'
+  - url: https://github.com/ec429/harris/commit/3d097a3d7f1d3e31d82193e1c8110f4261dce228
+    date: '2015-03-13'
+  - url: https://github.com/ec429/harris/commit/388e05618da7c9b03b9b19afa66cd515e9ea9249
+    date: '2015-03-13'
+  - url: https://github.com/ec429/harris/commit/2ba2af0d3da3472919d65fa61d4df5b58671a722
+    date: '2015-03-13'
+  - url: https://github.com/ec429/harris/commit/15078badc984d6d5d30112fc77ba8cf9ff8c112c
+    date: '2015-03-13'
+  dates: '2015'
+  langs:
+  - C
+  - Make
+- project: libatg
+  homepage: https://github.com/ec429/libatg
+  desc: code and build fixes
+  commits:
+  - url: https://github.com/ec429/libatg/commit/df0578fdeefa9308005d727c14be5d1f6437a44b
+    date: '2015-03-13'
+  - url: https://github.com/ec429/libatg/commit/ccb03c67b499a70e5f704c631be8d4969140e64d
+    date: '2015-03-13'
+  - url: https://github.com/ec429/libatg/commit/b1cc1bfb9356c921c30589412575f6bf30f10b46
+    date: '2015-03-13'
+  dates: '2015'
+  langs:
+  - C
+  - Make
 - project: osmCatalog
   homepage: https://github.com/ErshKUS/osmCatalog
   desc: complete implementation of web-based viewer
@@ -2355,6 +2451,15 @@
   dates: 2012-2015
   langs:
   - Javascript
+- project: FreeBlocks
+  homepage: https://github.com/dorkster/freeblocks
+  desc: portability fix
+  commits:
+  - url: https://github.com/dorkster/freeblocks/commit/13671b1d403a8c19f704b11a2b89bfe54e04a050
+    date: '2015-03-09'
+  dates: '2015'
+  langs:
+  - CMake
 - project: twister
   homepage: https://github.com/miguelfreitas/twister-core
   desc: build fix
@@ -2471,6 +2576,18 @@
   langs:
   - C++
   - CMake
+- project: CLUNK
+  homepage: https://sourceforge.net/projects/clunk/
+  desc: code and build fixes
+  commits:
+  - url: https://github.com/whoozle/clunk/commit/7ec4e3e1a03e39b861ec148b760f95e7976da596
+    date: '2015-01-23'
+  - url: https://github.com/whoozle/clunk/commit/e868799065ee770dbf0e42c4bd78087778e9d8d6
+    date: '2014-10-08'
+  dates: 2014-2015
+  langs:
+  - C++
+  - CMake
 - project: TwinklebearDev-Lessons
   homepage: http://twinklebeardev.blogspot.com/p/sdl-20-tutorial-index.html
   desc: warning fixes
@@ -2480,6 +2597,30 @@
   dates: '2015'
   langs:
   - C++
+- project: Punani Strike
+  homepage: https://github.com/giannitedesco/punani-strike
+  desc: portability fix
+  commits:
+  - url: https://github.com/giannitedesco/punani-strike/commit/10f4ac71d2cc19d61b08a364bcb41bdfbe8c3019
+    date: '2015-01-07'
+  - url: https://github.com/giannitedesco/punani-strike/commit/45411ca54f5770fb3f34d7928c902d36fb3a827a
+    date: '2015-01-07'
+  dates: '2015'
+  langs:
+  - Make
+  - Shell
+- project: SDL-Ball
+  homepage: https://github.com/DusteDdk/SDL-Ball
+  desc: code and build fixes
+  commits:
+  - url: https://github.com/DusteDdk/SDL-Ball/commit/c487b4d93e01aaa0b6f57821c7c3cbb93dc8e840
+    date: '2014-12-01'
+  - url: https://github.com/DusteDdk/SDL-Ball/commit/db436e01739cf0d8e882baeb1058dbed716fffa1
+    date: '2014-12-01'
+  dates: '2014'
+  langs:
+  - C++
+  - Make
 - project: The Secret Chronicles of Dr. M.
   homepage: https://secretchronicles.org/
   desc: portability fix
@@ -2500,6 +2641,31 @@
   dates: '2014'
   langs:
   - C++
+- project: QupZilla
+  homepage: https://github.com/QupZilla/qupzilla
+  desc: build fix
+  commits:
+  - url: https://github.com/QupZilla/qupzilla/commit/9fcf8e677f11a901e392041e850c3d700877675f
+    date: '2014-09-26'
+  dates: '2014'
+  langs:
+  - C++
+- project: 2048-cli
+  homepage: https://github.com/tiehuis/2048-cli
+  desc: portability fixes, minor features
+  commits:
+  - url: https://github.com/tiehuis/2048-cli/commit/a49ed8dd36739d4edd72b9bf249c683681fa94a3
+    date: '2014-09-12'
+  - url: https://github.com/tiehuis/2048-cli/commit/f2aa753d493ac8fac41f0041525bfd9d8f54eba6
+    date: '2014-09-12'
+  - url: https://github.com/tiehuis/2048-cli/commit/ba0b92ea9aee6c157ac7b1084e5bb2af7af322f8
+    date: '2014-09-09'
+  - url: https://github.com/tiehuis/2048-cli/commit/fe0d23d740c6710373b519f022efe0488e05440f
+    date: '2014-09-09'
+  dates: '2014'
+  langs:
+  - C
+  - Make
 - project: OpenXcom
   homepage: https://openxcom.org/
   desc: build and portability fixes
@@ -2565,6 +2731,24 @@
   dates: '2014'
   langs:
   - CMake
+- project: icat
+  homepage: https://github.com/atextor/icat
+  desc: portability fix
+  commits:
+  - url: https://github.com/atextor/icat/commit/86f78a6da6d1e5afafe73f7d0fa3930ef7192e90
+    date: '2014-06-23'
+  dates: '2014'
+  langs:
+  - Make
+- project: Tetris game
+  homepage: https://github.com/patapizza/tetris
+  desc: portability fix
+  commits:
+  - url: https://github.com/patapizza/tetris/commit/c6670076eba26e8e5ca9855c1f7c304e05b5d9bf
+    date: '2014-06-23'
+  dates: '2014'
+  langs:
+  - C
 - project: OpenStreetMap Overpass-API
   homepage: https://overpass-api.de/
   desc: code fixes
@@ -2620,6 +2804,20 @@
   langs:
   - C++
   - Lua
+- project: cavestory-sdl2
+  homepage: https://github.com/JIghtuse/cavestory-sdl2
+  desc: portability fixes
+  commits:
+  - url: https://github.com/JIghtuse/cavestory-sdl2/commit/c36df77bd19e259c192bf610e487fd1e8b597b6d
+    date: '2014-01-30'
+  - url: https://github.com/JIghtuse/cavestory-sdl2/commit/9b3dcdb6ccf2ac42fe71326f899a353d24810d67
+    date: '2014-01-30'
+  - url: https://github.com/JIghtuse/cavestory-sdl2/commit/b1b0bfe08d56d35375ee89116cb0ab2fffa095b4
+    date: '2014-01-30'
+  dates: '2014'
+  langs:
+  - C
+  - Make
 - project: Hedgewars
   homepage: https://hedgewars.org/
   desc: build and bug fixes
@@ -2694,6 +2892,19 @@
   langs:
   - C++
   - CMake
+- project: Lunar Lander
+  homepage: https://www.doof.me.uk/lunar-lander/
+  desc: portability fixes and minor features
+  commits:
+  - url: https://github.com/nickg/lander/commit/c4acce0613d5d97becd7184c909d2c364c53d6fe
+    date: '2013-12-16'
+  - url: https://github.com/nickg/lander/commit/a35130ebd7a808dc79661dc5477f0601b27bbafd
+    date: '2013-12-16'
+  - url: https://github.com/nickg/lander/commit/37393875debacf78ef304084910652b82de752a8
+    date: '2013-12-10'
+  dates: '2013'
+  langs:
+  - C
 - project: libSpringLobby
   homepage: https://github.com/springlobby/lsl
   desc: build fixes
@@ -2795,7 +3006,7 @@
   langs:
   - C++
   - CMake
-- project: autorevision
+- project: Autorevision
   homepage: https://autorevision.github.io/
   desc: portability and minor bug fixes
   commits:
@@ -2900,6 +3111,21 @@
   langs:
   - C++
   - CMake
+- project: espada
+  homepage: https://github.com/dorkster/espada
+  desc: portability fixes
+  commits:
+  - url: https://github.com/dorkster/espada/commit/c46659384221fb4579f59cccd5d6e24c1b1ab9f9
+    date: '2013-07-23'
+  - url: https://github.com/dorkster/espada/commit/92ff59a8904166bd88d117ea61c860b8fc04fdd4
+    date: '2013-07-23'
+  - url: https://github.com/dorkster/espada/commit/bef34ab47085ed9191be2bccc44590fd3e4ff42a
+    date: '2013-07-23'
+  dates: '2013'
+  langs:
+  - C
+  - Make
+  - Shell
 - project: OpenStreetMap Taginfo
   homepage: https://wiki.openstreetmap.org/wiki/Taginfo
   desc: portability fix
@@ -2915,6 +3141,15 @@
   dates: '2013'
   langs:
   - Make
+- project: Phyisca
+  homepage: http://physica.sourceforge.net/
+  desc: build fix
+  commits:
+  - url: https://github.com/michelebucelli/Physica/commit/cae8bac5a8ed0bcf7dc03b0b860885d05119ba03
+    date: '2013-02-28'
+  dates: '2013'
+  langs:
+  - C
 - project: osc
   homepage: https://github.com/openSUSE/osc
   desc: minor code fix
