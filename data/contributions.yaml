@@ -1,3 +1,12 @@
+- project: Stratagus
+  homepage: https://stratagus.com/
+  desc: portability fixes
+  commits:
+  - url: https://github.com/Wargus/stratagus/commit/dafda54e504a366f0f1032c0d133dc21ae057e0a
+    date: '2021-12-20'
+  dates: '2021'
+  langs:
+  - CMake
 - project: termux packages
   homepage: https://github.com/termux/termux-packages
   commits:
