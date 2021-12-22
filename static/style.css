@@ -121,7 +121,6 @@ header > h1 {
  * site header
  */
 .header-section {
-	flex-grow: 1;
 	border-bottom: 1px solid #e8e8e8;
 }
 
