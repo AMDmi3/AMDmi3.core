@@ -27,11 +27,11 @@ Code (formatted for readability):
 ```
 
 > **NB**: I didn't notice right away that these `<span>`s were supposed
-to be invisible, but that didn't work because of
-[Content-Security-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
-HTTP header I use on my servers, which forbid embedded styles.
-That's another Doxygen problem to
-[fix](https://github.com/doxygen/doxygen/pull/8992).
+> to be invisible, but that didn't work because of
+> [Content-Security-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy)
+> HTTP header I use on my servers, which forbid embedded styles.
+> That's another Doxygen problem to
+> [fix](https://github.com/doxygen/doxygen/pull/8992).
 
 That's some badass obfuscation! But I don't need it.
 - I want my email to be readable as text, and `mailto:` link to be
