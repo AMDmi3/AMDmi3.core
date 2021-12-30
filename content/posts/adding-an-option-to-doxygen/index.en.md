@@ -1,7 +1,6 @@
 ---
 title: "Contribution Story: Adding an Option to Doxygen"
-date: 2021-12-29T22:51:07+03:00
-draft: yes
+date: 2021-12-30T16:40:44+03:00
 ---
 
 I use [Doxygen](https://www.doxygen.nl/index.html) to generate
