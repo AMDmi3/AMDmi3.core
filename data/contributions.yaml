@@ -1,7 +1,9 @@
 - project: Doxygen
   homepage: https://www.doxygen.nl/index.html
-  desc: added new configuration option
+  desc: fixes and minor features
   commits:
+  - url: https://github.com/doxygen/doxygen/commit/f60d53f15ff494c123c65328b2ad867410c464c5
+    date: '2021-12-30'
   - url: https://github.com/doxygen/doxygen/commit/fe818b6cf945359c498dc7a25067788f9ae70a53
     date: '2021-12-29'
   dates: '2021'
