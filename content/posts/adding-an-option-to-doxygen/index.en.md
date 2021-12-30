@@ -100,7 +100,7 @@ may also notice that URL is as well passed to
 
 So all I need now is to wrap these two instances of obfuscation
 code in `if`'s which check a configuration option, and write verbatim
-URLs in `else` option.
+URLs in `else` branches.
 
 But before I do that I need to define a new option and I need to
 know how to access it from the code. For the latter, I've tried
