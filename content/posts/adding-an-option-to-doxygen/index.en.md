@@ -133,7 +133,8 @@ expected, the obfuscation was disabled:
 With that I was ready to submit a
 [pull request](https://github.com/doxygen/doxygen/pull/8989)
 (simplified [diff](https://github.com/doxygen/doxygen/pull/8989/files?diff=split&w=1))
-which got accepted the next day.
+which got accepted the next day. These changes should be available
+in then next `1.9.3` release of Doxygen.
 
 > **Note to self**: before submitting a PR, check a code style of a
 > project you're contributing to and make sure your changes conform
