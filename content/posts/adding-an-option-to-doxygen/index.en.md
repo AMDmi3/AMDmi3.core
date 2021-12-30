@@ -122,9 +122,9 @@ documentation for them as well from these xml definitions, neat.
 All I have to do now is to copy a definition of any boolean option
 and change it for my needs.
 
-Finally I've build a fresh Doxygen (`cmake . && make` which produces
-`bin/doxygen`) and tested it with my new option. As expected, the
-obfuscation was disabled:
+Finally I've build a fresh Doxygen (`cmake . && cmake --build .`
+which produces `bin/doxygen`) and tested it with my new option. As
+expected, the obfuscation was disabled:
 
 ```html
 <a href="mailto:amdmi3@amdmi3.ru">amdmi3@amdmi3.ru</a>
