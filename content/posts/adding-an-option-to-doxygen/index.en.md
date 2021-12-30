@@ -117,7 +117,7 @@ file, but in this case it was an .xml instead:
 ...
 ```
 
-So Doxygen generates code for configuration variables and probably a
+So Doxygen generates code for configuration options and probably a
 documentation for them as well from these xml definitions, neat.
 All I have to do now is to copy a definition of any boolean option
 and change it for my needs.
