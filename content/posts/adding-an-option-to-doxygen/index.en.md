@@ -7,10 +7,9 @@ draft: yes
 I use [Doxygen](https://www.doxygen.nl/index.html) to generate
 [documentation](https://sdl2pp.amdmi3.ru/) for a library I maintain,
 [libSDL2pp](https://github.com/libSDL2pp/libSDL2pp). One day I've
-decided to regenerate the documentation to check that the process
-is not broken and my eye was caught by obfuscated email in the docs.
-That is absolutely not what I wanted and there was no option do
-disable this behavior, so I've decided to add one.
+been looking the generated documentation through and my eye was caught by what supposed to be my email address, which was obfuscated beyond recognition.
+Email obfuscation is absolutely not what I wanted, and Doxygen had no way to
+disable this behavior, so I've decided to implement one.
 
 <!-- more -->
 
@@ -18,7 +17,7 @@ Here's how it looked in the generated HTML:
 
 {{< img src="obfuscation.png" size="547x77" >}}
 
-Code (formatted for readability a bit):
+Code (formatted for readability):
 
 ```html
 <a href="#" onclick="location.href='mai'+'lto:'+'amd'+'mi'+'3@a'+'md'+'mi3'+'.r'+'u'; return false;">
@@ -26,20 +25,22 @@ Code (formatted for readability a bit):
 </a>
 ```
 
+> NB: I didn't notice right away that these `<span>`s were supposed to be invisible, but that didn't work because of CSP HTTP headers I use, which forbid embedded styles. That's another Doxygen problem to fix.
+
 That's some badass obfuscation! But I don't need it.
-- I want my email to be readable as text, and `mailto:` link be
+- I want my email to be readable as text, and `mailto:` link to be
   valid, even for these who have javascript disabled.
-- I see spam problem as mostly fictional nowadays, as not using I
+- I see spam problem as mostly fictional nowadays, for instance I
   have my email published verbatim on hundreds of sites, and I'm
   not using any spam filters, yet I'm not getting any intolerable
   amount of spam.
-- Because it is published on many sites, obfuscating it in a single
-  one won't change a thing anyway.
+- Because my email is published verbatim on so many sites, obfuscating it on a single
+  one doesn't change a thing anyway.
 
-So, let's teach Doxygen to not break my email.
+So, let's teach Doxygen to not mangle my email.
 
-First, I need to find a place in the code which does the obfuscation,
-and that's straightforward:
+First, I need to find a place in the Doxygen code which does the obfuscation,
+and that's straightforward, I just lookup the text from the inserted garbage:
 
 ```
 % git clone https://github.com/doxygen/doxygen/ .
@@ -83,20 +84,20 @@ void HtmlDocVisitor::visit(DocURL *u)
 }
 {{< /highlight >}}
 
-You don't really have to grasp this code to see that it indeed
-inserts `<span>`s with garbage into link text and also passes it
-to `writeObfuscatedMailAddress()` which, as it turns out, writes
-link tag (`<a href="mailto:...`) and obfuscates it as well.
+You don't really have to grasp this code to see that it gets an URL (which is email address in our case) in the `url` argument, indeed
+inserts `<span>`s with garbage into it, and outputs HTML code into `m_t` stream. One may also notice that URL is as well passed
+to `writeObfuscatedMailAddress()` which, as it turns out, outputs a
+hypertext link tag (`<a href="mailto:...">`) and obfuscates mail address there as well.
 
-So all I need now is to wrap the code in `if`'s which check a config
+So all I need now is to wrap the obfuscation code in `if`'s which check a config
 variable, and write verbatim URLs in `else` branches.
 
-But to do that I need to add a config variable and I need to know
-how to access it. For the latter, I've tried searching for `[Cc]onfig`
+But before I do that I need to define a new config variable and I need to know
+how to access it from the code. For the latter, I've tried searching for `[Cc]onfig`
 in this very source file, and that returned an example case of
 variable access right away: `Config_getBool(DOT_CLEANUP)`. Then
 I've grepped `DOT_CLEANUP` through Doxygen sources to find where
-it is defined. Usually it'll be a `#define` or `enum` value in some
+it is defined. I'd expect a `#define` or `enum` value in some
 header file, but in this case it was an .xml instead:
 
 ```
@@ -111,15 +112,15 @@ documentation for them as well from these xml definitions, neat.
 All I have to do now is to copy a definition of any boolean option
 and change it for my needs.
 
-Next I build a fresh Doxygen (`cmake . && make` which produces
-`bin/doxygen`) and test it with my new option.
+Finally I build a fresh Doxygen (`cmake . && make` which produces
+`bin/doxygen`) and test it with my new option. As expected, that cancels the obfuscation:
 
 ```html
 <a href="mailto:amdmi3@amdmi3.ru">amdmi3@amdmi3.ru</a>
 ```
 
 With that I'm ready to submit a
-[pull request](https://github.com/doxygen/doxygen/pull/8989) ([diff](https://github.com/doxygen/doxygen/pull/8989/files?diff=split&w=1) with whitespace disabled which visualizes the changes) which gets accepted in [FIXME].
+[pull request](https://github.com/doxygen/doxygen/pull/8989) ([diff](https://github.com/doxygen/doxygen/pull/8989/files?diff=split&w=1) with whitespace disabled which visualizes the changes) which gets accepted in a day.
 
 > **Note to self**: before submitting a PR, check a code style of
 > project you're contributing to and make sure your changes conform
