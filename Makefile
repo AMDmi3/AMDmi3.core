@@ -14,7 +14,7 @@ lint::
 	-mypy bin/contributions
 
 data/contributions.yaml::
-	bin/contributions data/contributions.yaml
+	bin/contributions -c data/contributions.yaml
 
 serve::
 	@hugo serve -D
