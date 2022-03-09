@@ -1,3 +1,155 @@
+- project: word_cloud
+  homepage: https://amueller.github.io/word_cloud
+  commits:
+  - url: https://github.com/amueller/word_cloud/commit/e9dc8c718c38975493b6d462a5fef18d1c6a0ad5
+    date: '2022-04-26'
+  dates: '2022'
+  langs:
+  - Python
+- project: normality
+  commits:
+  - url: https://github.com/pudo/normality/commit/66a58fa9e05c6c426b4c7b9d781104d0a94e3e22
+    date: '2022-04-26'
+  dates: '2022'
+  langs:
+  - Python
+- project: Secure Systems Library
+  commits:
+  - url: https://github.com/secure-systems-lab/securesystemslib/commit/0c5c8508c77bdb28f7f10862b3e66513b561d190
+    date: '2022-04-26'
+  dates: '2022'
+  langs:
+  - Python
+- project: difftastic
+  homepage: https://difftastic.wilfred.me.uk/
+  commits:
+  - url: https://github.com/Wilfred/difftastic/commit/9fc437216c28b1dc24f7304f26dade41b2ca72f7
+    date: '2022-03-30'
+  dates: '2022'
+  langs:
+  - Rust
+- project: Apricots
+  desc: Code and compatibility fixes
+  commits:
+  - url: https://github.com/moggers87/apricots/commit/8f5ca48c2d87924e5dff51946b36b836dfbb7296
+    date: '2022-03-16'
+  - url: https://github.com/moggers87/apricots/commit/dd5010cc51e3b699395312a3f09217038f1b5e28
+    date: '2022-03-16'
+  - url: https://github.com/moggers87/apricots/commit/20fbe9e88d2ed2c010976f5b4dd303b682caf347
+    date: '2022-03-16'
+  dates: '2022'
+  langs:
+  - Automake
+- project: Widelands
+  homepage: https://www.widelands.org/
+  desc: build fixes
+  commits:
+  - url: https://github.com/widelands/widelands/commit/25cafc2087302159ee8041d58c0d44d29fa07f77
+    date: '2022-03-15'
+  - url: https://github.com/widelands/widelands/commit/5f0c35fdb189cb0b5345cb24990a362251d8aeb2
+    date: '2019-05-09'
+  - url: https://github.com/widelands/widelands/commit/b676047d68ea8610d8eef6a459c5413c5c100f4a
+    date: '2012-11-30'
+  dates: 2012-2022
+  langs:
+  - CMake
+- project: osm2pgsql
+  homepage: https://github.com/openstreetmap/osm2pgsql
+  desc: build and compatibility fixes
+  commits:
+  - url: https://github.com/openstreetmap/osm2pgsql/commit/eab75af7f38509714b07a2154cc7e3905c653869
+    date: '2022-03-15'
+  - url: https://github.com/openstreetmap/osm2pgsql/commit/4a76aefc3c4a080fd14edc81e1851e39f1a544f4
+    date: '2020-12-10'
+  - url: https://github.com/openstreetmap/osm2pgsql/commit/dda366542f1259b349e807f91b81a1511b19865d
+    date: '2015-03-02'
+  dates: 2015-2022
+  langs:
+  - Automake
+  - C++
+  - CMake
+- project: Wyrmsun
+  homepage: https://github.com/Andrettin/Wyrmgus
+  desc: code fixes
+  commits:
+  - url: https://github.com/Andrettin/Wyrmsun/commit/0bd3a7c10eaa4dcfc8e620c19f2d9378360a29c2
+    date: '2021-08-20'
+  - url: https://github.com/Andrettin/Wyrmsun/commit/15caa201694821770e1355f989a716afd3ea650b
+    date: '2018-12-26'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/3618a34a2bc5307cf7ebc180b8d3ea72b5c88d65
+    date: '2022-03-14'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/bfa948a255cf1d574cee2a5f72e9a3ecfd95c9e1
+    date: '2021-01-11'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/fb3954bf301530c6c8f1791dd6647a47cacc607d
+    date: '2015-11-13'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/bded1bfed4e4e8ed00422387f04a35a883e6b5cc
+    date: '2015-06-02'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/587c8fcd782c24ce7cc528b9f6d5d89f3deb4400
+    date: '2015-05-14'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/88845d8d1cac0e3fe31fb5dd42c691b0ad57b46c
+    date: '2015-05-14'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/328c9ee6795436323f4d1e2d027c6c76bfc49e3f
+    date: '2015-05-14'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/c599819472978c6c53efafd9a4719c83a7c35cb5
+    date: '2015-05-14'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/e56386059f7c56c67798fcd90e4a8ca7b711fe33
+    date: '2015-05-14'
+  dates: 2015-2022
+  langs:
+  - C++
+- project: libosmium
+  homepage: https://github.com/osmcode/libosmium
+  desc: portability fixes
+  commits:
+  - url: https://github.com/osmcode/libosmium/commit/4d01c4f099c4cccbcf8dc7c75e7689fda61ee807
+    date: '2022-03-14'
+  - url: https://github.com/osmcode/libosmium/commit/d8e737196f7f849330c778951af7c676cb6ede19
+    date: '2017-10-28'
+  - url: https://github.com/osmcode/libosmium/commit/bffe6269abf98868b31e8b6fa7e0c700bd2993c9
+    date: '2016-12-19'
+  dates: 2016-2022
+  langs:
+  - C++
+- project: Arx Libertatis
+  homepage: https://arx-libertatis.org/
+  desc: Bug fix
+  commits:
+  - url: https://github.com/arx/ArxLibertatis/commit/cf0be2d75639326c531be658ed95932cb5f1e8ba
+    date: '2022-03-14'
+  dates: '2022'
+  langs:
+  - C++
+- project: OpenTyrian
+  homepage: https://github.com/opentyrian/opentyrian
+  desc: installation improvement
+  commits:
+  - url: https://github.com/opentyrian/opentyrian/commit/97ecbed1851ea71ec4ee8cdef03e8f5629ae6841
+    date: '2022-03-11'
+  dates: '2022'
+  langs:
+  - C
+- project: ddgr
+  homepage: https://github.com/jarun/ddgr
+  desc: build and compatibility fixes
+  commits:
+  - url: https://github.com/jarun/ddgr/commit/bb4db0e62cff99e21998b72d1ac72faab2bb499e
+    date: '2022-03-09'
+  - url: https://github.com/jarun/ddgr/commit/2732132ac88beba7dad5bd3f250917df63541278
+    date: '2017-11-29'
+  - url: https://github.com/jarun/ddgr/commit/53b7d75506f1001ea16a74d6cdecd316976b81fe
+    date: '2017-11-29'
+  dates: 2017-2022
+  langs:
+  - Make
+- project: Free Bee
+  homepage: https://freebee.fun/
+  desc: install fix
+  commits:
+  - url: https://github.com/freebee-game/console-client/commit/821b8e6dfb317bd15cf338a06b4c973b56395532
+    date: '2022-03-05'
+  dates: '2022'
+  langs:
+  - Make
 - project: Doxygen
   homepage: https://www.doxygen.nl/index.html
   desc: fixes and minor features
@@ -90,33 +242,6 @@
   dates: '2021'
   langs:
   - Python
-- project: Wyrmsun
-  homepage: https://github.com/Andrettin/Wyrmgus
-  desc: code fixes
-  commits:
-  - url: https://github.com/Andrettin/Wyrmgus/commit/bfa948a255cf1d574cee2a5f72e9a3ecfd95c9e1
-    date: '2021-01-11'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/fb3954bf301530c6c8f1791dd6647a47cacc607d
-    date: '2015-11-13'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/bded1bfed4e4e8ed00422387f04a35a883e6b5cc
-    date: '2015-06-02'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/587c8fcd782c24ce7cc528b9f6d5d89f3deb4400
-    date: '2015-05-14'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/88845d8d1cac0e3fe31fb5dd42c691b0ad57b46c
-    date: '2015-05-14'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/328c9ee6795436323f4d1e2d027c6c76bfc49e3f
-    date: '2015-05-14'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/c599819472978c6c53efafd9a4719c83a7c35cb5
-    date: '2015-05-14'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/e56386059f7c56c67798fcd90e4a8ca7b711fe33
-    date: '2015-05-14'
-  - url: https://github.com/Andrettin/Wyrmsun/commit/0bd3a7c10eaa4dcfc8e620c19f2d9378360a29c2
-    date: '2021-08-20'
-  - url: https://github.com/Andrettin/Wyrmsun/commit/15caa201694821770e1355f989a716afd3ea650b
-    date: '2018-12-26'
-  dates: 2015-2021
-  langs:
-  - C++
 - project: Iter Vehemens ad Necem
   homepage: https://attnam.com/
   desc: build fix
@@ -218,6 +343,8 @@
   homepage: https://springrts.com/
   desc: build fixes
   commits:
+  - url: https://github.com/spring/CircuitAI/commit/f410158c7a1cf42905416a0fc23e0e6c6a53b04c
+    date: '2021-04-21'
   - url: https://github.com/spring/pyunitsync/commit/8d39185ba0785af6c1b9008c974f73a1cfd946f3
     date: '2013-12-10'
   - url: https://github.com/spring/spring/commit/fc61592bf587baf687033867dfee282a57be1719
@@ -317,18 +444,6 @@
   dates: 2016-2021
   langs:
   - Make
-- project: osm2pgsql
-  homepage: https://github.com/openstreetmap/osm2pgsql
-  desc: build fixes
-  commits:
-  - url: https://github.com/openstreetmap/osm2pgsql/commit/4a76aefc3c4a080fd14edc81e1851e39f1a544f4
-    date: '2020-12-10'
-  - url: https://github.com/openstreetmap/osm2pgsql/commit/dda366542f1259b349e807f91b81a1511b19865d
-    date: '2015-03-02'
-  dates: 2015-2020
-  langs:
-  - Automake
-  - CMake
 - project: SuperTuxKart
   homepage: https://supertuxkart.net/
   desc: build fixes
@@ -569,17 +684,6 @@
   dates: '2019'
   langs:
   - C
-- project: Widelands
-  homepage: https://www.widelands.org/
-  desc: build fixes
-  commits:
-  - url: https://github.com/widelands/widelands/commit/5f0c35fdb189cb0b5345cb24990a362251d8aeb2
-    date: '2019-05-09'
-  - url: https://github.com/widelands/widelands/commit/b676047d68ea8610d8eef6a459c5413c5c100f4a
-    date: '2012-11-30'
-  dates: 2012-2019
-  langs:
-  - CMake
 - project: Stunt Rally
   homepage: https://stuntrally.tuxfamily.org/
   desc: build and code fixes
@@ -922,17 +1026,6 @@
   - CMake
   - Make
   - Python
-- project: ddgr
-  homepage: https://github.com/jarun/ddgr
-  desc: build fixes
-  commits:
-  - url: https://github.com/jarun/ddgr/commit/2732132ac88beba7dad5bd3f250917df63541278
-    date: '2017-11-29'
-  - url: https://github.com/jarun/ddgr/commit/53b7d75506f1001ea16a74d6cdecd316976b81fe
-    date: '2017-11-29'
-  dates: '2017'
-  langs:
-  - Make
 - project: mir2x
   homepage: https://github.com/etorth/mir2x
   desc: build fix
@@ -962,17 +1055,6 @@
   dates: '2017'
   langs:
   - CMake
-- project: libosmium
-  homepage: https://github.com/osmcode/libosmium
-  desc: portability fix
-  commits:
-  - url: https://github.com/osmcode/libosmium/commit/d8e737196f7f849330c778951af7c676cb6ede19
-    date: '2017-10-28'
-  - url: https://github.com/osmcode/libosmium/commit/bffe6269abf98868b31e8b6fa7e0c700bd2993c9
-    date: '2016-12-19'
-  dates: 2016-2017
-  langs:
-  - C++
 - project: io_lib
   homepage: https://github.com/jkbonfield/io_lib
   desc: build fix
