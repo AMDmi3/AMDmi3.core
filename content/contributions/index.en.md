@@ -18,6 +18,19 @@ title: "Contributions"
   - `SHEBANGFIX` improvements ([commit](https://cgit.freebsd.org/ports/commit/?id=67971bd0fb8a440f973d12606b0f496ba216d7df)).
   - Python support improvements ([article]({{< ref "/posts/python-3.11-in-freebsd-ports/index" >}})).
 
+## Vangers
+
+I took part in porting of (somewhat legendary)
+[Vangers: One for the Road](https://en.wikipedia.org/wiki/Vangers)
+game to cross platform. Unfortunately, VCS history was lost, but
+the source code is [available](https://github.com/KranX/Vangers/).
+Some screenshots of Vangers running on my FreeBSD back from 2008:
+
+{{< gallery >}}
+	{{< img src="2008-10-01-030650_1280x1024_scrot.png" size="300x" >}}
+	{{< img src="2008-10-03-001622_1280x1024_scrot.png" size="300x" >}}
+{{< /gallery >}}
+
 ## Miscellaneous
 
 {{< contributions >}}

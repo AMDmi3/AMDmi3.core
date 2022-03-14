@@ -17,6 +17,20 @@ title: "Вклад"
   - Улучшения `SHEBANGFIX` ([коммит](https://cgit.freebsd.org/ports/commit/?id=67971bd0fb8a440f973d12606b0f496ba216d7df)).
   - Улучшения поддержки Python ([статья]({{< ref "/posts/python-3.11-in-freebsd-ports/index" >}})).
 
+## Вангеры
+
+Я участвовал в портировании легендарных
+[Вангеров](https://ru.wikipedia.org/wiki/Вангеры) на кросс-платформенный
+код. К сожалению, история VCS не сохранилась, но исходники
+[доступны](https://github.com/KranX/Vangers/) на GitHub, а также
+осталось несколько скриншотов игры запущенной на моей FreeBSD от
+2008 года:
+
+{{< gallery >}}
+	{{< img src="2008-10-01-030650_1280x1024_scrot.png" size="300x" >}}
+	{{< img src="2008-10-03-001622_1280x1024_scrot.png" size="300x" >}}
+{{< /gallery >}}
+
 ## Разное
 
 {{< contributions >}}
