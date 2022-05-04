@@ -92,7 +92,7 @@ config:
 +    container:
 +      image: ubuntu:rolling   # this does themagic
      steps:
-    ...
+     ...
 ```
 You can look up the available containers on
 [docker hub](https://hub.docker.com/_/ubuntu) - `ubuntu:rolling`
@@ -101,20 +101,21 @@ release. Other distributions are also available.
 
 ### Remove `sudo` from you scripts
 
-The container is run from the user, and sudo is not available.
+You are `root` in the container, so sudo is not needed (and not
+installed by default).
 
 ```patch
      steps:
-      - name: Install dependencies
-        run: |
--         sudo apt-get update -qq
--         sudo apt-get install qtbase5-dev
-+         apt-get update -qq
-+         apt-get install qtbase5-dev
-      ...
-      - name: Install the project
--       run: sudo make install
-+       run: make install
+       - name: Install dependencies
+         run: |
+-          sudo apt-get update -qq
+-          sudo apt-get install qtbase5-dev
++          apt-get update -qq
++          apt-get install qtbase5-dev
+       ...
+       - name: Install the project
+-        run: sudo make install
++        run: make install
 ```
 
 ### Add missing dependencies
@@ -126,32 +127,45 @@ and utilities you depend on (`build-essential`, `clang`, `cmake`
 etc.). The good news is that your CI script becomes more of a
 documentation by mentioning actual list of dependencies.
 
-  I suggest to also add `--no-install-recommends` option to avoid
-  installing unneeded packages.
+You'll also need to add `DEBIAN_FRONTEND=noninteractive` to the
+environent to prevent `apt-get` from handing on interactive prompt,
+such as for setting a timezone.
 
-  ```patch
-        - name: Install dependencies
-        run: |
-          export DEBIAN_FRONTEND=noninteractive
-          apt-get update -qq
-  -       apt-get install qtbase5-dev
-  +       apt-get install -y --no-install-recommends build-essential clang cmake qtbase5-dev
-  ```
-
-### One more thing
-
-Add `DEBIAN_FRONTEND=noninteractive` to your environment variables.
-
-This would prevent `apt-get` from handing on interactive prompt, such
-as for setting a timezone.
+I suggest to also add `--no-install-recommends` option to avoid
+installing unneeded packages.
 
 ```patch
-      - name: Install dependencies
-      run: |
-+       export DEBIAN_FRONTEND=noninteractive
-        apt-get update -qq
-        apt-get install -y --no-install-recommends build-essential clang cmake qtbase5-dev
+     steps:
+       - name: Install dependencies
++        env:
++          DEBIAN_FRONTEND: noninteractive
+         run: |
+-          apt-get install qtbase5-dev
++          apt-get install -y --no-install-recommends build-essential clang cmake qtbase5-dev
 ```
+
+### Extra steps
+
+Some activities may require additional dependencies or setup steps.
+I'll document these as soon as I run into them myself.
+
+- (added 2022-05-04) If you need submodules, install `git` and
+  `ca-certificates` *before* your checkout action, as it'll need
+  these. Same thing if you call `git` explicitly.
+
+  ```patch
+       steps:
+         - name: Install dependencies
+           env:
+             DEBIAN_FRONTEND: noninteractive
+           run: |
+             apt-get update -qq
+  -          apt-get install -y --no-install-recommends build-essential clang cmake qtbase5-dev
+  +          apt-get install -y --no-install-recommends git ca-certificates build-essential clang cmake qtbase5-dev
+         - uses: actions/checkout@v3
+           with:
+             submodules: true
+  ```
 
 ### Doubts
 
