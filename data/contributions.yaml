@@ -1,5 +1,72 @@
+- project: Spring RTS Engine
+  homepage: https://springrts.com/
+  desc: build fixes
+  commits:
+  - url: https://github.com/spring/spring/commit/11bdb17029a407696129510e0aa8323ecbd321f2
+    date: '2022-06-02'
+  - url: https://github.com/spring/spring/commit/fc61592bf587baf687033867dfee282a57be1719
+    date: '2021-04-26'
+  - url: https://github.com/spring/spring/commit/8c0104a77cca49480a46bd9c68a17589511a2a63
+    date: '2021-04-26'
+  - url: https://github.com/spring/spring/commit/3f76026481d19bcdd8b3ae66b4541de861c280db
+    date: '2021-04-26'
+  - url: https://github.com/spring/spring/commit/8a7f0927f705ae2442e257fa8ec06dad75e19445
+    date: '2021-04-26'
+  - url: https://github.com/spring/spring/commit/486f715f20610458e7010cd3ffdae943e16ce93b
+    date: '2021-04-26'
+  - url: https://github.com/spring/spring/commit/a65f1d860cdf43b13d3e09aba99435bf0c3ffa78
+    date: '2014-01-25'
+  - url: https://github.com/spring/spring/commit/23c3aca47ae05254b745830a303a3d56e11a9130
+    date: '2014-01-21'
+  - url: https://github.com/spring/spring/commit/2196e7a4ce15f73a331810f7ae61107ad7287e0a
+    date: '2013-12-10'
+  - url: https://github.com/spring/spring/commit/cbdc52e3f96f85bc77063fe572fb805bc17627f5
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/e5e7f0b5fb955a81b6de24f5e95d788f1269acc1
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/1b39241c036e64e0c47b09164a9c1dba2f7bdf81
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/b96b0319757653ae2ef2489778c112eeb586f1b8
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/85e376b2484798d655537c59bdd7befb75327042
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/8f00c17e9086b22bc5975b7e8d12bacb4dda0e24
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/a8ef642d90e8d89fe84595fba0e1a678977e65fb
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/02054068bdc80d01b4a3a221045b3d46b8554c38
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/cd88ca958f35fd3911b8faeaa63cef7b560a4f5f
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/129945ed8d6aabef559d29872ae9ca0bbdc20a09
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/01c4755fb24aa5d4a23d6b178e5cac3196280c60
+    date: '2013-12-07'
+  - url: https://github.com/spring/spring/commit/0801af423ee1e7a2088385980b4d7257d07fef7f
+    date: '2013-11-09'
+  - url: https://github.com/spring/spring/commit/9e233672f32b4f078e0433633d107f2928dee34b
+    date: '2012-02-13'
+  - url: https://github.com/spring/spring/commit/9d437e4d9fe93b61060d42c48948414b8456ccbd
+    date: '2012-02-13'
+  - url: https://github.com/spring/CircuitAI/commit/f410158c7a1cf42905416a0fc23e0e6c6a53b04c
+    date: '2021-04-21'
+  - url: https://github.com/spring/pyunitsync/commit/8d39185ba0785af6c1b9008c974f73a1cfd946f3
+    date: '2013-12-10'
+  dates: 2012-2022
+  langs:
+  - C++
+  - CMake
+- project: devilutionX
+  desc: undefined behavior fix
+  commits:
+  - url: https://github.com/diasurgical/devilutionX/commit/04d0950c9e635074345f7735bf8b0c2136027ddd
+    date: '2022-05-17'
+  dates: '2022'
+  langs:
+  - C++
 - project: word_cloud
   homepage: https://amueller.github.io/word_cloud
+  desc: portability fix
   commits:
   - url: https://github.com/amueller/word_cloud/commit/e9dc8c718c38975493b6d462a5fef18d1c6a0ad5
     date: '2022-04-26'
@@ -7,6 +74,7 @@
   langs:
   - Python
 - project: normality
+  desc: install fix
   commits:
   - url: https://github.com/pudo/normality/commit/66a58fa9e05c6c426b4c7b9d781104d0a94e3e22
     date: '2022-04-26'
@@ -14,6 +82,7 @@
   langs:
   - Python
 - project: Secure Systems Library
+  desc: portability fix
   commits:
   - url: https://github.com/secure-systems-lab/securesystemslib/commit/0c5c8508c77bdb28f7f10862b3e66513b561d190
     date: '2022-04-26'
@@ -22,6 +91,7 @@
   - Python
 - project: difftastic
   homepage: https://difftastic.wilfred.me.uk/
+  desc: code fix
   commits:
   - url: https://github.com/Wilfred/difftastic/commit/9fc437216c28b1dc24f7304f26dade41b2ca72f7
     date: '2022-03-30'
@@ -29,7 +99,7 @@
   langs:
   - Rust
 - project: Apricots
-  desc: Code and compatibility fixes
+  desc: code and compatibility fixes
   commits:
   - url: https://github.com/moggers87/apricots/commit/8f5ca48c2d87924e5dff51946b36b836dfbb7296
     date: '2022-03-16'
@@ -339,62 +409,6 @@
   dates: 2013-2021
   langs:
   - qmake
-- project: Spring RTS Engine
-  homepage: https://springrts.com/
-  desc: build fixes
-  commits:
-  - url: https://github.com/spring/CircuitAI/commit/f410158c7a1cf42905416a0fc23e0e6c6a53b04c
-    date: '2021-04-21'
-  - url: https://github.com/spring/pyunitsync/commit/8d39185ba0785af6c1b9008c974f73a1cfd946f3
-    date: '2013-12-10'
-  - url: https://github.com/spring/spring/commit/fc61592bf587baf687033867dfee282a57be1719
-    date: '2021-04-26'
-  - url: https://github.com/spring/spring/commit/8c0104a77cca49480a46bd9c68a17589511a2a63
-    date: '2021-04-26'
-  - url: https://github.com/spring/spring/commit/3f76026481d19bcdd8b3ae66b4541de861c280db
-    date: '2021-04-26'
-  - url: https://github.com/spring/spring/commit/8a7f0927f705ae2442e257fa8ec06dad75e19445
-    date: '2021-04-26'
-  - url: https://github.com/spring/spring/commit/486f715f20610458e7010cd3ffdae943e16ce93b
-    date: '2021-04-26'
-  - url: https://github.com/spring/spring/commit/a65f1d860cdf43b13d3e09aba99435bf0c3ffa78
-    date: '2014-01-25'
-  - url: https://github.com/spring/spring/commit/23c3aca47ae05254b745830a303a3d56e11a9130
-    date: '2014-01-21'
-  - url: https://github.com/spring/spring/commit/2196e7a4ce15f73a331810f7ae61107ad7287e0a
-    date: '2013-12-10'
-  - url: https://github.com/spring/spring/commit/cbdc52e3f96f85bc77063fe572fb805bc17627f5
-    date: '2013-12-07'
-  - url: https://github.com/spring/spring/commit/e5e7f0b5fb955a81b6de24f5e95d788f1269acc1
-    date: '2013-12-07'
-  - url: https://github.com/spring/spring/commit/1b39241c036e64e0c47b09164a9c1dba2f7bdf81
-    date: '2013-12-07'
-  - url: https://github.com/spring/spring/commit/b96b0319757653ae2ef2489778c112eeb586f1b8
-    date: '2013-12-07'
-  - url: https://github.com/spring/spring/commit/85e376b2484798d655537c59bdd7befb75327042
-    date: '2013-12-07'
-  - url: https://github.com/spring/spring/commit/8f00c17e9086b22bc5975b7e8d12bacb4dda0e24
-    date: '2013-12-07'
-  - url: https://github.com/spring/spring/commit/a8ef642d90e8d89fe84595fba0e1a678977e65fb
-    date: '2013-12-07'
-  - url: https://github.com/spring/spring/commit/02054068bdc80d01b4a3a221045b3d46b8554c38
-    date: '2013-12-07'
-  - url: https://github.com/spring/spring/commit/cd88ca958f35fd3911b8faeaa63cef7b560a4f5f
-    date: '2013-12-07'
-  - url: https://github.com/spring/spring/commit/129945ed8d6aabef559d29872ae9ca0bbdc20a09
-    date: '2013-12-07'
-  - url: https://github.com/spring/spring/commit/01c4755fb24aa5d4a23d6b178e5cac3196280c60
-    date: '2013-12-07'
-  - url: https://github.com/spring/spring/commit/0801af423ee1e7a2088385980b4d7257d07fef7f
-    date: '2013-11-09'
-  - url: https://github.com/spring/spring/commit/9e233672f32b4f078e0433633d107f2928dee34b
-    date: '2012-02-13'
-  - url: https://github.com/spring/spring/commit/9d437e4d9fe93b61060d42c48948414b8456ccbd
-    date: '2012-02-13'
-  dates: 2012-2021
-  langs:
-  - C++
-  - CMake
 - project: Snes9x 2010
   homepage: https://github.com/libretro/snes9x2010
   desc: portability fix
