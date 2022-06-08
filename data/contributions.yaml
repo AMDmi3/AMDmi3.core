@@ -1,3 +1,14 @@
+- project: OpenApoc
+  homepage: https://openapoc.org/
+  desc: portability fixes
+  commits:
+  - url: https://github.com/OpenApoc/OpenApoc/commit/006ab3b0d43e698d29674416c86c28567f7e6261
+    date: '2022-06-07'
+  - url: https://github.com/OpenApoc/OpenApoc/commit/cec49ad2f4b978da471e2b266627ca37db0c48d3
+    date: '2022-06-07'
+  dates: '2022'
+  langs:
+  - CMake
 - project: Spring RTS Engine
   homepage: https://springrts.com/
   desc: build fixes
