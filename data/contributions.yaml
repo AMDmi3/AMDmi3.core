@@ -1,3 +1,33 @@
+- project: simpleini
+  commits:
+  - url: https://github.com/brofield/simpleini/commit/df0f85253490bc719116dc6518e0faa7b4f4c875
+    date: '2022-08-11'
+  - url: https://github.com/brofield/simpleini/commit/04391bb7761c8d1c7b10453261165b214a7af178
+    date: '2022-08-04'
+  dates: '2022'
+  langs:
+  - Make
+- project: SDL_mixer
+  desc: portability fixes
+  commits:
+  - url: https://github.com/libsdl-org/SDL_mixer/commit/2fe088d3c86e580855d38afcaf5064a7a6f5b1a7
+    date: '2022-07-20'
+  - url: https://github.com/libsdl-org/SDL_mixer/commit/755fd6813b4cee73dec25bb5aaebbb8a027dd73f
+    date: '2022-07-20'
+  dates: '2022'
+  langs:
+  - C
+  - CMake
+- project: miniz
+  desc: portability fixes
+  commits:
+  - url: https://github.com/richgel999/miniz/commit/de0a4d24446a88f273f4d43ce9086149332c7141
+    date: '2022-06-08'
+  - url: https://github.com/richgel999/miniz/commit/482c77e661f3c84c3ff848754607c769e734e763
+    date: '2022-06-08'
+  dates: '2022'
+  langs:
+  - C
 - project: OpenApoc
   homepage: https://openapoc.org/
   desc: portability fixes
