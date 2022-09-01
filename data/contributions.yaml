@@ -1,3 +1,16 @@
+- project: Stratagus
+  homepage: https://stratagus.com/
+  desc: portability fixes
+  commits:
+  - url: https://github.com/Wargus/stratagus/commit/df008bc4040e90b0d5362259a4537eba7e82852a
+    date: '2022-08-31'
+  - url: https://github.com/Wargus/stratagus/commit/1976a2cef3b1b77dbeb185cd35090d81455ccaeb
+    date: '2022-08-31'
+  - url: https://github.com/Wargus/stratagus/commit/dafda54e504a366f0f1032c0d133dc21ae057e0a
+    date: '2021-12-20'
+  dates: 2021-2022
+  langs:
+  - CMake
 - project: simpleini
   commits:
   - url: https://github.com/brofield/simpleini/commit/df0f85253490bc719116dc6518e0faa7b4f4c875
@@ -7,6 +20,37 @@
   dates: '2022'
   langs:
   - Make
+- project: Wyrmgus
+  homepage: https://github.com/Andrettin/Wyrmgus
+  desc: code fixes
+  commits:
+  - url: https://github.com/Andrettin/Wyrmgus/commit/5c9fae1b6bb48d56636e175ebd40ad43d23832da
+    date: '2022-08-10'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/3618a34a2bc5307cf7ebc180b8d3ea72b5c88d65
+    date: '2022-03-14'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/bfa948a255cf1d574cee2a5f72e9a3ecfd95c9e1
+    date: '2021-01-11'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/fb3954bf301530c6c8f1791dd6647a47cacc607d
+    date: '2015-11-13'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/bded1bfed4e4e8ed00422387f04a35a883e6b5cc
+    date: '2015-06-02'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/587c8fcd782c24ce7cc528b9f6d5d89f3deb4400
+    date: '2015-05-14'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/88845d8d1cac0e3fe31fb5dd42c691b0ad57b46c
+    date: '2015-05-14'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/328c9ee6795436323f4d1e2d027c6c76bfc49e3f
+    date: '2015-05-14'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/c599819472978c6c53efafd9a4719c83a7c35cb5
+    date: '2015-05-14'
+  - url: https://github.com/Andrettin/Wyrmgus/commit/e56386059f7c56c67798fcd90e4a8ca7b711fe33
+    date: '2015-05-14'
+  - url: https://github.com/Andrettin/Wyrmsun/commit/0bd3a7c10eaa4dcfc8e620c19f2d9378360a29c2
+    date: '2021-08-20'
+  - url: https://github.com/Andrettin/Wyrmsun/commit/15caa201694821770e1355f989a716afd3ea650b
+    date: '2018-12-26'
+  dates: 2015-2022
+  langs:
+  - C++
 - project: SDL_mixer
   desc: portability fixes
   commits:
@@ -179,35 +223,6 @@
   - Automake
   - C++
   - CMake
-- project: Wyrmsun
-  homepage: https://github.com/Andrettin/Wyrmgus
-  desc: code fixes
-  commits:
-  - url: https://github.com/Andrettin/Wyrmsun/commit/0bd3a7c10eaa4dcfc8e620c19f2d9378360a29c2
-    date: '2021-08-20'
-  - url: https://github.com/Andrettin/Wyrmsun/commit/15caa201694821770e1355f989a716afd3ea650b
-    date: '2018-12-26'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/3618a34a2bc5307cf7ebc180b8d3ea72b5c88d65
-    date: '2022-03-14'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/bfa948a255cf1d574cee2a5f72e9a3ecfd95c9e1
-    date: '2021-01-11'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/fb3954bf301530c6c8f1791dd6647a47cacc607d
-    date: '2015-11-13'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/bded1bfed4e4e8ed00422387f04a35a883e6b5cc
-    date: '2015-06-02'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/587c8fcd782c24ce7cc528b9f6d5d89f3deb4400
-    date: '2015-05-14'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/88845d8d1cac0e3fe31fb5dd42c691b0ad57b46c
-    date: '2015-05-14'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/328c9ee6795436323f4d1e2d027c6c76bfc49e3f
-    date: '2015-05-14'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/c599819472978c6c53efafd9a4719c83a7c35cb5
-    date: '2015-05-14'
-  - url: https://github.com/Andrettin/Wyrmgus/commit/e56386059f7c56c67798fcd90e4a8ca7b711fe33
-    date: '2015-05-14'
-  dates: 2015-2022
-  langs:
-  - C++
 - project: libosmium
   homepage: https://github.com/osmcode/libosmium
   desc: portability fixes
@@ -278,15 +293,6 @@
   commits:
   - url: https://github.com/ladislav-zezula/StormLib/commit/329dcde478ce957f0f98a03065062a4fa71436cd
     date: '2021-12-24'
-  dates: '2021'
-  langs:
-  - CMake
-- project: Stratagus
-  homepage: https://stratagus.com/
-  desc: portability fixes
-  commits:
-  - url: https://github.com/Wargus/stratagus/commit/dafda54e504a366f0f1032c0d133dc21ae057e0a
-    date: '2021-12-20'
   dates: '2021'
   langs:
   - CMake
