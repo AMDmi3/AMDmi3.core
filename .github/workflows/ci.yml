@@ -4,7 +4,7 @@ jobs:
   build:
     env:
       TIDY_VER: fa6d5b5
-      HUGO_VER: 0.83.1
+      HUGO_VER: 0.102.3
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
