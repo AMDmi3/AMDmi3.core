@@ -1,3 +1,21 @@
+- project: SuperTuxKart
+  homepage: https://supertuxkart.net/
+  desc: build fixes
+  commits:
+  - url: https://github.com/supertuxkart/stk-code/commit/dd511638db441220634d11a19e69d8a47fc0952c
+    date: '2022-09-20'
+  - url: https://github.com/supertuxkart/stk-code/commit/4d97c5156c5728959d34d73983cdd47899db0d14
+    date: '2020-09-29'
+  - url: https://github.com/supertuxkart/stk-code/commit/ef911d8401b9a526789f6d23ac3c4625cd6d7993
+    date: '2020-09-01'
+  - url: https://github.com/supertuxkart/stk-code/commit/cfbec1f47014c4869d9d79d40822b4d077c9c92d
+    date: '2015-06-02'
+  - url: https://github.com/supertuxkart/stk-code/commit/94bf5949f5f9b1b5b271b570357531b081cbc75d
+    date: '2015-02-02'
+  dates: 2015-2022
+  langs:
+  - C++
+  - CMake
 - project: Stratagus
   homepage: https://stratagus.com/
   desc: portability fixes
@@ -23,6 +41,17 @@
   dates: '2022'
   langs:
   - Meson
+- project: Bonzomatic
+  homepage: https://github.com/Gargaj/Bonzomatic
+  desc: build fix
+  commits:
+  - url: https://github.com/Gargaj/Bonzomatic/commit/440eb5e7eb2f379c614d037adbfb4cdcc4794081
+    date: '2022-08-12'
+  - url: https://github.com/Gargaj/Bonzomatic/commit/59fe3e70f9ba8b188c94b0b290285123627038a3
+    date: '2021-03-14'
+  dates: 2021-2022
+  langs:
+  - C++
 - project: simpleini
   homepage: https://github.com/brofield/simpleini
   commits:
@@ -157,8 +186,8 @@
   - C++
   - CMake
 - project: devilutionX
-  desc: undefined behavior fix
   homepage: https://github.com/diasurgical/devilutionX
+  desc: undefined behavior fix
   commits:
   - url: https://github.com/diasurgical/devilutionX/commit/04d0950c9e635074345f7735bf8b0c2136027ddd
     date: '2022-05-17'
@@ -502,15 +531,6 @@
   dates: '2021'
   langs:
   - Make
-- project: Bonzomatic
-  homepage: https://github.com/Gargaj/Bonzomatic
-  desc: build fix
-  commits:
-  - url: https://github.com/Gargaj/Bonzomatic/commit/59fe3e70f9ba8b188c94b0b290285123627038a3
-    date: '2021-03-14'
-  dates: '2021'
-  langs:
-  - C++
 - project: Word War vi
   homepage: https://smcameron.github.io/wordwarvi/
   desc: build fixes
@@ -524,22 +544,6 @@
   dates: 2016-2021
   langs:
   - Make
-- project: SuperTuxKart
-  homepage: https://supertuxkart.net/
-  desc: build fixes
-  commits:
-  - url: https://github.com/supertuxkart/stk-code/commit/4d97c5156c5728959d34d73983cdd47899db0d14
-    date: '2020-09-29'
-  - url: https://github.com/supertuxkart/stk-code/commit/ef911d8401b9a526789f6d23ac3c4625cd6d7993
-    date: '2020-09-01'
-  - url: https://github.com/supertuxkart/stk-code/commit/cfbec1f47014c4869d9d79d40822b4d077c9c92d
-    date: '2015-06-02'
-  - url: https://github.com/supertuxkart/stk-code/commit/94bf5949f5f9b1b5b271b570357531b081cbc75d
-    date: '2015-02-02'
-  dates: 2015-2020
-  langs:
-  - C++
-  - CMake
 - project: aioftp
   homepage: https://aioftp.readthedocs.io/
   desc: fix test on FreeBSD
