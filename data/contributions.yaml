@@ -221,6 +221,12 @@
   dates: '2022'
   langs:
   - Python
+- project: lookatme
+  homepage: https://github.com/d0c-s4vage/lookatme
+  commits:
+  - url: https://github.com/d0c-s4vage/lookatme/commit/19bae232011ed6d13f3709261d13f2e62afbe0a9
+    date: '2022-03-31'
+  dates: '2022'
 - project: difftastic
   homepage: https://difftastic.wilfred.me.uk/
   desc: code fix
