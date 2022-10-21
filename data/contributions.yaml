@@ -559,6 +559,20 @@
   dates: '2020'
   langs:
   - Python
+- project: SDL-Ball
+  homepage: https://github.com/DusteDdk/SDL-Ball
+  desc: code and build fixes
+  commits:
+  - url: https://github.com/DusteDdk/SDL-Ball/commit/b8394323299aba2ebd5e98519ca8fed236c795d8
+    date: '2020-07-14'
+  - url: https://github.com/DusteDdk/SDL-Ball/commit/c487b4d93e01aaa0b6f57821c7c3cbb93dc8e840
+    date: '2014-12-01'
+  - url: https://github.com/DusteDdk/SDL-Ball/commit/db436e01739cf0d8e882baeb1058dbed716fffa1
+    date: '2014-12-01'
+  dates: 2014-2020
+  langs:
+  - C++
+  - Make
 - project: Inkscape
   homepage: https://inkscape.org/
   desc: minor build improvement
@@ -2810,18 +2824,6 @@
   langs:
   - Make
   - Shell
-- project: SDL-Ball
-  homepage: https://github.com/DusteDdk/SDL-Ball
-  desc: code and build fixes
-  commits:
-  - url: https://github.com/DusteDdk/SDL-Ball/commit/c487b4d93e01aaa0b6f57821c7c3cbb93dc8e840
-    date: '2014-12-01'
-  - url: https://github.com/DusteDdk/SDL-Ball/commit/db436e01739cf0d8e882baeb1058dbed716fffa1
-    date: '2014-12-01'
-  dates: '2014'
-  langs:
-  - C++
-  - Make
 - project: The Secret Chronicles of Dr. M.
   homepage: https://secretchronicles.org/
   desc: portability fix
