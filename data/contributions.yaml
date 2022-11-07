@@ -1,3 +1,15 @@
+- project: Warzone2100
+  homepage: https://wz2100.net/
+  commits:
+  - url: https://github.com/Warzone2100/warzone2100/commit/0028b208ccde0da59f92584fed5f90624f70da37
+    date: '2022-11-03'
+  - url: https://github.com/Warzone2100/warzone2100/commit/70e4ae5752b98d5e768cd030f57a487fac7d0789
+    date: '2017-04-29'
+  - url: https://github.com/Warzone2100/warzone2100/commit/3b4b8261f20c83f0eb76419b23fbdb633bb87df6
+    date: '2016-12-12'
+  - url: https://github.com/Warzone2100/warzone2100/commit/b84767f7f6b63419dc7700c5cfc79f54d18a0ed0
+    date: '2013-01-21'
+  dates: 2013-2022
 - project: SuperTuxKart
   homepage: https://supertuxkart.net/
   desc: build fixes
@@ -550,6 +562,13 @@
   dates: 2016-2021
   langs:
   - Make
+- project: flake8-import-order
+  commits:
+  - url: https://github.com/PyCQA/flake8-import-order/commit/53926c75f871284cbfa9dc0f86c0e612b7893451
+    date: '2020-10-20'
+  - url: https://github.com/PyCQA/flake8-import-order/commit/5fec5127049ae76a8c21d684c53ddd0121cd1beb
+    date: '2020-10-20'
+  dates: '2020'
 - project: aioftp
   homepage: https://aioftp.readthedocs.io/
   desc: fix test on FreeBSD
