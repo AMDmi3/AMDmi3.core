@@ -1,3 +1,40 @@
+- project: XMoto
+  homepage: https://xmoto.tuxfamily.org/
+  desc: build and portability fixes
+  commits:
+  - url: https://github.com/xmoto/xmoto/commit/90a272744a610b7fd7fa703f364dcc8145ffe1c3
+    date: '2023-03-28'
+  - url: https://github.com/xmoto/xmoto/commit/4aab28602e72ca9edc8f9908bd4390d3d1552f86
+    date: '2023-03-28'
+  - url: https://github.com/xmoto/xmoto/commit/a6ec3aefb80f4adf076a88fa2c07d99e54a1afc7
+    date: '2020-06-02'
+  - url: https://github.com/xmoto/xmoto/commit/201113521b04b932be77efd87703b7a4ee48b102
+    date: '2020-06-02'
+  - url: https://github.com/xmoto/xmoto/commit/ea807e8ddb1fc195d57ee9e1a66c71fecadfd6f6
+    date: '2020-06-02'
+  - url: https://github.com/xmoto/xmoto/commit/fbc5815caa4eb0ee20ff39dec48548cf2ab99290
+    date: '2020-06-02'
+  - url: https://github.com/xmoto/xmoto/commit/90461e6233196cb25847ece0455b9e83b76a2e6c
+    date: '2020-06-02'
+  dates: 2020-2023
+  langs:
+  - C++
+  - CMake
+- project: Pioneer
+  homepage: https://pioneerspacesim.net/
+  desc: code fixes
+  commits:
+  - url: https://github.com/pioneerspacesim/pioneer/commit/2eba563fd8e1e2956cb1944528f6eaf4c5227707
+    date: '2023-02-11'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/14aa82037396bb6e2b3ed79183c1305535c679ab
+    date: '2023-02-03'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/b63c4a66543eed0df7efbdbcfbb81f18e8acea55
+    date: '2015-03-27'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/78190b64c3128b246c77f955854ee3aa2d2ffc8c
+    date: '2014-12-11'
+  dates: 2014-2023
+  langs:
+  - C++
 - project: Warzone2100
   homepage: https://wz2100.net/
   commits:
@@ -610,24 +647,6 @@
   dates: '2020'
   langs:
   - Python
-- project: XMoto
-  homepage: https://xmoto.tuxfamily.org/
-  desc: build and portability fixes
-  commits:
-  - url: https://github.com/xmoto/xmoto/commit/a6ec3aefb80f4adf076a88fa2c07d99e54a1afc7
-    date: '2020-06-02'
-  - url: https://github.com/xmoto/xmoto/commit/201113521b04b932be77efd87703b7a4ee48b102
-    date: '2020-06-02'
-  - url: https://github.com/xmoto/xmoto/commit/ea807e8ddb1fc195d57ee9e1a66c71fecadfd6f6
-    date: '2020-06-02'
-  - url: https://github.com/xmoto/xmoto/commit/fbc5815caa4eb0ee20ff39dec48548cf2ab99290
-    date: '2020-06-02'
-  - url: https://github.com/xmoto/xmoto/commit/90461e6233196cb25847ece0455b9e83b76a2e6c
-    date: '2020-06-02'
-  dates: '2020'
-  langs:
-  - C++
-  - CMake
 - project: pycodestyle
   homepage: https://pycodestyle.pycqa.org/en/latest/
   desc: build fix
@@ -2062,17 +2081,6 @@
   dates: '2015'
   langs:
   - C
-- project: Pioneer
-  homepage: https://pioneerspacesim.net/
-  desc: code fixes
-  commits:
-  - url: https://github.com/pioneerspacesim/pioneer/commit/b63c4a66543eed0df7efbdbcfbb81f18e8acea55
-    date: '2015-03-27'
-  - url: https://github.com/pioneerspacesim/pioneer/commit/78190b64c3128b246c77f955854ee3aa2d2ffc8c
-    date: '2014-12-11'
-  dates: 2014-2015
-  langs:
-  - C++
 - project: Construo
   homepage: https://construo.github.io/
   desc: code fix
