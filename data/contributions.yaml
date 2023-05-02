@@ -35,6 +35,21 @@
   dates: 2014-2023
   langs:
   - C++
+- project: libosmium
+  homepage: https://github.com/osmcode/libosmium
+  desc: portability fixes
+  commits:
+  - url: https://github.com/osmcode/libosmium/commit/58b313d3e3e8010cd5f7372f10f97513ef2ba60b
+    date: '2023-01-19'
+  - url: https://github.com/osmcode/libosmium/commit/4d01c4f099c4cccbcf8dc7c75e7689fda61ee807
+    date: '2022-03-14'
+  - url: https://github.com/osmcode/libosmium/commit/d8e737196f7f849330c778951af7c676cb6ede19
+    date: '2017-10-28'
+  - url: https://github.com/osmcode/libosmium/commit/bffe6269abf98868b31e8b6fa7e0c700bd2993c9
+    date: '2016-12-19'
+  dates: 2016-2023
+  langs:
+  - C++
 - project: Warzone2100
   homepage: https://wz2100.net/
   commits:
@@ -326,19 +341,6 @@
   - Automake
   - C++
   - CMake
-- project: libosmium
-  homepage: https://github.com/osmcode/libosmium
-  desc: portability fixes
-  commits:
-  - url: https://github.com/osmcode/libosmium/commit/4d01c4f099c4cccbcf8dc7c75e7689fda61ee807
-    date: '2022-03-14'
-  - url: https://github.com/osmcode/libosmium/commit/d8e737196f7f849330c778951af7c676cb6ede19
-    date: '2017-10-28'
-  - url: https://github.com/osmcode/libosmium/commit/bffe6269abf98868b31e8b6fa7e0c700bd2993c9
-    date: '2016-12-19'
-  dates: 2016-2022
-  langs:
-  - C++
 - project: Arx Libertatis
   homepage: https://arx-libertatis.org/
   desc: Bug fix
