@@ -1,3 +1,8 @@
+- project: Mandelbulber v2
+  commits:
+  - url: https://github.com/buddhi1980/mandelbulber2/commit/103a10d39f3bc38721d8dac27ebc65fdebc69c37
+    date: '2023-07-24'
+  dates: '2023'
 - project: XMoto
   homepage: https://xmoto.tuxfamily.org/
   desc: build and portability fixes
