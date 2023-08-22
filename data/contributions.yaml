@@ -3,6 +3,11 @@
   - url: https://github.com/buddhi1980/mandelbulber2/commit/103a10d39f3bc38721d8dac27ebc65fdebc69c37
     date: '2023-07-24'
   dates: '2023'
+- project: SDL_sound
+  commits:
+  - url: https://github.com/icculus/SDL_sound/commit/147090c0f029cbc0fed568a6d77d81ef12adc48b
+    date: '2023-07-07'
+  dates: '2023'
 - project: XMoto
   homepage: https://xmoto.tuxfamily.org/
   desc: build and portability fixes
