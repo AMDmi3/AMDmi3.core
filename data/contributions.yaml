@@ -1,3 +1,10 @@
+- project: libavif
+  commits:
+  - url: https://github.com/AOMediaCodec/libavif/commit/573a48f088c00153a86a22ac3b17432ec1da1a68
+    date: '2023-09-14'
+  - url: https://github.com/AOMediaCodec/libavif/commit/ad3f374d4b4c6cdceea4b144775f13acb1f6bbf8
+    date: '2023-09-08'
+  dates: '2023'
 - project: Mandelbulber v2
   commits:
   - url: https://github.com/buddhi1980/mandelbulber2/commit/103a10d39f3bc38721d8dac27ebc65fdebc69c37
