@@ -1,5 +1,14 @@
-- project: libavif
+- project: MAXR
+  homepage: https://www.maxr.org/
   commits:
+  - url: https://github.com/maxr-dot-org/maxr/commit/1d5bfe1bac1322a140db23173a1abaca1f992268
+    date: '2023-09-28'
+  dates: '2023'
+- project: libavif
+  homepage: https://github.com/AOMediaCodec/libavif
+  commits:
+  - url: https://github.com/AOMediaCodec/libavif/commit/28ba2afba7e969cc40fff70fe32316422b7c96ed
+    date: '2023-09-25'
   - url: https://github.com/AOMediaCodec/libavif/commit/573a48f088c00153a86a22ac3b17432ec1da1a68
     date: '2023-09-14'
   - url: https://github.com/AOMediaCodec/libavif/commit/ad3f374d4b4c6cdceea4b144775f13acb1f6bbf8
