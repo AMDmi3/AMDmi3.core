@@ -1,3 +1,34 @@
+- project: cppcheck
+  homepage: https://cppcheck.sourceforge.io/
+  desc: build fixes
+  commits:
+  - url: https://github.com/danmar/cppcheck/commit/4ee70a0735cf4c7f7f05469a098566397ed9220a
+    date: '2024-02-28'
+  - url: https://github.com/danmar/cppcheck/commit/596fc32dd795e3377fd30d9c096eb62d146d9b32
+    date: '2018-01-25'
+  - url: https://github.com/danmar/cppcheck/commit/94d39f6e91069c535f9799ae94f71e4bd9b6622e
+    date: '2017-05-19'
+  - url: https://github.com/danmar/cppcheck/commit/3bf737acbdb3c34b33fbc92243faeee2be6db407
+    date: '2015-08-17'
+  dates: 2015-2024
+  langs:
+  - CMake
+  - Make
+  - Python
+- project: Geeqie
+  homepage: https://www.geeqie.org/
+  commits:
+  - url: https://github.com/BestImageViewer/geeqie/commit/8bc059f7d30225a5b0a7f1a99c73b0f4d0518ae5
+    date: '2023-10-04'
+  - url: https://github.com/BestImageViewer/geeqie/commit/ab73ca7933a80ee86c50f2fd8e38307144fb413a
+    date: '2022-08-31'
+  - url: https://github.com/BestImageViewer/geeqie/commit/c5d75369a5643cc06ba7d48bafc43c5076c74132
+    date: '2022-08-31'
+  - url: https://github.com/BestImageViewer/geeqie/commit/87042fa51da7c14a7600bbf8420105dd91675757
+    date: '2022-08-31'
+  dates: 2022-2023
+  langs:
+  - Meson
 - project: MAXR
   homepage: https://www.maxr.org/
   commits:
@@ -121,18 +152,6 @@
   dates: 2021-2022
   langs:
   - CMake
-- project: Geeqie
-  homepage: https://www.geeqie.org/
-  commits:
-  - url: https://github.com/BestImageViewer/geeqie/commit/ab73ca7933a80ee86c50f2fd8e38307144fb413a
-    date: '2022-08-31'
-  - url: https://github.com/BestImageViewer/geeqie/commit/c5d75369a5643cc06ba7d48bafc43c5076c74132
-    date: '2022-08-31'
-  - url: https://github.com/BestImageViewer/geeqie/commit/87042fa51da7c14a7600bbf8420105dd91675757
-    date: '2022-08-31'
-  dates: '2022'
-  langs:
-  - Meson
 - project: Bonzomatic
   homepage: https://github.com/Gargaj/Bonzomatic
   desc: build fix
@@ -1183,21 +1202,6 @@
   langs:
   - C
   - Make
-- project: cppcheck
-  homepage: https://cppcheck.sourceforge.io/
-  desc: build fixes
-  commits:
-  - url: https://github.com/danmar/cppcheck/commit/596fc32dd795e3377fd30d9c096eb62d146d9b32
-    date: '2018-01-25'
-  - url: https://github.com/danmar/cppcheck/commit/94d39f6e91069c535f9799ae94f71e4bd9b6622e
-    date: '2017-05-19'
-  - url: https://github.com/danmar/cppcheck/commit/3bf737acbdb3c34b33fbc92243faeee2be6db407
-    date: '2015-08-17'
-  dates: 2015-2018
-  langs:
-  - CMake
-  - Make
-  - Python
 - project: mir2x
   homepage: https://github.com/etorth/mir2x
   desc: build fix
