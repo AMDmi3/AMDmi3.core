@@ -1,3 +1,21 @@
+- project: cptutils
+  homepage: http://soliton.vm.bytemark.co.uk/pub/jjg/en/code/cptutils/
+  commits:
+  - url: https://gitlab.com/jjg/cptutils/-/commit/4d85b7e79ebeb9098a80f73b903729e60bc6576f
+    date: '2024-04-04'
+  - url: https://gitlab.com/jjg/cptutils/-/commit/84bc0de6b4af9b95bc088273deebc531804eb39c
+    date: '2017-02-22'
+  - url: https://gitlab.com/jjg/cptutils/-/commit/6f01631bca6a4d215cc67fcc6c08463100413e49
+    date: '2017-02-22'
+  - url: https://gitlab.com/jjg/cptutils/-/commit/f31ae0417b5ddd631dcd563fe83ee3feabb5287f
+    date: '2017-02-13'
+  - url: https://gitlab.com/jjg/cptutils/-/commit/7d633e1651f1e80a635c57a6fe1bedb7ba6539b3
+    date: '2017-02-10'
+  - url: https://gitlab.com/jjg/cptutils/-/commit/706df03f3b8279695b0b55f069335f74272b6eef
+    date: '2017-02-10'
+  - url: https://gitlab.com/jjg/cptutils/-/commit/b5a25ecd9326ee5d7058f35b03d3ff0be2dd88ed
+    date: '2017-02-10'
+  dates: 2017-2024
 - project: cppcheck
   homepage: https://cppcheck.sourceforge.io/
   desc: build fixes
