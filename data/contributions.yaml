@@ -1,3 +1,38 @@
+- project: DDNet
+  homepage: https://ddnet.tw/
+  desc: build fixes
+  commits:
+  - url: https://github.com/ddnet/ddnet/commit/7f1123e92b8ebc8fdcafd5be4fc385645d06d50a
+    date: '2024-07-23'
+  - url: https://github.com/ddnet/ddnet/commit/e404d6fd63f7ebf059fc43fc0141d195c570d51b
+    date: '2019-04-22'
+  dates: 2019-2024
+  langs:
+  - CMake
+- project: nom
+  commits:
+  - url: https://github.com/rust-bakery/nom/commit/36e74ab8991ae1656edc91c86d4386cca73e5a50
+    date: '2024-05-12'
+  dates: '2024'
+- project: Pioneer
+  homepage: https://pioneerspacesim.net/
+  desc: code fixes
+  commits:
+  - url: https://github.com/pioneerspacesim/pioneer/commit/ff98b64454821e35b5bdc2a1cfe349ef272b3021
+    date: '2024-04-23'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/d4ce2a4a90a646d07bc44f49e48ba815c87303db
+    date: '2024-04-23'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/2eba563fd8e1e2956cb1944528f6eaf4c5227707
+    date: '2023-02-11'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/14aa82037396bb6e2b3ed79183c1305535c679ab
+    date: '2023-02-03'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/b63c4a66543eed0df7efbdbcfbb81f18e8acea55
+    date: '2015-03-27'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/78190b64c3128b246c77f955854ee3aa2d2ffc8c
+    date: '2014-12-11'
+  dates: 2014-2024
+  langs:
+  - C++
 - project: cptutils
   homepage: http://soliton.vm.bytemark.co.uk/pub/jjg/en/code/cptutils/
   commits:
@@ -16,6 +51,11 @@
   - url: https://gitlab.com/jjg/cptutils/-/commit/b5a25ecd9326ee5d7058f35b03d3ff0be2dd88ed
     date: '2017-02-10'
   dates: 2017-2024
+- project: glm
+  commits:
+  - url: https://github.com/g-truc/glm/commit/dcc5cfdc4a13977895e659170c4e209335bfcca2
+    date: '2024-03-01'
+  dates: '2024'
 - project: cppcheck
   homepage: https://cppcheck.sourceforge.io/
   desc: build fixes
@@ -33,6 +73,17 @@
   - CMake
   - Make
   - Python
+- project: Python
+  homepage: https://www.python.org/
+  desc: build fixes
+  commits:
+  - url: https://github.com/python/cpython/commit/437924465de5cb81988d1e580797b07090c26a28
+    date: '2024-02-17'
+  - url: https://github.com/python/cpython/commit/a0da131a74acdb147ecd64d729c86d65fecd0cff
+    date: '2019-04-06'
+  dates: 2019-2024
+  langs:
+  - C
 - project: Geeqie
   homepage: https://www.geeqie.org/
   commits:
@@ -97,21 +148,6 @@
   langs:
   - C++
   - CMake
-- project: Pioneer
-  homepage: https://pioneerspacesim.net/
-  desc: code fixes
-  commits:
-  - url: https://github.com/pioneerspacesim/pioneer/commit/2eba563fd8e1e2956cb1944528f6eaf4c5227707
-    date: '2023-02-11'
-  - url: https://github.com/pioneerspacesim/pioneer/commit/14aa82037396bb6e2b3ed79183c1305535c679ab
-    date: '2023-02-03'
-  - url: https://github.com/pioneerspacesim/pioneer/commit/b63c4a66543eed0df7efbdbcfbb81f18e8acea55
-    date: '2015-03-27'
-  - url: https://github.com/pioneerspacesim/pioneer/commit/78190b64c3128b246c77f955854ee3aa2d2ffc8c
-    date: '2014-12-11'
-  dates: 2014-2023
-  langs:
-  - C++
 - project: libosmium
   homepage: https://github.com/osmcode/libosmium
   desc: portability fixes
@@ -918,24 +954,6 @@
   dates: '2019'
   langs:
   - CMake
-- project: DDNet
-  homepage: https://ddnet.tw/
-  desc: build fixes
-  commits:
-  - url: https://github.com/ddnet/ddnet/commit/e404d6fd63f7ebf059fc43fc0141d195c570d51b
-    date: '2019-04-22'
-  dates: '2019'
-  langs:
-  - CMake
-- project: Python
-  homepage: https://www.python.org/
-  desc: build fixes
-  commits:
-  - url: https://github.com/python/cpython/commit/a0da131a74acdb147ecd64d729c86d65fecd0cff
-    date: '2019-04-06'
-  dates: '2019'
-  langs:
-  - C
 - project: Endlessh
   homepage: https://github.com/skeeto/endlessh
   desc: trivial build improvement
