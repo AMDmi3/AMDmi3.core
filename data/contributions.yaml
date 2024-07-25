@@ -1,3 +1,9 @@
+- project: SDL2
+  homepage: https://libsdl.org/
+  commits:
+  - url: https://github.com/libsdl-org/SDL/commit/0cd4fc7c87fa8bd1a79c41e1fce14d5ee560730e
+    date: '2024-07-25'
+  dates: '2024'
 - project: DDNet
   homepage: https://ddnet.tw/
   desc: build fixes
@@ -10,6 +16,7 @@
   langs:
   - CMake
 - project: nom
+  homepage: https://github.com/rust-bakery/nom
   commits:
   - url: https://github.com/rust-bakery/nom/commit/36e74ab8991ae1656edc91c86d4386cca73e5a50
     date: '2024-05-12'
@@ -52,6 +59,7 @@
     date: '2017-02-10'
   dates: 2017-2024
 - project: glm
+  homepage: https://github.com/g-truc/glm
   commits:
   - url: https://github.com/g-truc/glm/commit/dcc5cfdc4a13977895e659170c4e209335bfcca2
     date: '2024-03-01'
