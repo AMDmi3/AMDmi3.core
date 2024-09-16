@@ -1,3 +1,48 @@
+- project: cppcheck
+  homepage: https://cppcheck.sourceforge.io/
+  desc: build fixes
+  commits:
+  - url: https://github.com/danmar/cppcheck/commit/5ad1d3909a2c8e633f573b862c790e06ac411aa3
+    date: '2024-09-08'
+  - url: https://github.com/danmar/cppcheck/commit/4ee70a0735cf4c7f7f05469a098566397ed9220a
+    date: '2024-02-28'
+  - url: https://github.com/danmar/cppcheck/commit/596fc32dd795e3377fd30d9c096eb62d146d9b32
+    date: '2018-01-25'
+  - url: https://github.com/danmar/cppcheck/commit/94d39f6e91069c535f9799ae94f71e4bd9b6622e
+    date: '2017-05-19'
+  - url: https://github.com/danmar/cppcheck/commit/3bf737acbdb3c34b33fbc92243faeee2be6db407
+    date: '2015-08-17'
+  dates: 2015-2024
+  langs:
+  - CMake
+  - Make
+  - Python
+- project: Minetest
+  homepage: https://www.minetest.net/
+  desc: build and portability fixes
+  commits:
+  - url: https://github.com/minetest/minetest/commit/a677d33bdffa110fe611e49e346c0bd99dafb5ca
+    date: '2024-08-12'
+  - url: https://github.com/minetest/minetest/commit/53dca4f95fb48d2a16e1f26f01515d4811aab78d
+    date: '2021-05-15'
+  - url: https://github.com/minetest/minetest/commit/2ecf57c640ed7646be91ebc30e6f8fb32dac77df
+    date: '2019-10-23'
+  - url: https://github.com/minetest/minetest/commit/d2fc98e4a689288a04d07da49b673f39ffabf64b
+    date: '2015-04-08'
+  - url: https://github.com/minetest/minetest/commit/2414580754734b62119369255b0e9c462381dc8a
+    date: '2014-12-30'
+  - url: https://github.com/minetest/minetest/commit/8e69b9cb261c503c5fb461086439aed28e434d19
+    date: '2013-01-30'
+  - url: https://github.com/minetest/minetest/commit/ff35014eff73aadc3ffa957bd860958c9aeefd33
+    date: '2011-08-02'
+  - url: https://github.com/minetest/minetest/commit/de868d24c170dc8f92ea1280bac80f0ab528d3e0
+    date: '2011-08-02'
+  - url: https://github.com/minetest/minetest/commit/318a730c459a8524d7030d261946c35815dd4b29
+    date: '2011-08-01'
+  dates: 2011-2024
+  langs:
+  - C++
+  - CMake
 - project: SDL2
   homepage: https://libsdl.org/
   commits:
@@ -64,23 +109,6 @@
   - url: https://github.com/g-truc/glm/commit/dcc5cfdc4a13977895e659170c4e209335bfcca2
     date: '2024-03-01'
   dates: '2024'
-- project: cppcheck
-  homepage: https://cppcheck.sourceforge.io/
-  desc: build fixes
-  commits:
-  - url: https://github.com/danmar/cppcheck/commit/4ee70a0735cf4c7f7f05469a098566397ed9220a
-    date: '2024-02-28'
-  - url: https://github.com/danmar/cppcheck/commit/596fc32dd795e3377fd30d9c096eb62d146d9b32
-    date: '2018-01-25'
-  - url: https://github.com/danmar/cppcheck/commit/94d39f6e91069c535f9799ae94f71e4bd9b6622e
-    date: '2017-05-19'
-  - url: https://github.com/danmar/cppcheck/commit/3bf737acbdb3c34b33fbc92243faeee2be6db407
-    date: '2015-08-17'
-  dates: 2015-2024
-  langs:
-  - CMake
-  - Make
-  - Python
 - project: Python
   homepage: https://www.python.org/
   desc: build fixes
@@ -619,30 +647,6 @@
   langs:
   - Automake
   - C++
-- project: Minetest
-  homepage: https://www.minetest.net/
-  desc: build and portability fixes
-  commits:
-  - url: https://github.com/minetest/minetest/commit/53dca4f95fb48d2a16e1f26f01515d4811aab78d
-    date: '2021-05-15'
-  - url: https://github.com/minetest/minetest/commit/2ecf57c640ed7646be91ebc30e6f8fb32dac77df
-    date: '2019-10-23'
-  - url: https://github.com/minetest/minetest/commit/d2fc98e4a689288a04d07da49b673f39ffabf64b
-    date: '2015-04-08'
-  - url: https://github.com/minetest/minetest/commit/2414580754734b62119369255b0e9c462381dc8a
-    date: '2014-12-30'
-  - url: https://github.com/minetest/minetest/commit/8e69b9cb261c503c5fb461086439aed28e434d19
-    date: '2013-01-30'
-  - url: https://github.com/minetest/minetest/commit/ff35014eff73aadc3ffa957bd860958c9aeefd33
-    date: '2011-08-02'
-  - url: https://github.com/minetest/minetest/commit/de868d24c170dc8f92ea1280bac80f0ab528d3e0
-    date: '2011-08-02'
-  - url: https://github.com/minetest/minetest/commit/318a730c459a8524d7030d261946c35815dd4b29
-    date: '2011-08-01'
-  dates: 2011-2021
-  langs:
-  - C++
-  - CMake
 - project: Uncrustify
   homepage: http://uncrustify.sourceforge.net/
   desc: build fixes
