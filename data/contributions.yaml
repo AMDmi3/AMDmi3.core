@@ -1,3 +1,45 @@
+- project: tty-solitaire
+  homepage: https://github.com/mpereira/tty-solitaire
+  desc: build fixes
+  commits:
+  - url: https://github.com/mpereira/tty-solitaire/commit/5c9dbf29db81abd8807bb333358f2f509ecca09c
+    date: '2025-04-17'
+  - url: https://github.com/mpereira/tty-solitaire/commit/5a6341135e9ea0fa0547dc2706c77a153e31de98
+    date: '2025-04-17'
+  - url: https://github.com/mpereira/tty-solitaire/commit/613c539ce4bf6be7537613d990f021bfcc0a77ad
+    date: '2025-04-17'
+  - url: https://github.com/mpereira/tty-solitaire/commit/b792ce833f537b3e58f23cc52e195ab08e1555f9
+    date: '2017-11-03'
+  - url: https://github.com/mpereira/tty-solitaire/commit/73c864e02480112b3f78dc103d64614f36fa158e
+    date: '2017-11-03'
+  dates: 2017-2025
+  langs:
+  - Make
+- project: oha
+  commits:
+  - url: https://github.com/hatoo/oha/commit/14a95b67023128afb63361198f0f7088016aadc3
+    date: '2024-11-25'
+  - url: https://github.com/hatoo/oha/commit/49ff5d7391864db4af478943e28a9f033d4dfaf8
+    date: '2024-11-23'
+  dates: '2024'
+- project: rust metrics-process
+  commits:
+  - url: https://github.com/lambdalisue/rs-metrics-process/commit/5024f5e9346872df3f8c0d360bb32edbc7a1074b
+    date: '2024-10-10'
+  - url: https://github.com/lambdalisue/rs-metrics-process/commit/526e99d2e607c87f9f39403593246a6dc866bbe8
+    date: '2024-10-09'
+  - url: https://github.com/lambdalisue/rs-metrics-process/commit/693d12740ed8fde0fe17d0ef74e444fd29e4d726
+    date: '2024-10-09'
+  - url: https://github.com/lambdalisue/rs-metrics-process/commit/d7ee8144207a52ff3f616c411c11f5df6e88716f
+    date: '2024-10-09'
+  - url: https://github.com/lambdalisue/rs-metrics-process/commit/f423752c15ab02f8810302dca5f542fff5377e7a
+    date: '2024-10-09'
+  dates: '2024'
+- project: rust metrics
+  commits:
+  - url: https://github.com/metrics-rs/metrics/commit/c06d68e1c72b711559cbb19d028d2dce773e7d65
+    date: '2024-10-03'
+  dates: '2024'
 - project: cppcheck
   homepage: https://cppcheck.sourceforge.io/
   desc: build fixes
@@ -17,8 +59,8 @@
   - CMake
   - Make
   - Python
-- project: Minetest
-  homepage: https://www.minetest.net/
+- project: Luanti
+  homepage: https://www.luanti.org/
   desc: build and portability fixes
   commits:
   - url: https://github.com/minetest/minetest/commit/a677d33bdffa110fe611e49e346c0bd99dafb5ca
@@ -1259,17 +1301,6 @@
   dates: '2017'
   langs:
   - CMake
-- project: tty-solitaire
-  homepage: https://github.com/mpereira/tty-solitaire
-  desc: build fixes
-  commits:
-  - url: https://github.com/mpereira/tty-solitaire/commit/b792ce833f537b3e58f23cc52e195ab08e1555f9
-    date: '2017-11-03'
-  - url: https://github.com/mpereira/tty-solitaire/commit/73c864e02480112b3f78dc103d64614f36fa158e
-    date: '2017-11-03'
-  dates: '2017'
-  langs:
-  - Make
 - project: librime
   homepage: https://github.com/lotem/librime/
   desc: build fixe
