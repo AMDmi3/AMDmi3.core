@@ -93,7 +93,7 @@ can help too), for instance:
 
 ### Force pytest and numpy updates
 
-Updates for important ports handing in the bugzilla for months is
+Updates for important ports hanging in the bugzilla for months is
 not acceptable. In most cases they are blocked by testing or fixing
 the affected ports, which may last forever. So instead it could be
 solved by preserving an older version of the port (e.g. copy

@@ -41,7 +41,7 @@ mentioned in packaging guides of many huge Linux distros.
 I conclude that despite tooling improvements, community still lacks
 a culture of keeping their projects, software repositories and build
 scripts portable and packaging friendly and basic understanding of
-differences between authors and target systems, and additional
+differences between author's and target systems, and additional
 requirements packaging process imposes.
 
 So I hereby embark on a quest to improve the situation and make use
