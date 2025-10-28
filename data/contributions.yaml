@@ -1,3 +1,24 @@
+- project: SDL
+  homepage: https://libsdl.org/
+  commits:
+  - url: https://github.com/libsdl-org/SDL/commit/5c56cf110b911e18dc455c108cb838eaf56e4ecb
+    date: '2025-10-24'
+  - url: https://github.com/libsdl-org/SDL/commit/42ce72be3c1706c25567ede7ad38fcc7e92abfe4
+    date: '2025-10-24'
+  - url: https://github.com/libsdl-org/SDL/commit/0cd4fc7c87fa8bd1a79c41e1fce14d5ee560730e
+    date: '2024-07-25'
+  dates: 2024-2025
+- project: difftastic
+  homepage: https://difftastic.wilfred.me.uk/
+  desc: code fix
+  commits:
+  - url: https://github.com/Wilfred/difftastic/commit/9f31286dc3abc77e6a57cc99e9dffe6a3e56ab85
+    date: '2025-09-24'
+  - url: https://github.com/Wilfred/difftastic/commit/9fc437216c28b1dc24f7304f26dade41b2ca72f7
+    date: '2022-03-30'
+  dates: 2022-2025
+  langs:
+  - Rust
 - project: tty-solitaire
   homepage: https://github.com/mpereira/tty-solitaire
   desc: build fixes
@@ -15,6 +36,52 @@
   dates: 2017-2025
   langs:
   - Make
+- project: aiohttp
+  homepage: https://docs.aiohttp.org/en/stable/
+  desc: code style fixes
+  commits:
+  - url: https://github.com/aio-libs/aiohttp/commit/5e20fe12c8d9990c253fa43231b2e70481c1ecc2
+    date: '2025-03-21'
+  - url: https://github.com/aio-libs/aiohttp/commit/01b2a86a6f9e768b24ca3c6f880defe8b895af65
+    date: '2025-03-20'
+  - url: https://github.com/aio-libs/aiohttp/commit/185eca1b065537ea246dc85930a1f0da78f3f046
+    date: '2019-07-19'
+  - url: https://github.com/aio-libs/aiohttp/commit/4a2fba9ff13ef90ca751c5d1055ad0f87b856268
+    date: '2019-07-19'
+  - url: https://github.com/aio-libs/aiohttp/commit/dcce5ea779a580c05c2b0f0555ea5cccdb4aea29
+    date: '2019-06-26'
+  dates: 2019-2025
+  langs:
+  - Python
+- project: Pioneer
+  homepage: https://pioneerspacesim.net/
+  desc: code fixes
+  commits:
+  - url: https://github.com/pioneerspacesim/pioneer/commit/ca7898ec288cfe4022577c7aec8334f2b0c57b33
+    date: '2025-02-04'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/ff98b64454821e35b5bdc2a1cfe349ef272b3021
+    date: '2024-04-23'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/d4ce2a4a90a646d07bc44f49e48ba815c87303db
+    date: '2024-04-23'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/2eba563fd8e1e2956cb1944528f6eaf4c5227707
+    date: '2023-02-11'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/14aa82037396bb6e2b3ed79183c1305535c679ab
+    date: '2023-02-03'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/b63c4a66543eed0df7efbdbcfbb81f18e8acea55
+    date: '2015-03-27'
+  - url: https://github.com/pioneerspacesim/pioneer/commit/78190b64c3128b246c77f955854ee3aa2d2ffc8c
+    date: '2014-12-11'
+  dates: 2014-2025
+  langs:
+  - C++
+- project: nom
+  homepage: https://github.com/rust-bakery/nom
+  commits:
+  - url: https://github.com/rust-bakery/nom/commit/9745930d5da957cdd5622b4d5d6e1027792e83ff
+    date: '2024-12-08'
+  - url: https://github.com/rust-bakery/nom/commit/36e74ab8991ae1656edc91c86d4386cca73e5a50
+    date: '2024-05-12'
+  dates: '2024'
 - project: oha
   commits:
   - url: https://github.com/hatoo/oha/commit/14a95b67023128afb63361198f0f7088016aadc3
@@ -24,6 +91,18 @@
   dates: '2024'
 - project: rust metrics-process
   commits:
+  - url: https://github.com/lambdalisue/rs-metrics-process/commit/da32542f1b41a9f2cc6422a3759f589b0dda90db
+    date: '2024-10-10'
+  - url: https://github.com/lambdalisue/rs-metrics-process/commit/3512bc30aa63c26fb3f4246035cd78327dfe8d55
+    date: '2024-10-10'
+  - url: https://github.com/lambdalisue/rs-metrics-process/commit/a29067dff27295af020640abec66d6fcf32f6237
+    date: '2024-10-10'
+  - url: https://github.com/lambdalisue/rs-metrics-process/commit/2c5a6b41abbeab3b8554527c0f3fb12c1100120b
+    date: '2024-10-10'
+  - url: https://github.com/lambdalisue/rs-metrics-process/commit/29086397ae48a9a2b0ae48ab2205b8cc3899575f
+    date: '2024-10-10'
+  - url: https://github.com/lambdalisue/rs-metrics-process/commit/adae2d9e123110b952792c4d1fc575a7f37e765b
+    date: '2024-10-10'
   - url: https://github.com/lambdalisue/rs-metrics-process/commit/5024f5e9346872df3f8c0d360bb32edbc7a1074b
     date: '2024-10-10'
   - url: https://github.com/lambdalisue/rs-metrics-process/commit/526e99d2e607c87f9f39403593246a6dc866bbe8
@@ -85,12 +164,6 @@
   langs:
   - C++
   - CMake
-- project: SDL2
-  homepage: https://libsdl.org/
-  commits:
-  - url: https://github.com/libsdl-org/SDL/commit/0cd4fc7c87fa8bd1a79c41e1fce14d5ee560730e
-    date: '2024-07-25'
-  dates: '2024'
 - project: DDNet
   homepage: https://ddnet.tw/
   desc: build fixes
@@ -102,31 +175,6 @@
   dates: 2019-2024
   langs:
   - CMake
-- project: nom
-  homepage: https://github.com/rust-bakery/nom
-  commits:
-  - url: https://github.com/rust-bakery/nom/commit/36e74ab8991ae1656edc91c86d4386cca73e5a50
-    date: '2024-05-12'
-  dates: '2024'
-- project: Pioneer
-  homepage: https://pioneerspacesim.net/
-  desc: code fixes
-  commits:
-  - url: https://github.com/pioneerspacesim/pioneer/commit/ff98b64454821e35b5bdc2a1cfe349ef272b3021
-    date: '2024-04-23'
-  - url: https://github.com/pioneerspacesim/pioneer/commit/d4ce2a4a90a646d07bc44f49e48ba815c87303db
-    date: '2024-04-23'
-  - url: https://github.com/pioneerspacesim/pioneer/commit/2eba563fd8e1e2956cb1944528f6eaf4c5227707
-    date: '2023-02-11'
-  - url: https://github.com/pioneerspacesim/pioneer/commit/14aa82037396bb6e2b3ed79183c1305535c679ab
-    date: '2023-02-03'
-  - url: https://github.com/pioneerspacesim/pioneer/commit/b63c4a66543eed0df7efbdbcfbb81f18e8acea55
-    date: '2015-03-27'
-  - url: https://github.com/pioneerspacesim/pioneer/commit/78190b64c3128b246c77f955854ee3aa2d2ffc8c
-    date: '2014-12-11'
-  dates: 2014-2024
-  langs:
-  - C++
 - project: cptutils
   homepage: http://soliton.vm.bytemark.co.uk/pub/jjg/en/code/cptutils/
   commits:
@@ -470,15 +518,6 @@
   - url: https://github.com/d0c-s4vage/lookatme/commit/19bae232011ed6d13f3709261d13f2e62afbe0a9
     date: '2022-03-31'
   dates: '2022'
-- project: difftastic
-  homepage: https://difftastic.wilfred.me.uk/
-  desc: code fix
-  commits:
-  - url: https://github.com/Wilfred/difftastic/commit/9fc437216c28b1dc24f7304f26dade41b2ca72f7
-    date: '2022-03-30'
-  dates: '2022'
-  langs:
-  - Rust
 - project: Apricots
   homepage: https://github.com/moggers87/apricots
   desc: code and compatibility fixes
@@ -961,19 +1000,6 @@
   dates: '2019'
   langs:
   - C
-- project: aiohttp
-  homepage: https://docs.aiohttp.org/en/stable/
-  desc: code style fixes
-  commits:
-  - url: https://github.com/aio-libs/aiohttp/commit/185eca1b065537ea246dc85930a1f0da78f3f046
-    date: '2019-07-19'
-  - url: https://github.com/aio-libs/aiohttp/commit/4a2fba9ff13ef90ca751c5d1055ad0f87b856268
-    date: '2019-07-19'
-  - url: https://github.com/aio-libs/aiohttp/commit/dcce5ea779a580c05c2b0f0555ea5cccdb4aea29
-    date: '2019-06-26'
-  dates: '2019'
-  langs:
-  - Python
 - project: RRDtool
   homepage: https://oss.oetiker.ch/rrdtool/
   desc: UB/crash fix
