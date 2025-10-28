@@ -277,7 +277,7 @@ def process_project(db: dict[str, Entry], args: argparse.Namespace):
         for repository in repositories:
             with GitRunner(tempfile.mkdtemp()) as git:
                 git('clone', '-c', 'credential.helper=!echo username=dummy; echo password=dummy', repository.get_repo_url(), '.')
-                for commit, date in map(str.split, git('log', '--format=%H %as', '--grep=amdmi3' if args.grep else '--author=amdmi3')):
+                for commit, date in map(str.split, git('log', '--format=%H %as', '--grep=[aA][mM][dD]mi3' if args.grep else '--author=[aA][mM][dD]mi3')):
                     new_commits.append(Commit(repository.construct_commit_url(commit), date))
 
         entry.commits = new_commits
