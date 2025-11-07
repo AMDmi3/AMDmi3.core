@@ -1,3 +1,13 @@
+- project: rust
+  commits:
+  - url: https://github.com/rust-lang/rust/commit/b975c570fab6e04ab81aca6db357456a2964761c
+    date: '2025-11-07'
+  dates: '2025'
+- project: serde-saphyr
+  commits:
+  - url: https://github.com/bourumir-wyngs/serde-saphyr/commit/db84cb1e2638dc1253f396a3372e612036af173a
+    date: '2025-11-01'
+  dates: '2025'
 - project: SDL
   homepage: https://libsdl.org/
   commits:
@@ -89,7 +99,7 @@
   - url: https://github.com/hatoo/oha/commit/49ff5d7391864db4af478943e28a9f033d4dfaf8
     date: '2024-11-23'
   dates: '2024'
-- project: rust metrics-process
+- project: metrics-process
   commits:
   - url: https://github.com/lambdalisue/rs-metrics-process/commit/da32542f1b41a9f2cc6422a3759f589b0dda90db
     date: '2024-10-10'
@@ -114,7 +124,7 @@
   - url: https://github.com/lambdalisue/rs-metrics-process/commit/f423752c15ab02f8810302dca5f542fff5377e7a
     date: '2024-10-09'
   dates: '2024'
-- project: rust metrics
+- project: metrics
   commits:
   - url: https://github.com/metrics-rs/metrics/commit/c06d68e1c72b711559cbb19d028d2dce773e7d65
     date: '2024-10-03'
