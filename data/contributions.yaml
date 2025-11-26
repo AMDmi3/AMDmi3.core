@@ -1,3 +1,14 @@
+- project: StormLib
+  homepage: http://www.zezula.net/en/mpq/main.html
+  desc: portability fix
+  commits:
+  - url: https://github.com/ladislav-zezula/StormLib/commit/c8236ddd2bc3f40b37fb4f2f189e7a4196136065
+    date: '2025-11-24'
+  - url: https://github.com/ladislav-zezula/StormLib/commit/329dcde478ce957f0f98a03065062a4fa71436cd
+    date: '2021-12-24'
+  dates: 2021-2025
+  langs:
+  - CMake
 - project: rust
   commits:
   - url: https://github.com/rust-lang/rust/commit/b975c570fab6e04ab81aca6db357456a2964761c
@@ -620,15 +631,6 @@
   dates: '2021'
   langs:
   - C++
-- project: StormLib
-  homepage: http://www.zezula.net/en/mpq/main.html
-  desc: portability fix
-  commits:
-  - url: https://github.com/ladislav-zezula/StormLib/commit/329dcde478ce957f0f98a03065062a4fa71436cd
-    date: '2021-12-24'
-  dates: '2021'
-  langs:
-  - CMake
 - project: termux packages
   homepage: https://github.com/termux/termux-packages
   commits:
